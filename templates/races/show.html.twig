@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dnd35Races{% endblock %}
+
+{% block body %}
+    <h1>Dnd35Races</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ dnd35_race.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ dnd35_race.nom }}</td>
+            </tr>
+            <tr>
+                <th>Taille</th>
+                <td>{{ dnd35_race.taille }}</td>
+            </tr>
+            <tr>
+                <th>Vitesse</th>
+                <td>{{ dnd35_race.vitesse }}</td>
+            </tr>
+            <tr>
+                <th>Donssupplvl1</th>
+                <td>{{ dnd35_race.donssupplvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Compsupplvl1</th>
+                <td>{{ dnd35_race.compsupplvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Compsuppbylvl</th>
+                <td>{{ dnd35_race.compsuppbylvl }}</td>
+            </tr>
+            <tr>
+                <th>Idclassepredilection</th>
+                <td>{{ dnd35_race.idclassepredilection }}</td>
+            </tr>
+            <tr>
+                <th>Immunitesommeil</th>
+                <td>{{ dnd35_race.immunitesommeil ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+                <th>Visionnocturne</th>
+                <td>{{ dnd35_race.visionnocturne }}</td>
+            </tr>
+            <tr>
+                <th>Modiffor</th>
+                <td>{{ dnd35_race.modiffor }}</td>
+            </tr>
+            <tr>
+                <th>Modifdex</th>
+                <td>{{ dnd35_race.modifdex }}</td>
+            </tr>
+            <tr>
+                <th>Modifcon</th>
+                <td>{{ dnd35_race.modifcon }}</td>
+            </tr>
+            <tr>
+                <th>Modifint</th>
+                <td>{{ dnd35_race.modifint }}</td>
+            </tr>
+            <tr>
+                <th>Modifsag</th>
+                <td>{{ dnd35_race.modifsag }}</td>
+            </tr>
+            <tr>
+                <th>Modifcha</th>
+                <td>{{ dnd35_race.modifcha }}</td>
+            </tr>
+            <tr>
+                <th>Nblanguessupplementaires</th>
+                <td>{{ dnd35_race.nblanguessupplementaires }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ dnd35_race.description }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_races_index') }}">back to list</a>
+
+    <a href="{{ path('app_races_edit', {'id': dnd35_race.id}) }}">edit</a>
+
+    {{ include('races/_delete_form.html.twig') }}
+{% endblock %}

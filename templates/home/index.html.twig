@@ -4,23 +4,7 @@
 
 {% block body %}
 
-<h1>Création de personnage</h1>
 
-<h2>Choisis ta race </h2>
-
-     <select id="choix">
-        {% for race in races %}
-            <option value= {{ race.id }}> {{ race.nom }} </option>
-        {% endfor %}
-    </select>  
-
-<h2>Choisis ta classe </h2>
-
-    <select id="choix">
-        {% for classe in classes %}
-            <option value= {{ classe.id }}> {{ classe.nom }} </option>
-        {% endfor %}
-    </select>
-
+Ca fonctionne
 
 {% endblock %}

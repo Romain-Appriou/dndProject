@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Classes{% endblock %}
+
+{% block body %}
+    <h1>Classes</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ class.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ class.nom }}</td>
+            </tr>
+            <tr>
+                <th>Dv</th>
+                <td>{{ class.dv }}</td>
+            </tr>
+            <tr>
+                <th>Pointscompetences</th>
+                <td>{{ class.pointscompetences }}</td>
+            </tr>
+            <tr>
+                <th>Caracteristiquelanceursort</th>
+                <td>{{ class.caracteristiquelanceursort }}</td>
+            </tr>
+            <tr>
+                <th>Pominlvl1</th>
+                <td>{{ class.pominlvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Pomaxlvl1</th>
+                <td>{{ class.pomaxlvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ class.description }}</td>
+            </tr>
+            <tr>
+                <th>Typemagie</th>
+                <td>{{ class.typemagie }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_classes_index') }}">back to list</a>
+
+    <a href="{{ path('app_classes_edit', {'id': class.id}) }}">edit</a>
+
+    {{ include('classes/_delete_form.html.twig') }}
+{% endblock %}

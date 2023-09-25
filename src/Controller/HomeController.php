@@ -19,7 +19,6 @@ class HomeController extends AbstractController
     {
 
         return $this->renderForm('home/index.html.twig', [
-            'controller_name' => 'HomeController',
             'classes' => $classesRepository->findAll(),
             'races' => $racesRepository->findAll(),
         ]);

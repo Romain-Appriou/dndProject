@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dnd35Races index{% endblock %}
+
+{% block body %}
+    <h1>Liste des races</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Taille</th>
+                <th>Vitesse</th>
+                <th>Donssupplvl1</th>
+                <th>Compsupplvl1</th>
+                <th>Compsuppbylvl</th>
+                <th>Idclassepredilection</th>
+                <th>Immunitesommeil</th>
+                <th>Visionnocturne</th>
+                <th>Modiffor</th>
+                <th>Modifdex</th>
+                <th>Modifcon</th>
+                <th>Modifint</th>
+                <th>Modifsag</th>
+                <th>Modifcha</th>
+                <th>Nblanguessupplementaires</th>
+                <th>Description</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dnd35_race in dnd35_races %}
+            <tr>
+                <td>{{ dnd35_race.id }}</td>
+                <td>{{ dnd35_race.nom }}</td>
+                <td>{{ dnd35_race.taille }}</td>
+                <td>{{ dnd35_race.vitesse }}</td>
+                <td>{{ dnd35_race.donssupplvl1 }}</td>
+                <td>{{ dnd35_race.compsupplvl1 }}</td>
+                <td>{{ dnd35_race.compsuppbylvl }}</td>
+                <td>{{ dnd35_race.idclassepredilection }}</td>
+                <td>{{ dnd35_race.immunitesommeil ? 'Yes' : 'No' }}</td>
+                <td>{{ dnd35_race.visionnocturne }}</td>
+                <td>{{ dnd35_race.modiffor }}</td>
+                <td>{{ dnd35_race.modifdex }}</td>
+                <td>{{ dnd35_race.modifcon }}</td>
+                <td>{{ dnd35_race.modifint }}</td>
+                <td>{{ dnd35_race.modifsag }}</td>
+                <td>{{ dnd35_race.modifcha }}</td>
+                <td>{{ dnd35_race.nblanguessupplementaires }}</td>
+                <td>{{ dnd35_race.description }}</td>
+                <td>
+                    <a href="{{ path('app_races_show', {'id': dnd35_race.id}) }}">show</a>
+                    <a href="{{ path('app_races_edit', {'id': dnd35_race.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="19">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_races_new') }}">Create new</a>
+{% endblock %}
