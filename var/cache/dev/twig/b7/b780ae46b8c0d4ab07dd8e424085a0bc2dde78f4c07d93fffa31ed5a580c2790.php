@@ -85,16 +85,20 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Dnd35Races</h1>
+        echo "    <h1>";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 6, $this->source); })()), "nom", [], "any", false, false, false, 6), "html", null, true);
+        echo "</h1>
 
     <table class=\"table\">
         <tbody>
+            
             <tr>
-                <th>Id</th>
-                <td>";
+                <td><img style=\"max-width: 500px; max-height: 500px;\" src=\"../../img/";
         // line 12
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 12, $this->source); })()), "id", [], "any", false, false, false, 12), "html", null, true);
-        echo "</td>
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 12, $this->source); })()), "nom", [], "any", false, false, false, 12), "html", null, true);
+        echo ".jpeg\" alt=\"Image de ";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 12, $this->source); })()), "nom", [], "any", false, false, false, 12), "html", null, true);
+        echo "\"></td>
             </tr>
             <tr>
                 <th>Nom</th>
@@ -118,118 +122,133 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
         echo "</td>
             </tr>
             <tr>
-                <th>Donssupplvl1</th>
+                <th>Dons supplémentaires lvl 1</th>
                 <td>";
         // line 28
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 28, $this->source); })()), "donssupplvl1", [], "any", false, false, false, 28), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Compsupplvl1</th>
+                <th>Compétences supplémentaires lvl 1</th>
                 <td>";
         // line 32
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 32, $this->source); })()), "compsupplvl1", [], "any", false, false, false, 32), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Compsuppbylvl</th>
+                <th>Compétences supplémentairs par lvl</th>
                 <td>";
         // line 36
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 36, $this->source); })()), "compsuppbylvl", [], "any", false, false, false, 36), "html", null, true);
         echo "</td>
             </tr>
+            <tr>                
+                ";
+        // line 39
+        if (twig_get_attribute($this->env, $this->source, ($context["race"] ?? null), "classepredilection", [], "any", true, true, false, 39)) {
+            // line 40
+            echo "
+                    <th>Classe de prédilection</th>
+                    <td>";
+            // line 42
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["race"]) || array_key_exists("race", $context) ? $context["race"] : (function () { throw new RuntimeError('Variable "race" does not exist.', 42, $this->source); })()), "classepredilection", [], "any", false, false, false, 42), "html", null, true);
+            echo " </td>    
+                                   
+                ";
+        }
+        // line 45
+        echo "            </tr>
             <tr>
-                <th>Idclassepredilection</th>
-                <td>";
-        // line 40
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 40, $this->source); })()), "idclassepredilection", [], "any", false, false, false, 40), "html", null, true);
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Immunitesommeil</th>
-                <td>";
-        // line 44
-        echo ((twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 44, $this->source); })()), "immunitesommeil", [], "any", false, false, false, 44)) ? ("Yes") : ("No"));
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Visionnocturne</th>
+                <th>Immunité sommeil</th>
                 <td>";
         // line 48
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 48, $this->source); })()), "visionnocturne", [], "any", false, false, false, 48), "html", null, true);
+        echo ((twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 48, $this->source); })()), "immunitesommeil", [], "any", false, false, false, 48)) ? ("Oui") : ("Non"));
         echo "</td>
             </tr>
             <tr>
-                <th>Modiffor</th>
+                <th>Vision nocturne</th>
                 <td>";
         // line 52
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 52, $this->source); })()), "modiffor", [], "any", false, false, false, 52), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 52, $this->source); })()), "visionnocturne", [], "any", false, false, false, 52), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Modifdex</th>
-                <td>";
-        // line 56
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 56, $this->source); })()), "modifdex", [], "any", false, false, false, 56), "html", null, true);
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Modifcon</th>
-                <td>";
-        // line 60
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 60, $this->source); })()), "modifcon", [], "any", false, false, false, 60), "html", null, true);
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Modifint</th>
-                <td>";
-        // line 64
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 64, $this->source); })()), "modifint", [], "any", false, false, false, 64), "html", null, true);
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Modifsag</th>
-                <td>";
-        // line 68
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 68, $this->source); })()), "modifsag", [], "any", false, false, false, 68), "html", null, true);
-        echo "</td>
-            </tr>
-            <tr>
-                <th>Modifcha</th>
-                <td>";
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan=\"6\">Modificateur de caractéristiques</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FOR</td>
+                                <td>DEX</td>
+                                <td>CON</td>
+                                <td>INT</td>
+                                <td>SAG</td>
+                                <td>CHA</td>
+                            </tr>
+                            <tr>
+                            <td>";
         // line 72
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 72, $this->source); })()), "modifcha", [], "any", false, false, false, 72), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 72, $this->source); })()), "modiffor", [], "any", false, false, false, 72), "html", null, true);
         echo "</td>
+                            <td>";
+        // line 73
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 73, $this->source); })()), "modifdex", [], "any", false, false, false, 73), "html", null, true);
+        echo "</td>
+                            <td>";
+        // line 74
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 74, $this->source); })()), "modifcon", [], "any", false, false, false, 74), "html", null, true);
+        echo "</td>
+                            <td>";
+        // line 75
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 75, $this->source); })()), "modifint", [], "any", false, false, false, 75), "html", null, true);
+        echo "</td>
+                            <td>";
+        // line 76
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 76, $this->source); })()), "modifsag", [], "any", false, false, false, 76), "html", null, true);
+        echo "</td>
+                            <td>";
+        // line 77
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 77, $this->source); })()), "modifcha", [], "any", false, false, false, 77), "html", null, true);
+        echo "</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
             </tr>
             <tr>
-                <th>Nblanguessupplementaires</th>
+                <th>Nombre de langues supplémentaires</th>
                 <td>";
-        // line 76
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 76, $this->source); })()), "nblanguessupplementaires", [], "any", false, false, false, 76), "html", null, true);
+        // line 86
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 86, $this->source); })()), "nblanguessupplementaires", [], "any", false, false, false, 86), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>";
-        // line 80
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 80, $this->source); })()), "description", [], "any", false, false, false, 80), "html", null, true);
+        // line 90
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 90, $this->source); })()), "description", [], "any", false, false, false, 90), "html", null, true);
         echo "</td>
             </tr>
         </tbody>
     </table>
 
     <a href=\"";
-        // line 85
+        // line 95
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_races_index");
         echo "\">back to list</a>
 
     <a href=\"";
-        // line 87
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_races_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 87, $this->source); })()), "id", [], "any", false, false, false, 87)]), "html", null, true);
+        // line 97
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_races_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 97, $this->source); })()), "id", [], "any", false, false, false, 97)]), "html", null, true);
         echo "\">edit</a>
 
     ";
-        // line 89
+        // line 99
         echo twig_include($this->env, $context, "races/_delete_form.html.twig");
         echo "
 ";
@@ -253,7 +272,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
 
     public function getDebugInfo()
     {
-        return array (  233 => 89,  228 => 87,  223 => 85,  215 => 80,  208 => 76,  201 => 72,  194 => 68,  187 => 64,  180 => 60,  173 => 56,  166 => 52,  159 => 48,  152 => 44,  145 => 40,  138 => 36,  131 => 32,  124 => 28,  117 => 24,  110 => 20,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  252 => 99,  247 => 97,  242 => 95,  234 => 90,  227 => 86,  215 => 77,  211 => 76,  207 => 75,  203 => 74,  199 => 73,  195 => 72,  172 => 52,  165 => 48,  160 => 45,  154 => 42,  150 => 40,  148 => 39,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -263,13 +282,13 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
 {% block title %}Dnd35Races{% endblock %}
 
 {% block body %}
-    <h1>Dnd35Races</h1>
+    <h1>{{dnd35_race.nom}}</h1>
 
     <table class=\"table\">
         <tbody>
+            
             <tr>
-                <th>Id</th>
-                <td>{{ dnd35_race.id }}</td>
+                <td><img style=\"max-width: 500px; max-height: 500px;\" src=\"../../img/{{ dnd35_race.nom }}.jpeg\" alt=\"Image de {{ dnd35_race.nom }}\"></td>
             </tr>
             <tr>
                 <th>Nom</th>
@@ -284,55 +303,65 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
                 <td>{{ dnd35_race.vitesse }}</td>
             </tr>
             <tr>
-                <th>Donssupplvl1</th>
+                <th>Dons supplémentaires lvl 1</th>
                 <td>{{ dnd35_race.donssupplvl1 }}</td>
             </tr>
             <tr>
-                <th>Compsupplvl1</th>
+                <th>Compétences supplémentaires lvl 1</th>
                 <td>{{ dnd35_race.compsupplvl1 }}</td>
             </tr>
             <tr>
-                <th>Compsuppbylvl</th>
+                <th>Compétences supplémentairs par lvl</th>
                 <td>{{ dnd35_race.compsuppbylvl }}</td>
             </tr>
-            <tr>
-                <th>Idclassepredilection</th>
-                <td>{{ dnd35_race.idclassepredilection }}</td>
+            <tr>                
+                {% if race.classepredilection is defined %}
+
+                    <th>Classe de prédilection</th>
+                    <td>{{ race.classepredilection }} </td>    
+                                   
+                {% endif %}
             </tr>
             <tr>
-                <th>Immunitesommeil</th>
-                <td>{{ dnd35_race.immunitesommeil ? 'Yes' : 'No' }}</td>
+                <th>Immunité sommeil</th>
+                <td>{{ dnd35_race.immunitesommeil ? 'Oui' : 'Non' }}</td>
             </tr>
             <tr>
-                <th>Visionnocturne</th>
+                <th>Vision nocturne</th>
                 <td>{{ dnd35_race.visionnocturne }}</td>
             </tr>
             <tr>
-                <th>Modiffor</th>
-                <td>{{ dnd35_race.modiffor }}</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan=\"6\">Modificateur de caractéristiques</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FOR</td>
+                                <td>DEX</td>
+                                <td>CON</td>
+                                <td>INT</td>
+                                <td>SAG</td>
+                                <td>CHA</td>
+                            </tr>
+                            <tr>
+                            <td>{{ dnd35_race.modiffor }}</td>
+                            <td>{{ dnd35_race.modifdex }}</td>
+                            <td>{{ dnd35_race.modifcon }}</td>
+                            <td>{{ dnd35_race.modifint }}</td>
+                            <td>{{ dnd35_race.modifsag }}</td>
+                            <td>{{ dnd35_race.modifcha }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
             </tr>
             <tr>
-                <th>Modifdex</th>
-                <td>{{ dnd35_race.modifdex }}</td>
-            </tr>
-            <tr>
-                <th>Modifcon</th>
-                <td>{{ dnd35_race.modifcon }}</td>
-            </tr>
-            <tr>
-                <th>Modifint</th>
-                <td>{{ dnd35_race.modifint }}</td>
-            </tr>
-            <tr>
-                <th>Modifsag</th>
-                <td>{{ dnd35_race.modifsag }}</td>
-            </tr>
-            <tr>
-                <th>Modifcha</th>
-                <td>{{ dnd35_race.modifcha }}</td>
-            </tr>
-            <tr>
-                <th>Nblanguessupplementaires</th>
+                <th>Nombre de langues supplémentaires</th>
                 <td>{{ dnd35_race.nblanguessupplementaires }}</td>
             </tr>
             <tr>
@@ -348,6 +377,34 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
 
     {{ include('races/_delete_form.html.twig') }}
 {% endblock %}
-", "races/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/races/show.html.twig");
+
+
+{# <th>Modificateur de caractéristiques</th>
+                <tr>
+                    <th>Modificateur de force</th>
+                </tr>
+                    <tr>
+                        <td>{{ dnd35_race.modiffor }}</td>
+                    </tr>
+                
+                <tr>
+                    <th>Modificateur de dextérité</th>
+                    <td>{{ dnd35_race.modifdex }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de constitution</th>
+                    <td>{{ dnd35_race.modifcon }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de l'intelligence</th>
+                    <td>{{ dnd35_race.modifint }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de sagesse</th>
+                    <td>{{ dnd35_race.modifsag }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de charisme</th>
+                    <td>{{ dnd35_race.modifcha }}</td> #}", "races/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/races/show.html.twig");
     }
 }

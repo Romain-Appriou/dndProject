@@ -85,16 +85,20 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 6
-        echo "    <h1>Classes</h1>
+        echo "    <h1>";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 6, $this->source); })()), "nom", [], "any", false, false, false, 6), "html", null, true);
+        echo "</h1>
 
     <table class=\"table\">
         <tbody>
             <tr>
-                <th>Id</th>
-                <td>";
+                
+                <td><img style=\"max-width: 500px; max-height: 500px;\" src=\"../../img/";
         // line 12
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 12, $this->source); })()), "id", [], "any", false, false, false, 12), "html", null, true);
-        echo "</td>
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 12, $this->source); })()), "nom", [], "any", false, false, false, 12), "html", null, true);
+        echo ".jpeg\" alt=\"Image de ";
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 12, $this->source); })()), "nom", [], "any", false, false, false, 12), "html", null, true);
+        echo "\"></td>
             </tr>
             <tr>
                 <th>Nom</th>
@@ -104,35 +108,35 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
         echo "</td>
             </tr>
             <tr>
-                <th>Dv</th>
+                <th>Dés de vie</th>
                 <td>";
         // line 20
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 20, $this->source); })()), "dv", [], "any", false, false, false, 20), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Pointscompetences</th>
+                <th>Points de compétences</th>
                 <td>";
         // line 24
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 24, $this->source); })()), "pointscompetences", [], "any", false, false, false, 24), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Caracteristiquelanceursort</th>
+                <th>Caractéristique lanceur de sort</th>
                 <td>";
         // line 28
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 28, $this->source); })()), "caracteristiquelanceursort", [], "any", false, false, false, 28), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Pominlvl1</th>
+                <th>Pièces d'or minimum au lvl 1</th>
                 <td>";
         // line 32
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 32, $this->source); })()), "pominlvl1", [], "any", false, false, false, 32), "html", null, true);
         echo "</td>
             </tr>
             <tr>
-                <th>Pomaxlvl1</th>
+                <th>Pièces d'or maximum au lvl 1</th>
                 <td>";
         // line 36
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 36, $this->source); })()), "pomaxlvl1", [], "any", false, false, false, 36), "html", null, true);
@@ -146,7 +150,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
         echo "</td>
             </tr>
             <tr>
-                <th>Typemagie</th>
+                <th>Type de magie</th>
                 <td>";
         // line 44
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 44, $this->source); })()), "typemagie", [], "any", false, false, false, 44), "html", null, true);
@@ -158,12 +162,12 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
     <a href=\"";
         // line 49
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_classes_index");
-        echo "\">back to list</a>
+        echo "\"><button>Retour à la liste</button></a>
 
     <a href=\"";
         // line 51
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_classes_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 51, $this->source); })()), "id", [], "any", false, false, false, 51)]), "html", null, true);
-        echo "\">edit</a>
+        echo "\"><button>Modifier</button></a>
 
     ";
         // line 53
@@ -190,7 +194,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
 
     public function getDebugInfo()
     {
-        return array (  170 => 53,  165 => 51,  160 => 49,  152 => 44,  145 => 40,  138 => 36,  131 => 32,  124 => 28,  117 => 24,  110 => 20,  103 => 16,  96 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  174 => 53,  169 => 51,  164 => 49,  156 => 44,  149 => 40,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -200,36 +204,36 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
 {% block title %}Classes{% endblock %}
 
 {% block body %}
-    <h1>Classes</h1>
+    <h1>{{ class.nom }}</h1>
 
     <table class=\"table\">
         <tbody>
             <tr>
-                <th>Id</th>
-                <td>{{ class.id }}</td>
+                
+                <td><img style=\"max-width: 500px; max-height: 500px;\" src=\"../../img/{{ class.nom }}.jpeg\" alt=\"Image de {{ class.nom }}\"></td>
             </tr>
             <tr>
                 <th>Nom</th>
                 <td>{{ class.nom }}</td>
             </tr>
             <tr>
-                <th>Dv</th>
+                <th>Dés de vie</th>
                 <td>{{ class.dv }}</td>
             </tr>
             <tr>
-                <th>Pointscompetences</th>
+                <th>Points de compétences</th>
                 <td>{{ class.pointscompetences }}</td>
             </tr>
             <tr>
-                <th>Caracteristiquelanceursort</th>
+                <th>Caractéristique lanceur de sort</th>
                 <td>{{ class.caracteristiquelanceursort }}</td>
             </tr>
             <tr>
-                <th>Pominlvl1</th>
+                <th>Pièces d'or minimum au lvl 1</th>
                 <td>{{ class.pominlvl1 }}</td>
             </tr>
             <tr>
-                <th>Pomaxlvl1</th>
+                <th>Pièces d'or maximum au lvl 1</th>
                 <td>{{ class.pomaxlvl1 }}</td>
             </tr>
             <tr>
@@ -237,15 +241,15 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
                 <td>{{ class.description }}</td>
             </tr>
             <tr>
-                <th>Typemagie</th>
+                <th>Type de magie</th>
                 <td>{{ class.typemagie }}</td>
             </tr>
         </tbody>
     </table>
 
-    <a href=\"{{ path('app_classes_index') }}\">back to list</a>
+    <a href=\"{{ path('app_classes_index') }}\"><button>Retour à la liste</button></a>
 
-    <a href=\"{{ path('app_classes_edit', {'id': class.id}) }}\">edit</a>
+    <a href=\"{{ path('app_classes_edit', {'id': class.id}) }}\"><button>Modifier</button></a>
 
     {{ include('classes/_delete_form.html.twig') }}
 {% endblock %}

@@ -3,36 +3,36 @@
 {% block title %}Classes{% endblock %}
 
 {% block body %}
-    <h1>Classes</h1>
+    <h1>{{ class.nom }}</h1>
 
     <table class="table">
         <tbody>
             <tr>
-                <th>Id</th>
-                <td>{{ class.id }}</td>
+                
+                <td><img style="max-width: 500px; max-height: 500px;" src="../../img/{{ class.nom }}.jpeg" alt="Image de {{ class.nom }}"></td>
             </tr>
             <tr>
                 <th>Nom</th>
                 <td>{{ class.nom }}</td>
             </tr>
             <tr>
-                <th>Dv</th>
+                <th>Dés de vie</th>
                 <td>{{ class.dv }}</td>
             </tr>
             <tr>
-                <th>Points de competences</th>
+                <th>Points de compétences</th>
                 <td>{{ class.pointscompetences }}</td>
             </tr>
             <tr>
-                <th>Caracteristiquelanceursort</th>
+                <th>Caractéristique lanceur de sort</th>
                 <td>{{ class.caracteristiquelanceursort }}</td>
             </tr>
             <tr>
-                <th>Pominlvl1</th>
+                <th>Pièces d'or minimum au lvl 1</th>
                 <td>{{ class.pominlvl1 }}</td>
             </tr>
             <tr>
-                <th>Pomaxlvl1</th>
+                <th>Pièces d'or maximum au lvl 1</th>
                 <td>{{ class.pomaxlvl1 }}</td>
             </tr>
             <tr>
@@ -40,15 +40,15 @@
                 <td>{{ class.description }}</td>
             </tr>
             <tr>
-                <th>Typemagie</th>
+                <th>Type de magie</th>
                 <td>{{ class.typemagie }}</td>
             </tr>
         </tbody>
     </table>
 
-    <a href="{{ path('app_classes_index') }}">back to list</a>
+    <a href="{{ path('app_classes_index') }}"><button>Retour à la liste</button></a>
 
-    <a href="{{ path('app_classes_edit', {'id': class.id}) }}">edit</a>
+    <a href="{{ path('app_classes_edit', {'id': class.id}) }}"><button>Modifier</button></a>
 
     {{ include('classes/_delete_form.html.twig') }}
 {% endblock %}

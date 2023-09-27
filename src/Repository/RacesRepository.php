@@ -39,6 +39,20 @@ class RacesRepository extends ServiceEntityRepository
         }
     }
 
+    public function getClassesPredilection($id) 
+    {
+        $conn = $this->getEntityManager()->getConnection();
+
+        $sql = 'SELECT `classes`.`nom` AS `classepredilection`
+        FROM `dnd35_races` 
+        INNER JOIN `classes` ON `dnd35_races`.`idClassePredilection` = `classes`.`id` 
+        WHERE `dnd35_races`.`id` =' . $id; 
+
+        $stmt = $conn->executeQuery($sql);
+
+        return $stmt->fetchAssociative();
+    }
+
 //    /**
 //     * @return Dnd35Races[] Returns an array of Dnd35Races objects
 //     */

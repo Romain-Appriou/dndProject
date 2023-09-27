@@ -49,10 +49,13 @@ class RacesController extends AbstractController
     /**
      * @Route("/{id}", name="app_races_show", methods={"GET"})
      */
-    public function show(Dnd35Races $dnd35Race): Response
+    public function show(Dnd35Races $dnd35Race, RacesRepository $racesRepository, $id): Response
     {
+        $race = $racesRepository->getClassesPredilection($id);
+
         return $this->render('races/show.html.twig', [
             'dnd35_race' => $dnd35Race,
+            'race' => $race,
         ]);
     }
 

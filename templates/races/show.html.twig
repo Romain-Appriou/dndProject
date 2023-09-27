@@ -3,13 +3,13 @@
 {% block title %}Dnd35Races{% endblock %}
 
 {% block body %}
-    <h1>Dnd35Races</h1>
+    <h1>{{dnd35_race.nom}}</h1>
 
     <table class="table">
         <tbody>
+            
             <tr>
-                <th>Id</th>
-                <td>{{ dnd35_race.id }}</td>
+                <td><img style="max-width: 500px; max-height: 500px;" src="../../img/{{ dnd35_race.nom }}.jpeg" alt="Image de {{ dnd35_race.nom }}"></td>
             </tr>
             <tr>
                 <th>Nom</th>
@@ -24,55 +24,65 @@
                 <td>{{ dnd35_race.vitesse }}</td>
             </tr>
             <tr>
-                <th>Donssupplvl1</th>
+                <th>Dons supplémentaires lvl 1</th>
                 <td>{{ dnd35_race.donssupplvl1 }}</td>
             </tr>
             <tr>
-                <th>Compsupplvl1</th>
+                <th>Compétences supplémentaires lvl 1</th>
                 <td>{{ dnd35_race.compsupplvl1 }}</td>
             </tr>
             <tr>
-                <th>Compsuppbylvl</th>
+                <th>Compétences supplémentairs par lvl</th>
                 <td>{{ dnd35_race.compsuppbylvl }}</td>
             </tr>
-            <tr>
-                <th>Idclassepredilection</th>
-                <td>{{ dnd35_race.idclassepredilection }}</td>
+            <tr>                
+                {% if race.classepredilection is defined %}
+
+                    <th>Classe de prédilection</th>
+                    <td>{{ race.classepredilection }} </td>    
+                                   
+                {% endif %}
             </tr>
             <tr>
-                <th>Immunitesommeil</th>
-                <td>{{ dnd35_race.immunitesommeil ? 'Yes' : 'No' }}</td>
+                <th>Immunité sommeil</th>
+                <td>{{ dnd35_race.immunitesommeil ? 'Oui' : 'Non' }}</td>
             </tr>
             <tr>
-                <th>Visionnocturne</th>
+                <th>Vision nocturne</th>
                 <td>{{ dnd35_race.visionnocturne }}</td>
             </tr>
             <tr>
-                <th>Modiffor</th>
-                <td>{{ dnd35_race.modiffor }}</td>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="6">Modificateur de caractéristiques</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FOR</td>
+                                <td>DEX</td>
+                                <td>CON</td>
+                                <td>INT</td>
+                                <td>SAG</td>
+                                <td>CHA</td>
+                            </tr>
+                            <tr>
+                            <td>{{ dnd35_race.modiffor }}</td>
+                            <td>{{ dnd35_race.modifdex }}</td>
+                            <td>{{ dnd35_race.modifcon }}</td>
+                            <td>{{ dnd35_race.modifint }}</td>
+                            <td>{{ dnd35_race.modifsag }}</td>
+                            <td>{{ dnd35_race.modifcha }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
             </tr>
             <tr>
-                <th>Modifdex</th>
-                <td>{{ dnd35_race.modifdex }}</td>
-            </tr>
-            <tr>
-                <th>Modifcon</th>
-                <td>{{ dnd35_race.modifcon }}</td>
-            </tr>
-            <tr>
-                <th>Modifint</th>
-                <td>{{ dnd35_race.modifint }}</td>
-            </tr>
-            <tr>
-                <th>Modifsag</th>
-                <td>{{ dnd35_race.modifsag }}</td>
-            </tr>
-            <tr>
-                <th>Modifcha</th>
-                <td>{{ dnd35_race.modifcha }}</td>
-            </tr>
-            <tr>
-                <th>Nblanguessupplementaires</th>
+                <th>Nombre de langues supplémentaires</th>
                 <td>{{ dnd35_race.nblanguessupplementaires }}</td>
             </tr>
             <tr>
@@ -88,3 +98,32 @@
 
     {{ include('races/_delete_form.html.twig') }}
 {% endblock %}
+
+
+{# <th>Modificateur de caractéristiques</th>
+                <tr>
+                    <th>Modificateur de force</th>
+                </tr>
+                    <tr>
+                        <td>{{ dnd35_race.modiffor }}</td>
+                    </tr>
+                
+                <tr>
+                    <th>Modificateur de dextérité</th>
+                    <td>{{ dnd35_race.modifdex }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de constitution</th>
+                    <td>{{ dnd35_race.modifcon }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de l'intelligence</th>
+                    <td>{{ dnd35_race.modifint }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de sagesse</th>
+                    <td>{{ dnd35_race.modifsag }}</td>
+                </tr>
+                <tr>
+                    <th>Modificateur de charisme</th>
+                    <td>{{ dnd35_race.modifcha }}</td> #}
