@@ -15,7 +15,7 @@
         <tbody>
         {% for class in classes %}
             <tr>
-                <td><a href="{{ path('app_classes_show', {'id': class.id}) }}">{{ class.nom }}</a></td>
+                <td><a href="{{ path('app_classes_show', {'id': class.id}) }}"><button>{{ class.nom }}</button></a></td>
             </tr>
         {% else %}
             <tr>

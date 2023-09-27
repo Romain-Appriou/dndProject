@@ -106,9 +106,9 @@ class __TwigTemplate_96e8dc5d0ae681955fca7934888c09ab88438703e9fb7a92790d8cc914b
                 <td><a href=\"";
             // line 18
             echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_classes_show", ["id" => twig_get_attribute($this->env, $this->source, $context["class"], "id", [], "any", false, false, false, 18)]), "html", null, true);
-            echo "\">";
+            echo "\"><button>";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["class"], "nom", [], "any", false, false, false, 18), "html", null, true);
-            echo "</a></td>
+            echo "</button></a></td>
             </tr>
         ";
             $context['_iterated'] = true;
@@ -174,7 +174,7 @@ class __TwigTemplate_96e8dc5d0ae681955fca7934888c09ab88438703e9fb7a92790d8cc914b
         <tbody>
         {% for class in classes %}
             <tr>
-                <td><a href=\"{{ path('app_classes_show', {'id': class.id}) }}\">{{ class.nom }}</a></td>
+                <td><a href=\"{{ path('app_classes_show', {'id': class.id}) }}\"><button>{{ class.nom }}</button></a></td>
             </tr>
         {% else %}
             <tr>
