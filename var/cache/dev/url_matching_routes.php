@@ -11,7 +11,6 @@ return [
         '/classes' => [[['_route' => 'app_classes_index', '_controller' => 'App\\Controller\\ClassesController::index'], null, ['GET' => 0], null, true, false, null]],
         '/classes/new' => [[['_route' => 'app_classes_new', '_controller' => 'App\\Controller\\ClassesController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
         '/home' => [[['_route' => 'app_home', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
-        '/liste' => [[['_route' => 'app_list', '_controller' => 'App\\Controller\\ListController::index'], null, null, null, false, false, null]],
         '/races' => [[['_route' => 'app_races_index', '_controller' => 'App\\Controller\\RacesController::index'], null, ['GET' => 0], null, true, false, null]],
         '/races/new' => [[['_route' => 'app_races_new', '_controller' => 'App\\Controller\\RacesController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
         '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],

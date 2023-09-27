@@ -30,6 +30,7 @@ class __TwigTemplate_a3ee2de1d49fe9759cb4f81eb609604a4e2419901415f873101ed6cc9a7
             'title' => [$this, 'block_title'],
             'stylesheets' => [$this, 'block_stylesheets'],
             'javascripts' => [$this, 'block_javascripts'],
+            'nav' => [$this, 'block_nav'],
             'body' => [$this, 'block_body'],
         ];
     }
@@ -65,10 +66,16 @@ class __TwigTemplate_a3ee2de1d49fe9759cb4f81eb609604a4e2419901415f873101ed6cc9a7
         // line 15
         echo "    </head>
     <body>
+
         ";
-        // line 17
-        $this->displayBlock('body', $context, $blocks);
         // line 18
+        $this->displayBlock('nav', $context, $blocks);
+        // line 19
+        echo "
+        ";
+        // line 20
+        $this->displayBlock('body', $context, $blocks);
+        // line 21
         echo "    </body>
 </html>
 ";
@@ -145,7 +152,25 @@ class __TwigTemplate_a3ee2de1d49fe9759cb4f81eb609604a4e2419901415f873101ed6cc9a7
 
     }
 
-    // line 17
+    // line 18
+    public function block_nav($context, array $blocks = [])
+    {
+        $macros = $this->macros;
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 20
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -170,7 +195,7 @@ class __TwigTemplate_a3ee2de1d49fe9759cb4f81eb609604a4e2419901415f873101ed6cc9a7
 
     public function getDebugInfo()
     {
-        return array (  149 => 17,  136 => 13,  126 => 12,  113 => 9,  103 => 8,  84 => 5,  72 => 18,  70 => 17,  66 => 15,  64 => 12,  61 => 11,  58 => 8,  53 => 5,  47 => 1,);
+        return array (  174 => 20,  156 => 18,  143 => 13,  133 => 12,  120 => 9,  110 => 8,  91 => 5,  79 => 21,  77 => 20,  74 => 19,  72 => 18,  67 => 15,  65 => 12,  62 => 11,  59 => 8,  54 => 5,  48 => 1,);
     }
 
     public function getSourceContext()
@@ -191,6 +216,9 @@ class __TwigTemplate_a3ee2de1d49fe9759cb4f81eb609604a4e2419901415f873101ed6cc9a7
         {% endblock %}
     </head>
     <body>
+
+        {% block nav %}{% endblock %}
+
         {% block body %}{% endblock %}
     </body>
 </html>

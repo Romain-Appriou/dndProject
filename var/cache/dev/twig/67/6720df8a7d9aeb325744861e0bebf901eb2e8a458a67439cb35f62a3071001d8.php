@@ -25,7 +25,7 @@ class __TwigTemplate_ff0cd268d99e1a7fc1a30551f8766c7242f9d0dc223957c870163bd54a5
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
-            'title' => [$this, 'block_title'],
+            'nav' => [$this, 'block_nav'],
             'body' => [$this, 'block_body'],
         ];
     }
@@ -56,16 +56,17 @@ class __TwigTemplate_ff0cd268d99e1a7fc1a30551f8766c7242f9d0dc223957c870163bd54a5
     }
 
     // line 3
-    public function block_title($context, array $blocks = [])
+    public function block_nav($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
 
-        echo "Dnd35Races index";
+        echo " ";
+        $this->loadTemplate("header.html.twig", "races/index.html.twig", 3)->display($context);
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -152,14 +153,14 @@ class __TwigTemplate_ff0cd268d99e1a7fc1a30551f8766c7242f9d0dc223957c870163bd54a5
 
     public function getDebugInfo()
     {
-        return array (  132 => 28,  127 => 25,  118 => 21,  107 => 17,  104 => 16,  99 => 15,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  133 => 28,  128 => 25,  119 => 21,  108 => 17,  105 => 16,  100 => 15,  89 => 6,  79 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Dnd35Races index{% endblock %}
+{% block nav %} {% include \"header.html.twig\" %}{% endblock %}
 
 {% block body %}
     <h1>Liste des races</h1>

@@ -153,7 +153,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
             // line 42
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["race"]) || array_key_exists("race", $context) ? $context["race"] : (function () { throw new RuntimeError('Variable "race" does not exist.', 42, $this->source); })()), "classepredilection", [], "any", false, false, false, 42), "html", null, true);
             echo " </td>    
-                                   
+
                 ";
         }
         // line 45
@@ -229,10 +229,10 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
             </tr>
             <tr>
                 <th>Description</th>
-                <td>";
+                <td ><pre style=\"text-wrap:wrap\">";
         // line 90
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 90, $this->source); })()), "description", [], "any", false, false, false, 90), "html", null, true);
-        echo "</td>
+        echo "</pre></td>
             </tr>
         </tbody>
     </table>
@@ -319,7 +319,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
 
                     <th>Classe de prédilection</th>
                     <td>{{ race.classepredilection }} </td>    
-                                   
+
                 {% endif %}
             </tr>
             <tr>
@@ -366,7 +366,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
             </tr>
             <tr>
                 <th>Description</th>
-                <td>{{ dnd35_race.description }}</td>
+                <td ><pre style=\"text-wrap:wrap\">{{ dnd35_race.description }}</pre></td>
             </tr>
         </tbody>
     </table>
@@ -378,33 +378,6 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
     {{ include('races/_delete_form.html.twig') }}
 {% endblock %}
 
-
-{# <th>Modificateur de caractéristiques</th>
-                <tr>
-                    <th>Modificateur de force</th>
-                </tr>
-                    <tr>
-                        <td>{{ dnd35_race.modiffor }}</td>
-                    </tr>
-                
-                <tr>
-                    <th>Modificateur de dextérité</th>
-                    <td>{{ dnd35_race.modifdex }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de constitution</th>
-                    <td>{{ dnd35_race.modifcon }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de l'intelligence</th>
-                    <td>{{ dnd35_race.modifint }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de sagesse</th>
-                    <td>{{ dnd35_race.modifsag }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de charisme</th>
-                    <td>{{ dnd35_race.modifcha }}</td> #}", "races/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/races/show.html.twig");
+", "races/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/races/show.html.twig");
     }
 }

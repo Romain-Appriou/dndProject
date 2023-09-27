@@ -40,7 +40,7 @@
 
                     <th>Classe de prédilection</th>
                     <td>{{ race.classepredilection }} </td>    
-                                   
+
                 {% endif %}
             </tr>
             <tr>
@@ -87,7 +87,7 @@
             </tr>
             <tr>
                 <th>Description</th>
-                <td>{{ dnd35_race.description }}</td>
+                <td ><pre style="text-wrap:wrap">{{ dnd35_race.description }}</pre></td>
             </tr>
         </tbody>
     </table>
@@ -99,31 +99,3 @@
     {{ include('races/_delete_form.html.twig') }}
 {% endblock %}
 
-
-{# <th>Modificateur de caractéristiques</th>
-                <tr>
-                    <th>Modificateur de force</th>
-                </tr>
-                    <tr>
-                        <td>{{ dnd35_race.modiffor }}</td>
-                    </tr>
-                
-                <tr>
-                    <th>Modificateur de dextérité</th>
-                    <td>{{ dnd35_race.modifdex }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de constitution</th>
-                    <td>{{ dnd35_race.modifcon }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de l'intelligence</th>
-                    <td>{{ dnd35_race.modifint }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de sagesse</th>
-                    <td>{{ dnd35_race.modifsag }}</td>
-                </tr>
-                <tr>
-                    <th>Modificateur de charisme</th>
-                    <td>{{ dnd35_race.modifcha }}</td> #}

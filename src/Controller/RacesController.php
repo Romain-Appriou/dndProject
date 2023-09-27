@@ -53,9 +53,12 @@ class RacesController extends AbstractController
     {
         $race = $racesRepository->getClassesPredilection($id);
 
+        //$description = nl2br($dnd35Race->getDescription());
+
         return $this->render('races/show.html.twig', [
             'dnd35_race' => $dnd35Race,
             'race' => $race,
+            //'description' => $description,
         ]);
     }
 

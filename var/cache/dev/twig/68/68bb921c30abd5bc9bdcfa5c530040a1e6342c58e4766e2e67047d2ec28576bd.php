@@ -25,7 +25,7 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
         $this->source = $this->getSourceContext();
 
         $this->blocks = [
-            'title' => [$this, 'block_title'],
+            'nav' => [$this, 'block_nav'],
             'body' => [$this, 'block_body'],
         ];
     }
@@ -55,17 +55,17 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
 
     }
 
-    // line 3
-    public function block_title($context, array $blocks = [])
+    // line 4
+    public function block_nav($context, array $blocks = [])
     {
         $macros = $this->macros;
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
-        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
 
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
-        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "nav"));
 
-        echo "Hello HomeController!";
+        $this->loadTemplate("header.html.twig", "home/index.html.twig", 4)->display($context);
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -74,7 +74,7 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
 
     }
 
-    // line 5
+    // line 6
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,10 +84,12 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
+        // line 7
         echo "
 
-Ca fonctionne
+<h1>Bienvenue sur le site pour créer ton personnage D&amp;D 3.5</h1>
+
+
 
 ";
         
@@ -110,19 +112,22 @@ Ca fonctionne
 
     public function getDebugInfo()
     {
-        return array (  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  88 => 7,  78 => 6,  59 => 4,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+
+{% block nav %}{% include \"header.html.twig\" %}{% endblock %}
 
 {% block body %}
 
 
-Ca fonctionne
+<h1>Bienvenue sur le site pour créer ton personnage D&amp;D 3.5</h1>
+
+
 
 {% endblock %}
 ", "home/index.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/home/index.html.twig");

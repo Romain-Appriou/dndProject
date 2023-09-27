@@ -144,10 +144,10 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
             </tr>
             <tr>
                 <th>Description</th>
-                <td>";
+                <td><pre style=\"text-wrap:wrap\">";
         // line 40
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 40, $this->source); })()), "description", [], "any", false, false, false, 40), "html", null, true);
-        echo "</td>
+        echo "</pre></td>
             </tr>
             <tr>
                 <th>Type de magie</th>
@@ -238,7 +238,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
             </tr>
             <tr>
                 <th>Description</th>
-                <td>{{ class.description }}</td>
+                <td><pre style=\"text-wrap:wrap\">{{ class.description }}</pre></td>
             </tr>
             <tr>
                 <th>Type de magie</th>

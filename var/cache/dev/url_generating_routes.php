@@ -9,7 +9,6 @@ return [
     'app_classes_edit' => [['id'], ['_controller' => 'App\\Controller\\ClassesController::edit'], [], [['text', '/edit'], ['variable', '/', '[^/]++', 'id', true], ['text', '/classes']], [], [], []],
     'app_classes_delete' => [['id'], ['_controller' => 'App\\Controller\\ClassesController::delete'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/classes']], [], [], []],
     'app_home' => [[], ['_controller' => 'App\\Controller\\HomeController::index'], [], [['text', '/home']], [], [], []],
-    'app_list' => [[], ['_controller' => 'App\\Controller\\ListController::index'], [], [['text', '/liste']], [], [], []],
     'app_races_index' => [[], ['_controller' => 'App\\Controller\\RacesController::index'], [], [['text', '/races/']], [], [], []],
     'app_races_new' => [[], ['_controller' => 'App\\Controller\\RacesController::new'], [], [['text', '/races/new']], [], [], []],
     'app_races_show' => [['id'], ['_controller' => 'App\\Controller\\RacesController::show'], [], [['variable', '/', '[^/]++', 'id', true], ['text', '/races']], [], [], []],
