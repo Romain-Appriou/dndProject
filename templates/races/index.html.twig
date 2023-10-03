@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block nav %} {% include "header.html.twig" %}{% endblock %}
+
+{% block body %}
+    <h1>Liste des races</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dnd35_race in dnd35_races %}
+            <tr>
+                <td><a href="{{ path('app_races_show', {'id': dnd35_race.id}) }}"><button>{{ dnd35_race.nom }}</button></a></td>
+                
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="19">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_races_new') }}">Create new</a>
+{% endblock %}

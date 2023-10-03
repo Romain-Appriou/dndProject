@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dnd35Races{% endblock %}
+
+{% block body %}
+    <h1>{{dnd35_race.nom}}</h1>
+
+    <table class="table">
+        <tbody>
+            
+            <tr>
+                <td><img style="max-width: 500px; max-height: 500px;" src="../../img/{{ dnd35_race.nom }}.jpeg" alt="Image de {{ dnd35_race.nom }}"></td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ dnd35_race.nom }}</td>
+            </tr>
+            <tr>
+                <th>Taille</th>
+                <td>{{ dnd35_race.taille }}</td>
+            </tr>
+            <tr>
+                <th>Vitesse</th>
+                <td>{{ dnd35_race.vitesse }}</td>
+            </tr>
+            <tr>
+                <th>Dons supplémentaires lvl 1</th>
+                <td>{{ dnd35_race.donssupplvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Compétences supplémentaires lvl 1</th>
+                <td>{{ dnd35_race.compsupplvl1 }}</td>
+            </tr>
+            <tr>
+                <th>Compétences supplémentairs par lvl</th>
+                <td>{{ dnd35_race.compsuppbylvl }}</td>
+            </tr>
+            <tr>                
+                {% if race.classepredilection is defined %}
+
+                    <th>Classe de prédilection</th>
+                    <td>{{ race.classepredilection }} </td>    
+
+                {% endif %}
+            </tr>
+            <tr>
+                <th>Immunité sommeil</th>
+                <td>{{ dnd35_race.immunitesommeil ? 'Oui' : 'Non' }}</td>
+            </tr>
+            <tr>
+                <th>Vision nocturne</th>
+                <td>{{ dnd35_race.visionnocturne }}</td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="6">Modificateur de caractéristiques</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>FOR</td>
+                                <td>DEX</td>
+                                <td>CON</td>
+                                <td>INT</td>
+                                <td>SAG</td>
+                                <td>CHA</td>
+                            </tr>
+                            <tr>
+                            <td>{{ dnd35_race.modiffor }}</td>
+                            <td>{{ dnd35_race.modifdex }}</td>
+                            <td>{{ dnd35_race.modifcon }}</td>
+                            <td>{{ dnd35_race.modifint }}</td>
+                            <td>{{ dnd35_race.modifsag }}</td>
+                            <td>{{ dnd35_race.modifcha }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <th>Nombre de langues supplémentaires</th>
+                <td>{{ dnd35_race.nblanguessupplementaires }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td ><pre style="text-wrap:wrap">{{ dnd35_race.description }}</pre></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_races_index') }}">back to list</a>
+
+    <a href="{{ path('app_races_edit', {'id': dnd35_race.id}) }}">edit</a>
+
+    {{ include('races/_delete_form.html.twig') }}
+{% endblock %}
+

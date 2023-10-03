@@ -1,26 +1,12 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+
+{% block nav %}{% include "header.html.twig" %}{% endblock %}
 
 {% block body %}
 
-<h1>Création de personnage</h1>
 
-<h2>Choisis ta race </h2>
-
-     <select id="choix">
-        {% for race in races %}
-            <option value= {{ race.id }}> {{ race.nom }} </option>
-        {% endfor %}
-    </select>  
-
-<h2>Choisis ta classe </h2>
-
-    <select id="choix">
-        {% for classe in classes %}
-            <option value= {{ classe.id }}> {{ classe.nom }} </option>
-        {% endfor %}
-    </select>
+<h1>Bienvenue sur le site pour créer ton personnage D&amp;D 3.5</h1>
 
 
 {% endblock %}

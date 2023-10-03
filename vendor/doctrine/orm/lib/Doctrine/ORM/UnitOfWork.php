@@ -23,6 +23,7 @@ use Doctrine\ORM\Event\PreFlushEventArgs;
 use Doctrine\ORM\Event\PrePersistEventArgs;
 use Doctrine\ORM\Event\PreRemoveEventArgs;
 use Doctrine\ORM\Event\PreUpdateEventArgs;
+use Doctrine\ORM\Exception\EntityIdentityCollisionException;
 use Doctrine\ORM\Exception\ORMException;
 use Doctrine\ORM\Exception\UnexpectedAssociationValue;
 use Doctrine\ORM\Id\AssignedGenerator;
@@ -692,6 +693,7 @@ class UnitOfWork implements PropertyChangedListener
             if ($class->isCollectionValuedAssociation($name) && $value !== null) {
                 if ($value instanceof PersistentCollection) {
                     if ($value->getOwner() === $entity) {
+                        $actualData[$name] = $value;
                         continue;
                     }
 
@@ -1162,13 +1164,13 @@ class UnitOfWork implements PropertyChangedListener
      */
     private function executeInserts(): void
     {
-        $entities = $this->computeInsertExecutionOrder();
+        $entities         = $this->computeInsertExecutionOrder();
+        $eventsToDispatch = [];
 
         foreach ($entities as $entity) {
             $oid       = spl_object_id($entity);
             $class     = $this->em->getClassMetadata(get_class($entity));
             $persister = $this->getEntityPersister($class->name);
-            $invoke    = $this->listenersInvoker->getSubscribedSystems($class, Events::postPersist);
 
             $persister->addInsert($entity);
 
@@ -1195,9 +1197,23 @@ class UnitOfWork implements PropertyChangedListener
                 $this->addToEntityIdentifiersAndEntityMap($class, $oid, $entity);
             }
 
+            $invoke = $this->listenersInvoker->getSubscribedSystems($class, Events::postPersist);
+
             if ($invoke !== ListenersInvoker::INVOKE_NONE) {
-                $this->listenersInvoker->invoke($class, Events::postPersist, $entity, new PostPersistEventArgs($entity, $this->em), $invoke);
+                $eventsToDispatch[] = ['class' => $class, 'entity' => $entity, 'invoke' => $invoke];
             }
+        }
+
+        // Defer dispatching `postPersist` events to until all entities have been inserted and post-insert
+        // IDs have been assigned.
+        foreach ($eventsToDispatch as $event) {
+            $this->listenersInvoker->invoke(
+                $event['class'],
+                Events::postPersist,
+                $event['entity'],
+                new PostPersistEventArgs($event['entity'], $this->em),
+                $event['invoke']
+            );
         }
     }
 
@@ -1268,7 +1284,8 @@ class UnitOfWork implements PropertyChangedListener
      */
     private function executeDeletions(): void
     {
-        $entities = $this->computeDeleteExecutionOrder();
+        $entities         = $this->computeDeleteExecutionOrder();
+        $eventsToDispatch = [];
 
         foreach ($entities as $entity) {
             $oid       = spl_object_id($entity);
@@ -1293,8 +1310,19 @@ class UnitOfWork implements PropertyChangedListener
             }
 
             if ($invoke !== ListenersInvoker::INVOKE_NONE) {
-                $this->listenersInvoker->invoke($class, Events::postRemove, $entity, new PostRemoveEventArgs($entity, $this->em), $invoke);
+                $eventsToDispatch[] = ['class' => $class, 'entity' => $entity, 'invoke' => $invoke];
             }
+        }
+
+        // Defer dispatching `postRemove` events to until all entities have been removed.
+        foreach ($eventsToDispatch as $event) {
+            $this->listenersInvoker->invoke(
+                $event['class'],
+                Events::postRemove,
+                $event['entity'],
+                new PostRemoveEventArgs($event['entity'], $this->em),
+                $event['invoke']
+            );
         }
     }
 
@@ -1623,6 +1651,7 @@ class UnitOfWork implements PropertyChangedListener
      * the entity in question is already managed.
      *
      * @throws ORMInvalidArgumentException
+     * @throws EntityIdentityCollisionException
      *
      * @ignore
      */
@@ -1634,27 +1663,38 @@ class UnitOfWork implements PropertyChangedListener
 
         if (isset($this->identityMap[$className][$idHash])) {
             if ($this->identityMap[$className][$idHash] !== $entity) {
-                throw new RuntimeException(sprintf(
+                if ($this->em->getConfiguration()->isRejectIdCollisionInIdentityMapEnabled()) {
+                    throw EntityIdentityCollisionException::create($this->identityMap[$className][$idHash], $entity, $idHash);
+                }
+
+                Deprecation::trigger(
+                    'doctrine/orm',
+                    'https://github.com/doctrine/orm/pull/10785',
                     <<<'EXCEPTION'
 While adding an entity of class %s with an ID hash of "%s" to the identity map,
-another object of class %s was already present for the same ID. This exception
-is a safeguard against an internal inconsistency - IDs should uniquely map to
-entity object instances. This problem may occur if:
+another object of class %s was already present for the same ID. This will trigger
+an exception in ORM 3.0.
+
+IDs should uniquely map to entity object instances. This problem may occur if:
 
 - you use application-provided IDs and reuse ID values;
-- database-provided IDs are reassigned after truncating the database without 
-  clearing the EntityManager;
-- you might have been using EntityManager#getReference() to create a reference 
-  for a nonexistent ID that was subsequently (by the RDBMS) assigned to another 
-  entity. 
+- database-provided IDs are reassigned after truncating the database without
+clearing the EntityManager;
+- you might have been using EntityManager#getReference() to create a reference
+for a nonexistent ID that was subsequently (by the RDBMS) assigned to another
+entity. 
 
-Otherwise, it might be an ORM-internal inconsistency, please report it. 
+Otherwise, it might be an ORM-internal inconsistency, please report it.
+
+To opt-in to the new exception, call 
+\Doctrine\ORM\Configuration::setRejectIdCollisionInIdentityMap on the entity
+manager's configuration.
 EXCEPTION
                     ,
                     get_class($entity),
                     $idHash,
                     get_class($this->identityMap[$className][$idHash])
-                ));
+                );
             }
 
             return false;
@@ -3014,6 +3054,7 @@ EXCEPTION
                                 // We are negating the condition here. Other cases will assume it is valid!
                                 case $hints['fetchMode'][$class->name][$field] !== ClassMetadata::FETCH_EAGER:
                                     $newValue = $this->em->getProxyFactory()->getProxy($assoc['targetEntity'], $normalizedAssociatedId);
+                                    $this->registerManaged($newValue, $associatedId, []);
                                     break;
 
                                 // Deferred eager load only works for single identifier classes
@@ -3022,6 +3063,7 @@ EXCEPTION
                                     $this->eagerLoadingEntities[$targetClass->rootEntityName][$relatedIdHash] = current($normalizedAssociatedId);
 
                                     $newValue = $this->em->getProxyFactory()->getProxy($assoc['targetEntity'], $normalizedAssociatedId);
+                                    $this->registerManaged($newValue, $associatedId, []);
                                     break;
 
                                 default:
@@ -3029,13 +3071,6 @@ EXCEPTION
                                     $newValue = $this->em->find($assoc['targetEntity'], $normalizedAssociatedId);
                                     break;
                             }
-
-                            if ($newValue === null) {
-                                break;
-                            }
-
-                            $this->registerManaged($newValue, $associatedId, []);
-                            break;
                     }
 
                     $this->originalEntityData[$oid][$field] = $newValue;

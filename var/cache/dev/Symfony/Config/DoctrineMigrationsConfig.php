@@ -24,6 +24,7 @@ class DoctrineMigrationsConfig implements \Symfony\Component\Config\Builder\Conf
     private $customTemplate;
     private $organizeMigrations;
     private $enableProfiler;
+    private $transactional;
     private $_usedProperties = [];
 
     /**
@@ -171,7 +172,7 @@ class DoctrineMigrationsConfig implements \Symfony\Component\Config\Builder\Conf
     }
 
     /**
-     * Use profiler to calculate and visualize migration status.
+     * Whether or not to enable the profiler collector to calculate and visualize migration status. This adds some queries overhead.
      * @default false
      * @param ParamConfigurator|bool $value
      * @return $this
@@ -180,6 +181,20 @@ class DoctrineMigrationsConfig implements \Symfony\Component\Config\Builder\Conf
     {
         $this->_usedProperties['enableProfiler'] = true;
         $this->enableProfiler = $value;
+
+        return $this;
+    }
+
+    /**
+     * Whether or not to wrap migrations in a single transaction.
+     * @default true
+     * @param ParamConfigurator|bool $value
+     * @return $this
+     */
+    public function transactional($value): self
+    {
+        $this->_usedProperties['transactional'] = true;
+        $this->transactional = $value;
 
         return $this;
     }
@@ -263,6 +278,12 @@ class DoctrineMigrationsConfig implements \Symfony\Component\Config\Builder\Conf
             unset($value['enable_profiler']);
         }
 
+        if (array_key_exists('transactional', $value)) {
+            $this->_usedProperties['transactional'] = true;
+            $this->transactional = $value['transactional'];
+            unset($value['transactional']);
+        }
+
         if ([] !== $value) {
             throw new InvalidConfigurationException(sprintf('The following keys are not supported by "%s": ', __CLASS__).implode(', ', array_keys($value)));
         }
@@ -306,6 +327,9 @@ class DoctrineMigrationsConfig implements \Symfony\Component\Config\Builder\Conf
         }
         if (isset($this->_usedProperties['enableProfiler'])) {
             $output['enable_profiler'] = $this->enableProfiler;
+        }
+        if (isset($this->_usedProperties['transactional'])) {
+            $output['transactional'] = $this->transactional;
         }
 
         return $output;
