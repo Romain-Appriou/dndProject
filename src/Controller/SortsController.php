@@ -2,8 +2,10 @@
 
 namespace App\Controller;
 
+use App\Entity\Dnd35Sortclasse;
 use App\Entity\Dnd35Sorts;
 use App\Form\Dnd35SortsType;
+use App\Form\SortPickerType;
 use App\Repository\SortsRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -18,12 +20,26 @@ class SortsController extends AbstractController
     /**
      * @Route("/", name="app_sorts_index", methods={"GET"})
      */
-    public function index(SortsRepository $sortsRepository): Response
+    public function index(Request $request, SortsRepository $sortsRepository): Response
     {
         $sorts = $sortsRepository->findBy([], ['nom' => 'ASC']);
 
-        return $this->render('sorts/index.html.twig', [
+        $pickerForm = $this->createForm(SortPickerType::class);
+        $pickerForm->handleRequest($request);
+
+        if($pickerForm->isSubmitted() && $pickerForm ->isValid()) {
+            
+            $data = $pickerForm->getData();
+            $classeId = $data['idclasse'];
+            $niveau = $data['niveau']; 
+            
+            
+
+        }
+
+        return $this->renderForm('sorts/index.html.twig', [
             'dnd35_sorts' => $sorts,
+            'pickerForm' => $pickerForm,
         ]);
     }
 
