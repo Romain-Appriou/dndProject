@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dnd35Sorts index{% endblock %}
+
+{% block body %}
+    <h1>Liste des sorts</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                
+                <th>Sauvegarde</th>
+                <th>Temps d'incantation</th>
+                <th>Portée</th>
+                <th>Effet</th>
+                <th>Durée</th>
+                <th>Resistance magie</th>
+                <th>Cibles</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dnd35_sort in dnd35_sorts %}
+            <tr>
+                <td>{{ dnd35_sort.nom }}</td>
+                
+                <td>{{ dnd35_sort.sauvegarde }}</td>
+                <td>{{ dnd35_sort.tempsincantation }}</td>
+                <td>{{ dnd35_sort.portee }}</td>
+                <td>{{ dnd35_sort.effet }}</td>
+                <td>{{ dnd35_sort.duree }}</td>
+                <td>{{ dnd35_sort.resistancemagie }}</td>
+                <td>{{ dnd35_sort.cibles }}</td>
+                <td>
+                    <a href="{{ path('app_sorts_show', {'id': dnd35_sort.id}) }}">show</a>
+                    <a href="{{ path('app_sorts_edit', {'id': dnd35_sort.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="14">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_sorts_new') }}">Create new</a>
+{% endblock %}

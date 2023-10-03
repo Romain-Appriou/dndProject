@@ -90,7 +90,6 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
 <h1>Bienvenue sur le site pour créer ton personnage D&amp;D 3.5</h1>
 
 
-
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -126,7 +125,6 @@ class __TwigTemplate_26aafd0e16fe5a5b580630263a2c83c7b4d4b255626cff803b0ef7d00f9
 
 
 <h1>Bienvenue sur le site pour créer ton personnage D&amp;D 3.5</h1>
-
 
 
 {% endblock %}
