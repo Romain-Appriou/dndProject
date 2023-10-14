@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Dnd35Sortclasse;
 use App\Entity\Classes;
+use App\Entity\Dnd35Sorts;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
@@ -42,7 +43,7 @@ class SortPickerType extends AbstractType
     public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
-            'data_class' => Dnd35Sortclasse::class,
+            'data_class' => Dnd35Sorts::class,
         ]);
     }
 }

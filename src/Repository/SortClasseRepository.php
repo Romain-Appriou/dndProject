@@ -39,6 +39,13 @@ class SortClasseRepository extends ServiceEntityRepository
         }
     }
 
+//     SELECT `dnd35_sortclasse`.*, `dnd35_sorts`.`nom`, `classes`.`nom` AS `nomDeClasse` 
+// FROM `dnd35_sortclasse`
+// RIGHT JOIN `dnd35_sorts` ON `dnd35_sortclasse`.`idSort` = `dnd35_sorts`.`id`
+// RIGHT JOIN `classes` ON `dnd35_sortclasse`.`idClasse` = `classes`.`id`
+// WHERE `classes`.`nom` = 'Barde'
+// AND `niveau` = 1
+
 //    /**
 //     * @return Dnd35Sortclasse[] Returns an array of Dnd35Sortclasse objects
 //     */

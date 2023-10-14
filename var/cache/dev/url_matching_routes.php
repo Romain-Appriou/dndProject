@@ -13,7 +13,7 @@ return [
         '/' => [[['_route' => 'app_home', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
         '/races' => [[['_route' => 'app_races_index', '_controller' => 'App\\Controller\\RacesController::index'], null, ['GET' => 0], null, true, false, null]],
         '/races/new' => [[['_route' => 'app_races_new', '_controller' => 'App\\Controller\\RacesController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
-        '/sorts' => [[['_route' => 'app_sorts_index', '_controller' => 'App\\Controller\\SortsController::index'], null, ['GET' => 0], null, true, false, null]],
+        '/sorts' => [[['_route' => 'app_sorts_index', '_controller' => 'App\\Controller\\SortsController::index'], null, ['GET' => 0, 'POST' => 1], null, true, false, null]],
         '/sorts/new' => [[['_route' => 'app_sorts_new', '_controller' => 'App\\Controller\\SortsController::new'], null, ['GET' => 0, 'POST' => 1], null, false, false, null]],
         '/_profiler' => [[['_route' => '_profiler_home', '_controller' => 'web_profiler.controller.profiler::homeAction'], null, null, null, true, false, null]],
         '/_profiler/search' => [[['_route' => '_profiler_search', '_controller' => 'web_profiler.controller.profiler::searchAction'], null, null, null, false, false, null]],

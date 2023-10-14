@@ -6,7 +6,9 @@ use App\Entity\Dnd35Sortclasse;
 use App\Entity\Dnd35Sorts;
 use App\Form\Dnd35SortsType;
 use App\Form\SortPickerType;
+use App\Repository\ClassesRepository;
 use App\Repository\SortsRepository;
+use Doctrine\ORM\EntityManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -18,28 +20,33 @@ use Symfony\Component\Routing\Annotation\Route;
 class SortsController extends AbstractController
 {
     /**
-     * @Route("/", name="app_sorts_index", methods={"GET"})
+     * @Route("/", name="app_sorts_index", methods={"GET", "POST"})
      */
-    public function index(Request $request, SortsRepository $sortsRepository): Response
+    public function index(ClassesRepository $classesRepository, Request $request, SortsRepository $sortsRepository): Response
     {
         $sorts = $sortsRepository->findBy([], ['nom' => 'ASC']);
+        $classes = $classesRepository->findBy([], ['nom' => 'ASC']);     
+              
+        if(isset($_POST['sortsFilterClass']) && isset($_POST['sortsFilterLvl'])) {
+           $classe = $_POST['sortsFilterClass'];
+           $level = $_POST['sortsFilterLvl'];
 
-        $pickerForm = $this->createForm(SortPickerType::class);
-        $pickerForm->handleRequest($request);
+           
 
-        if($pickerForm->isSubmitted() && $pickerForm ->isValid()) {
-            
-            $data = $pickerForm->getData();
-            $classeId = $data['idclasse'];
-            $niveau = $data['niveau']; 
-            
-            
+           $filteredSorts = $sortsRepository->findByClassAndLevelField($classe, $level);
+
+           
+
+           return $this->render('sorts/index.html.twig', [
+               'dnd35_sorts' => $filteredSorts,
+               'classes' => $classes,
+           ]);
 
         }
 
-        return $this->renderForm('sorts/index.html.twig', [
+        return $this->render('sorts/index.html.twig', [
             'dnd35_sorts' => $sorts,
-            'pickerForm' => $pickerForm,
+            'classes' => $classes,
         ]);
     }
 

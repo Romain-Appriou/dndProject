@@ -39,28 +39,39 @@ class SortsRepository extends ServiceEntityRepository
         }
     }
 
-//    /**
-//     * @return Dnd35Sorts[] Returns an array of Dnd35Sorts objects
-//     */
-//    public function findByExampleField($value): array
-//    {
-//        return $this->createQueryBuilder('d')
-//            ->andWhere('d.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->orderBy('d.id', 'ASC')
-//            ->setMaxResults(10)
-//            ->getQuery()
-//            ->getResult()
-//        ;
-//    }
+    /**
+     * @return Dnd35Sorts[] Returns an array of Dnd35Sorts objects
+     */
+    public function findByClassAndLevelField($classe, $level): array
+    {
+        $conn = $this->getEntityManager()->getConnection();
+    
+       $sql = '
+       SELECT `dnd35_sorts`.* FROM `dnd35_sortclasse`
+       JOIN `dnd35_sorts` ON `dnd35_sortclasse`.`idSort` = `dnd35_sorts`.`id`
+       WHERE `idClasse` = ' . $classe . '
+       AND `niveau` = ' . $level . '
+       ORDER BY nom ASC' ;
 
-//    public function findOneBySomeField($value): ?Dnd35Sorts
-//    {
-//        return $this->createQueryBuilder('d')
-//            ->andWhere('d.exampleField = :val')
-//            ->setParameter('val', $value)
-//            ->getQuery()
-//            ->getOneOrNullResult()
-//        ;
-//    }
+        $stmt = $conn->executeQuery($sql);
+
+        $sortsArray = $stmt->fetchAllAssociative(); 
+
+        $sorts = [];
+        foreach($sortsArray as $sort) {
+            $sort = $this->find($sort['id']);
+            $sorts[] = $sort;
+        }
+
+        return $sorts;
+    }
+    public function findOneBySomeField($value): ?Dnd35Sorts
+    {
+        return $this->createQueryBuilder('d')
+            ->andWhere('d.exampleField = :val')
+            ->setParameter('val', $value)
+            ->getQuery()
+            ->getOneOrNullResult()
+        ;
+    }
 }
