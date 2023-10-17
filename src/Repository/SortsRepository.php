@@ -65,13 +65,92 @@ class SortsRepository extends ServiceEntityRepository
 
         return $sorts;
     }
-    public function findOneBySomeField($value): ?Dnd35Sorts
+
+     /**
+     * @return Dnd35Sorts[] Returns an array of Dnd35Sorts objects
+     */
+    public function findByClassField($classe): array
     {
-        return $this->createQueryBuilder('d')
-            ->andWhere('d.exampleField = :val')
-            ->setParameter('val', $value)
-            ->getQuery()
-            ->getOneOrNullResult()
-        ;
+        $conn = $this->getEntityManager()->getConnection();
+    
+       $sql = '
+       SELECT `dnd35_sorts`.* FROM `dnd35_sortclasse`
+       JOIN `dnd35_sorts` ON `dnd35_sortclasse`.`idSort` = `dnd35_sorts`.`id`
+       WHERE `idClasse` = ' . $classe . '
+       ORDER BY nom ASC' ;
+
+        $stmt = $conn->executeQuery($sql);
+
+        $sortsArray = $stmt->fetchAllAssociative(); 
+
+        $sorts = [];
+        foreach($sortsArray as $sort) {
+            $sort = $this->find($sort['id']);
+            $sorts[] = $sort;
+        }
+
+        return $sorts;
     }
+
+     /**
+     * @return Dnd35Sorts[] Returns an array of Dnd35Sorts objects
+     */
+    public function findByLevelField($level): array
+    {
+        $conn = $this->getEntityManager()->getConnection();
+    
+       $sql = '
+       SELECT `dnd35_sorts`.* FROM `dnd35_sortclasse`
+       JOIN `dnd35_sorts` ON `dnd35_sortclasse`.`idSort` = `dnd35_sorts`.`id`
+       WHERE `niveau` = ' . $level . '
+       ORDER BY nom ASC' ;
+
+        $stmt = $conn->executeQuery($sql);
+
+        $sortsArray = $stmt->fetchAllAssociative(); 
+
+        $sorts = [];
+        foreach($sortsArray as $sort) {
+            $sort = $this->find($sort['id']);
+            $sorts[] = $sort;
+        }
+
+        return $sorts;
+    }
+
+    /**
+     * @return Dnd35Sorts[] Returns an array of Dnd35Sorts objects
+     */
+    public function findByNameField($string): array
+    {
+        $conn = $this->getEntityManager()->getConnection();
+    
+        $sql = 'SELECT `dnd35_sorts`.*
+        FROM `dnd35_sortclasse`
+        JOIN `dnd35_sorts` ON `dnd35_sortclasse`.`idSort` = `dnd35_sorts`.`id`
+        WHERE `nom` LIKE CONCAT(\'%\', :string, \'%\')
+        ORDER BY nom ASC';
+ 
+        $sortname = $string;
+       
+        $sortsArray = $conn->executeQuery($sql, ['string' => $sortname])->fetchAllAssociative();
+
+        $sorts = [];
+        foreach($sortsArray as $sort) {
+            $sort = $this->find($sort['id']);
+            $sorts[] = $sort;
+        }
+
+        return $sorts;
+    }
+
+    // public function findOneBySomeField($value): ?Dnd35Sorts
+    // {
+    //     return $this->createQueryBuilder('d')
+    //         ->andWhere('d.exampleField = :val')
+    //         ->setParameter('val', $value)
+    //         ->getQuery()
+    //         ->getOneOrNullResult()
+    //     ;
+    // }
 }

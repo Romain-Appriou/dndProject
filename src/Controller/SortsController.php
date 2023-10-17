@@ -27,21 +27,47 @@ class SortsController extends AbstractController
         $sorts = $sortsRepository->findBy([], ['nom' => 'ASC']);
         $classes = $classesRepository->findBy([], ['nom' => 'ASC']);     
               
-        if(isset($_POST['sortsFilterClass']) && isset($_POST['sortsFilterLvl'])) {
+        if(isset($_POST['sortsFilterClass']) && $_POST['sortsFilterClass'] > 0 && isset($_POST['sortsFilterLvl']) && $_POST['sortsFilterLvl'] > 0) {
            $classe = $_POST['sortsFilterClass'];
            $level = $_POST['sortsFilterLvl'];
 
-           
-
            $filteredSorts = $sortsRepository->findByClassAndLevelField($classe, $level);
-
-           
 
            return $this->render('sorts/index.html.twig', [
                'dnd35_sorts' => $filteredSorts,
                'classes' => $classes,
            ]);
 
+        } elseif(isset($_POST['sortsFilterClass']) && $_POST['sortsFilterClass'] > 0) {
+            $classe = $_POST['sortsFilterClass'];
+
+            $filteredSorts = $sortsRepository->findByClassField($classe);
+
+            return $this->render('sorts/index.html.twig', [
+                'dnd35_sorts' => $filteredSorts,
+                'classes' => $classes,
+            ]);
+
+        } elseif(isset($_POST['sortsFilterLvl']) && $_POST['sortsFilterLvl'] > 0) {
+            $level = $_POST['sortsFilterLvl'];
+
+            $filteredSorts = $sortsRepository->findByLevelField($level);
+
+            return $this->render('sorts/index.html.twig', [
+                'dnd35_sorts' => $filteredSorts,
+                'classes' => $classes,
+            ]);
+
+        } elseif(isset($_POST['sortsFilterName'])) {
+            $name = $_POST['sortsFilterName'];
+
+            $filteredSorts = $sortsRepository->findByNameField($name);
+
+            return $this->render('sorts/index.html.twig', [
+                'dnd35_sorts' => $filteredSorts,
+                'classes' => $classes,
+            ]);
+            
         }
 
         return $this->render('sorts/index.html.twig', [

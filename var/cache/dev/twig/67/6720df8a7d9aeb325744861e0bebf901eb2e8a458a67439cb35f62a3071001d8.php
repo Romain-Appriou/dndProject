@@ -67,6 +67,7 @@ class __TwigTemplate_ff0cd268d99e1a7fc1a30551f8766c7242f9d0dc223957c870163bd54a5
 
         echo " ";
         $this->loadTemplate("header.html.twig", "races/index.html.twig", 3)->display($context);
+        echo " ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
 
@@ -153,14 +154,14 @@ class __TwigTemplate_ff0cd268d99e1a7fc1a30551f8766c7242f9d0dc223957c870163bd54a5
 
     public function getDebugInfo()
     {
-        return array (  133 => 28,  128 => 25,  119 => 21,  108 => 17,  105 => 16,  100 => 15,  89 => 6,  79 => 5,  59 => 3,  36 => 1,);
+        return array (  134 => 28,  129 => 25,  120 => 21,  109 => 17,  106 => 16,  101 => 15,  90 => 6,  80 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block nav %} {% include \"header.html.twig\" %}{% endblock %}
+{% block nav %} {% include \"header.html.twig\" %} {% endblock %}
 
 {% block body %}
     <h1>Liste des races</h1>

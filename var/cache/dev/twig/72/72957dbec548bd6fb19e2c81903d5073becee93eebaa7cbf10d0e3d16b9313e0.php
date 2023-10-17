@@ -88,33 +88,37 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
 
         // line 6
         echo "    <h1>Liste des sorts</h1>
+
+    <!-- form de tri des sorts par level ou par classe -->
 <form action=\"\" method=\"post\">
     <select name=\"sortsFilterClass\" id=\"sortsFilterClass\">
+            <option value=\"0\">Choisissez une classe</option>
         ";
-        // line 9
+        // line 12
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["classes"]) || array_key_exists("classes", $context) ? $context["classes"] : (function () { throw new RuntimeError('Variable "classes" does not exist.', 9, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["classes"]) || array_key_exists("classes", $context) ? $context["classes"] : (function () { throw new RuntimeError('Variable "classes" does not exist.', 12, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["classe"]) {
-            // line 10
+            // line 13
             echo "            <option name=\"classe\" value=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["classe"], "id", [], "any", false, false, false, 10), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["classe"], "id", [], "any", false, false, false, 13), "html", null, true);
             echo "\">";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["classe"], "nom", [], "any", false, false, false, 10), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["classe"], "nom", [], "any", false, false, false, 13), "html", null, true);
             echo "</option>
         ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['classe'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 12
+        // line 15
         echo "    </select> 
     <select name=\"sortsFilterLvl\" id=\"sortsFilterLvl\">
+            <option value=\"0\">Choisissez un niveau</option>
         ";
-        // line 14
+        // line 18
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(range(1, 9));
         foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-            // line 15
+            // line 19
             echo "             <option name=\"lvl\" value=\"";
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "\">Niveau ";
@@ -125,10 +129,14 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 17
-        echo "    </select>    
+        // line 21
+        echo "    </select> 
+    <input type=\"text\" placeholder=\"Nom du sort\" name=\"sortsFilterName\">   
     <input type=\"submit\" value=\"Rechercher\">
+    
 </form>
+
+<!-- Liste des sorts -->
 
     <table class=\"table\">
         <thead>
@@ -148,76 +156,76 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
         <tbody>
 
 ";
-        // line 38
+        // line 46
         $context["counter"] = 1;
-        // line 39
+        // line 47
         echo "
         ";
-        // line 40
+        // line 48
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["dnd35_sorts"]) || array_key_exists("dnd35_sorts", $context) ? $context["dnd35_sorts"] : (function () { throw new RuntimeError('Variable "dnd35_sorts" does not exist.', 40, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["dnd35_sorts"]) || array_key_exists("dnd35_sorts", $context) ? $context["dnd35_sorts"] : (function () { throw new RuntimeError('Variable "dnd35_sorts" does not exist.', 48, $this->source); })()));
         $context['_iterated'] = false;
         foreach ($context['_seq'] as $context["_key"] => $context["dnd35_sort"]) {
-            // line 41
+            // line 49
             echo "            <tr>
                 <td>";
-            // line 42
-            echo twig_escape_filter($this->env, (isset($context["counter"]) || array_key_exists("counter", $context) ? $context["counter"] : (function () { throw new RuntimeError('Variable "counter" does not exist.', 42, $this->source); })()), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 43
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "nom", [], "any", false, false, false, 43), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 44
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "sauvegarde", [], "any", false, false, false, 44), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 45
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "tempsincantation", [], "any", false, false, false, 45), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 46
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "portee", [], "any", false, false, false, 46), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 47
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "effet", [], "any", false, false, false, 47), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 48
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "duree", [], "any", false, false, false, 48), "html", null, true);
-            echo "</td>
-                <td>";
-            // line 49
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "resistancemagie", [], "any", false, false, false, 49), "html", null, true);
-            echo "</td>
-                <td>";
             // line 50
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "cibles", [], "any", false, false, false, 50), "html", null, true);
+            echo twig_escape_filter($this->env, (isset($context["counter"]) || array_key_exists("counter", $context) ? $context["counter"] : (function () { throw new RuntimeError('Variable "counter" does not exist.', 50, $this->source); })()), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 51
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "nom", [], "any", false, false, false, 51), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 52
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "sauvegarde", [], "any", false, false, false, 52), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 53
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "tempsincantation", [], "any", false, false, false, 53), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 54
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "portee", [], "any", false, false, false, 54), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 55
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "effet", [], "any", false, false, false, 55), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 56
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "duree", [], "any", false, false, false, 56), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 57
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "resistancemagie", [], "any", false, false, false, 57), "html", null, true);
+            echo "</td>
+                <td>";
+            // line 58
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "cibles", [], "any", false, false, false, 58), "html", null, true);
             echo "</td>
                 <td>
                     <a href=\"";
-            // line 52
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_show", ["id" => twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "id", [], "any", false, false, false, 52)]), "html", null, true);
+            // line 60
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_show", ["id" => twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "id", [], "any", false, false, false, 60)]), "html", null, true);
             echo "\">show</a>
                     <a href=\"";
-            // line 53
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "id", [], "any", false, false, false, 53)]), "html", null, true);
+            // line 61
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_edit", ["id" => twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "id", [], "any", false, false, false, 61)]), "html", null, true);
             echo "\">edit</a>
                 </td>
             </tr>
 
             ";
-            // line 57
-            $context["counter"] = ((isset($context["counter"]) || array_key_exists("counter", $context) ? $context["counter"] : (function () { throw new RuntimeError('Variable "counter" does not exist.', 57, $this->source); })()) + 1);
-            // line 58
+            // line 65
+            $context["counter"] = ((isset($context["counter"]) || array_key_exists("counter", $context) ? $context["counter"] : (function () { throw new RuntimeError('Variable "counter" does not exist.', 65, $this->source); })()) + 1);
+            // line 66
             echo "            
         ";
             $context['_iterated'] = true;
         }
         if (!$context['_iterated']) {
-            // line 60
+            // line 68
             echo "            <tr>
                 <td colspan=\"14\">no records found</td>
             </tr>
@@ -226,12 +234,12 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['dnd35_sort'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 64
+        // line 72
         echo "        </tbody>
     </table>
 
     <a href=\"";
-        // line 67
+        // line 75
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_new");
         echo "\">Create new</a>
 ";
@@ -255,7 +263,7 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
 
     public function getDebugInfo()
     {
-        return array (  235 => 67,  230 => 64,  221 => 60,  215 => 58,  213 => 57,  206 => 53,  202 => 52,  197 => 50,  193 => 49,  189 => 48,  185 => 47,  181 => 46,  177 => 45,  173 => 44,  169 => 43,  165 => 42,  162 => 41,  157 => 40,  154 => 39,  152 => 38,  129 => 17,  118 => 15,  114 => 14,  110 => 12,  99 => 10,  95 => 9,  90 => 6,  80 => 5,  59 => 3,  36 => 1,);
+        return array (  243 => 75,  238 => 72,  229 => 68,  223 => 66,  221 => 65,  214 => 61,  210 => 60,  205 => 58,  201 => 57,  197 => 56,  193 => 55,  189 => 54,  185 => 53,  181 => 52,  177 => 51,  173 => 50,  170 => 49,  165 => 48,  162 => 47,  160 => 46,  133 => 21,  122 => 19,  118 => 18,  113 => 15,  102 => 13,  98 => 12,  90 => 6,  80 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -266,19 +274,27 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
 
 {% block body %}
     <h1>Liste des sorts</h1>
+
+    <!-- form de tri des sorts par level ou par classe -->
 <form action=\"\" method=\"post\">
     <select name=\"sortsFilterClass\" id=\"sortsFilterClass\">
+            <option value=\"0\">Choisissez une classe</option>
         {% for classe in classes %}
             <option name=\"classe\" value=\"{{ classe.id }}\">{{ classe.nom }}</option>
         {% endfor %}
     </select> 
     <select name=\"sortsFilterLvl\" id=\"sortsFilterLvl\">
+            <option value=\"0\">Choisissez un niveau</option>
         {% for i in 1..9 %}
              <option name=\"lvl\" value=\"{{ i }}\">Niveau {{ i }}</option>
         {% endfor %}
-    </select>    
+    </select> 
+    <input type=\"text\" placeholder=\"Nom du sort\" name=\"sortsFilterName\">   
     <input type=\"submit\" value=\"Rechercher\">
+    
 </form>
+
+<!-- Liste des sorts -->
 
     <table class=\"table\">
         <thead>

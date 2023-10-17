@@ -4,19 +4,27 @@
 
 {% block body %}
     <h1>Liste des sorts</h1>
+
+    <!-- form de tri des sorts par level ou par classe -->
 <form action="" method="post">
     <select name="sortsFilterClass" id="sortsFilterClass">
+            <option value="0">Choisissez une classe</option>
         {% for classe in classes %}
             <option name="classe" value="{{ classe.id }}">{{ classe.nom }}</option>
         {% endfor %}
     </select> 
     <select name="sortsFilterLvl" id="sortsFilterLvl">
+            <option value="0">Choisissez un niveau</option>
         {% for i in 1..9 %}
              <option name="lvl" value="{{ i }}">Niveau {{ i }}</option>
         {% endfor %}
-    </select>    
+    </select> 
+    <input type="text" placeholder="Nom du sort" name="sortsFilterName">   
     <input type="submit" value="Rechercher">
+    
 </form>
+
+<!-- Liste des sorts -->
 
     <table class="table">
         <thead>

@@ -174,17 +174,13 @@ class __TwigTemplate_a817d02595d96a73efe38986650f6fdf3bba20dcd8b04b4925a60f90cb3
     <a href=\"";
         // line 57
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_index");
-        echo "\">back to list</a>
+        echo "\"><button>Retour à la liste</button></a>
 
     <a href=\"";
         // line 59
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["dnd35_sort"]) || array_key_exists("dnd35_sort", $context) ? $context["dnd35_sort"] : (function () { throw new RuntimeError('Variable "dnd35_sort" does not exist.', 59, $this->source); })()), "id", [], "any", false, false, false, 59)]), "html", null, true);
-        echo "\">edit</a>
+        echo "\"><button>Modifier</button></a>
 
-    ";
-        // line 61
-        echo twig_include($this->env, $context, "sorts/_delete_form.html.twig");
-        echo "
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -206,7 +202,7 @@ class __TwigTemplate_a817d02595d96a73efe38986650f6fdf3bba20dcd8b04b4925a60f90cb3
 
     public function getDebugInfo()
     {
-        return array (  186 => 61,  181 => 59,  176 => 57,  168 => 52,  161 => 48,  154 => 44,  147 => 40,  140 => 36,  133 => 32,  126 => 28,  119 => 24,  112 => 20,  105 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  181 => 59,  176 => 57,  168 => 52,  161 => 48,  154 => 44,  147 => 40,  140 => 36,  133 => 32,  126 => 28,  119 => 24,  112 => 20,  105 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -267,11 +263,10 @@ class __TwigTemplate_a817d02595d96a73efe38986650f6fdf3bba20dcd8b04b4925a60f90cb3
         </tbody>
     </table>
 
-    <a href=\"{{ path('app_sorts_index') }}\">back to list</a>
+    <a href=\"{{ path('app_sorts_index') }}\"><button>Retour à la liste</button></a>
 
-    <a href=\"{{ path('app_sorts_edit', {'id': dnd35_sort.id}) }}\">edit</a>
+    <a href=\"{{ path('app_sorts_edit', {'id': dnd35_sort.id}) }}\"><button>Modifier</button></a>
 
-    {{ include('sorts/_delete_form.html.twig') }}
 {% endblock %}
 ", "sorts/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/sorts/show.html.twig");
     }
