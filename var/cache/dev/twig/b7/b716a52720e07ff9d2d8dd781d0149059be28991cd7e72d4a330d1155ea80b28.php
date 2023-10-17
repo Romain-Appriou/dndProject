@@ -169,10 +169,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_classes_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["class"]) || array_key_exists("class", $context) ? $context["class"] : (function () { throw new RuntimeError('Variable "class" does not exist.', 51, $this->source); })()), "id", [], "any", false, false, false, 51)]), "html", null, true);
         echo "\"><button>Modifier</button></a>
 
-    ";
-        // line 53
-        echo twig_include($this->env, $context, "classes/_delete_form.html.twig");
-        echo "
+   
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -194,7 +191,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
 
     public function getDebugInfo()
     {
-        return array (  174 => 53,  169 => 51,  164 => 49,  156 => 44,  149 => 40,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  169 => 51,  164 => 49,  156 => 44,  149 => 40,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -251,7 +248,7 @@ class __TwigTemplate_f27a2575c93d8ed3111da98d643a9bdf093d8d13359a6aa6e63b89f2cb8
 
     <a href=\"{{ path('app_classes_edit', {'id': class.id}) }}\"><button>Modifier</button></a>
 
-    {{ include('classes/_delete_form.html.twig') }}
+   
 {% endblock %}
 ", "classes/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/classes/show.html.twig");
     }

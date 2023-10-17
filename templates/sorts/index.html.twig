@@ -48,7 +48,7 @@
         {% for dnd35_sort in dnd35_sorts %}
             <tr>
                 <td>{{ counter }}</td>
-                <td>{{ dnd35_sort.nom }}</td>
+                <td><a href="{{ path('app_sorts_show', {'id': dnd35_sort.id}) }}"><button>{{ dnd35_sort.nom }}</button></a></td>
                 <td>{{ dnd35_sort.sauvegarde }}</td>
                 <td>{{ dnd35_sort.tempsincantation }}</td>
                 <td>{{ dnd35_sort.portee }}</td>

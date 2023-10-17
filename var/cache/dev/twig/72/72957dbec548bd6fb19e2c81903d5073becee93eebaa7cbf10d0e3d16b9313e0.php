@@ -172,10 +172,12 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
             // line 50
             echo twig_escape_filter($this->env, (isset($context["counter"]) || array_key_exists("counter", $context) ? $context["counter"] : (function () { throw new RuntimeError('Variable "counter" does not exist.', 50, $this->source); })()), "html", null, true);
             echo "</td>
-                <td>";
+                <td><a href=\"";
             // line 51
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_show", ["id" => twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "id", [], "any", false, false, false, 51)]), "html", null, true);
+            echo "\"><button>";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "nom", [], "any", false, false, false, 51), "html", null, true);
-            echo "</td>
+            echo "</button></a></td>
                 <td>";
             // line 52
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["dnd35_sort"], "sauvegarde", [], "any", false, false, false, 52), "html", null, true);
@@ -263,7 +265,7 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
 
     public function getDebugInfo()
     {
-        return array (  243 => 75,  238 => 72,  229 => 68,  223 => 66,  221 => 65,  214 => 61,  210 => 60,  205 => 58,  201 => 57,  197 => 56,  193 => 55,  189 => 54,  185 => 53,  181 => 52,  177 => 51,  173 => 50,  170 => 49,  165 => 48,  162 => 47,  160 => 46,  133 => 21,  122 => 19,  118 => 18,  113 => 15,  102 => 13,  98 => 12,  90 => 6,  80 => 5,  59 => 3,  36 => 1,);
+        return array (  245 => 75,  240 => 72,  231 => 68,  225 => 66,  223 => 65,  216 => 61,  212 => 60,  207 => 58,  203 => 57,  199 => 56,  195 => 55,  191 => 54,  187 => 53,  183 => 52,  177 => 51,  173 => 50,  170 => 49,  165 => 48,  162 => 47,  160 => 46,  133 => 21,  122 => 19,  118 => 18,  113 => 15,  102 => 13,  98 => 12,  90 => 6,  80 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -318,7 +320,7 @@ class __TwigTemplate_b96b0dfd697dbeab083ce99b38ecda080f801605f4e120cac0fd7586dd7
         {% for dnd35_sort in dnd35_sorts %}
             <tr>
                 <td>{{ counter }}</td>
-                <td>{{ dnd35_sort.nom }}</td>
+                <td><a href=\"{{ path('app_sorts_show', {'id': dnd35_sort.id}) }}\"><button>{{ dnd35_sort.nom }}</button></a></td>
                 <td>{{ dnd35_sort.sauvegarde }}</td>
                 <td>{{ dnd35_sort.tempsincantation }}</td>
                 <td>{{ dnd35_sort.portee }}</td>
