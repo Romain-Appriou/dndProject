@@ -229,7 +229,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
             </tr>
             <tr>
                 <th>Description</th>
-                <td ><pre style=\"text-wrap:wrap\">";
+                <td><pre style=\"text-wrap:wrap\">";
         // line 90
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 90, $this->source); })()), "description", [], "any", false, false, false, 90), "html", null, true);
         echo "</pre></td>
@@ -240,17 +240,13 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
     <a href=\"";
         // line 95
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_races_index");
-        echo "\">back to list</a>
+        echo "\"><button>Retour à la liste</button></a>
 
     <a href=\"";
         // line 97
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_races_edit", ["id" => twig_get_attribute($this->env, $this->source, (isset($context["dnd35_race"]) || array_key_exists("dnd35_race", $context) ? $context["dnd35_race"] : (function () { throw new RuntimeError('Variable "dnd35_race" does not exist.', 97, $this->source); })()), "id", [], "any", false, false, false, 97)]), "html", null, true);
-        echo "\">edit</a>
+        echo "\"><button>Modifier</button></a>
 
-    ";
-        // line 99
-        echo twig_include($this->env, $context, "races/_delete_form.html.twig");
-        echo "
 ";
         
         $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
@@ -272,7 +268,7 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
 
     public function getDebugInfo()
     {
-        return array (  252 => 99,  247 => 97,  242 => 95,  234 => 90,  227 => 86,  215 => 77,  211 => 76,  207 => 75,  203 => 74,  199 => 73,  195 => 72,  172 => 52,  165 => 48,  160 => 45,  154 => 42,  150 => 40,  148 => 39,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  247 => 97,  242 => 95,  234 => 90,  227 => 86,  215 => 77,  211 => 76,  207 => 75,  203 => 74,  199 => 73,  195 => 72,  172 => 52,  165 => 48,  160 => 45,  154 => 42,  150 => 40,  148 => 39,  142 => 36,  135 => 32,  128 => 28,  121 => 24,  114 => 20,  107 => 16,  98 => 12,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -366,16 +362,15 @@ class __TwigTemplate_fc7a1d2d7e5fb88893703befef1af7d64717b166edb226c696e1e240465
             </tr>
             <tr>
                 <th>Description</th>
-                <td ><pre style=\"text-wrap:wrap\">{{ dnd35_race.description }}</pre></td>
+                <td><pre style=\"text-wrap:wrap\">{{ dnd35_race.description }}</pre></td>
             </tr>
         </tbody>
     </table>
 
-    <a href=\"{{ path('app_races_index') }}\">back to list</a>
+    <a href=\"{{ path('app_races_index') }}\"><button>Retour à la liste</button></a>
 
-    <a href=\"{{ path('app_races_edit', {'id': dnd35_race.id}) }}\">edit</a>
+    <a href=\"{{ path('app_races_edit', {'id': dnd35_race.id}) }}\"><button>Modifier</button></a>
 
-    {{ include('races/_delete_form.html.twig') }}
 {% endblock %}
 
 ", "races/show.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/races/show.html.twig");
