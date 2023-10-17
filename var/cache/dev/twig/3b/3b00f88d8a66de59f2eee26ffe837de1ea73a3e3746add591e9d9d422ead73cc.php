@@ -57,6 +57,10 @@ class __TwigTemplate_6a31b625971ad0168bf6460df5742d1670e43d76199a0ab686d4b67a114
         // line 5
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_sorts_index");
         echo "\">Sorts</a>
+     <a href=\"";
+        // line 6
+        echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_dons_index");
+        echo "\">Dons</a>
 </nav>";
         
         $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
@@ -78,7 +82,7 @@ class __TwigTemplate_6a31b625971ad0168bf6460df5742d1670e43d76199a0ab686d4b67a114
 
     public function getDebugInfo()
     {
-        return array (  58 => 5,  54 => 4,  50 => 3,  46 => 2,  43 => 1,);
+        return array (  62 => 6,  58 => 5,  54 => 4,  50 => 3,  46 => 2,  43 => 1,);
     }
 
     public function getSourceContext()
@@ -88,6 +92,7 @@ class __TwigTemplate_6a31b625971ad0168bf6460df5742d1670e43d76199a0ab686d4b67a114
     <a href=\"{{ path('app_classes_index') }}\">Classes</a>
     <a href=\"{{ path('app_races_index') }}\">Races</a>
     <a href=\"{{ path('app_sorts_index') }}\">Sorts</a>
+     <a href=\"{{ path('app_dons_index') }}\">Dons</a>
 </nav>", "header.html.twig", "/Applications/MAMP/htdocs/dndProject/templates/header.html.twig");
     }
 }

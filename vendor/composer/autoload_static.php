@@ -606,9 +606,10 @@ class ComposerStaticInit96347be31b204e97d6d4fdac304d2873
     );
 
     public static $classMap = array (
+        'App\\Controller\\ClassesController' => __DIR__ . '/../..' . '/src/Controller/ClassesController.php',
         'App\\Controller\\HomeController' => __DIR__ . '/../..' . '/src/Controller/HomeController.php',
-        'App\\Controller\\ListController' => __DIR__ . '/../..' . '/src/Controller/ListController.php',
         'App\\Controller\\RacesController' => __DIR__ . '/../..' . '/src/Controller/RacesController.php',
+        'App\\Controller\\SortsController' => __DIR__ . '/../..' . '/src/Controller/SortsController.php',
         'App\\Entity\\Armes' => __DIR__ . '/../..' . '/src/Entity/Armes.php',
         'App\\Entity\\Classes' => __DIR__ . '/../..' . '/src/Entity/Classes.php',
         'App\\Entity\\Dnd35Age' => __DIR__ . '/../..' . '/src/Entity/Dnd35Age.php',
@@ -696,7 +697,10 @@ class ComposerStaticInit96347be31b204e97d6d4fdac304d2873
         'App\\Entity\\Dnd35Sortsecoles' => __DIR__ . '/../..' . '/src/Entity/Dnd35Sortsecoles.php',
         'App\\Entity\\Dnd35Taillepoids' => __DIR__ . '/../..' . '/src/Entity/Dnd35Taillepoids.php',
         'App\\Entity\\Dnd35Tresors' => __DIR__ . '/../..' . '/src/Entity/Dnd35Tresors.php',
+        'App\\Form\\ClassesType' => __DIR__ . '/../..' . '/src/Form/ClassesType.php',
         'App\\Form\\Dnd35RacesType' => __DIR__ . '/../..' . '/src/Form/Dnd35RacesType.php',
+        'App\\Form\\Dnd35SortsType' => __DIR__ . '/../..' . '/src/Form/Dnd35SortsType.php',
+        'App\\Form\\SortPickerType' => __DIR__ . '/../..' . '/src/Form/SortPickerType.php',
         'App\\Kernel' => __DIR__ . '/../..' . '/src/Kernel.php',
         'App\\Repository\\AgeRepository' => __DIR__ . '/../..' . '/src/Repository/AgeRepository.php',
         'App\\Repository\\AlignementsRepository' => __DIR__ . '/../..' . '/src/Repository/AlignementsRepository.php',

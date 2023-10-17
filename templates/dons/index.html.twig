@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dnd35Dons index{% endblock %}
+
+{% block body %}
+    <h1>Dnd35Dons index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Description</th>
+                <th>BBA requis</th>
+                <th>Force requise</th>
+                <th>Dextérité requise</th>
+                <th>Constitution requise</th>
+                <th>Intelligence requise</th>
+                <th>Sagesse requise</th>
+                <th>Charisme requis</th>
+                <th>Don supp Guerrier</th>
+                <th>Niveau lanceur de sort</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for dnd35_don in dnd35_dons %}
+            <tr>
+                <td style="border: black solid 1px">{{ dnd35_don.nom }}</td>
+                <td style="border: black solid 1px"><pre style="text-wrap:wrap">{{ dnd35_don.description }}</pre></td>
+                <td style="border: black solid 1px">{{ dnd35_don.bbaprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.forprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.dexprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.conprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.intprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.sagprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.chaprerequis }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.donsuppguerrier ? 'Oui' : 'Non' }}</td>
+                <td style="border: black solid 1px">{{ dnd35_don.niveaulanceursort }}</td>
+                <td style="border: black solid 1px">
+                    <a href="{{ path('app_dons_show', {'id': dnd35_don.id}) }}">Voir</a>
+                    <a href="{{ path('app_dons_edit', {'id': dnd35_don.id}) }}">Modifier</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="14">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_dons_new') }}">Create new</a>
+{% endblock %}

@@ -339,6 +339,13 @@
         <argument type="service" id=".service_locator.GNc8e5B.App\Controller\ClassesController"/>
       </call>
     </service>
+    <service id="App\Controller\DonsController" class="App\Controller\DonsController" public="true" autowire="true" autoconfigure="true">
+      <tag name="controller.service_arguments"/>
+      <tag name="container.service_subscriber"/>
+      <call method="setContainer">
+        <argument type="service" id=".service_locator.GNc8e5B.App\Controller\DonsController"/>
+      </call>
+    </service>
     <service id="App\Controller\HomeController" class="App\Controller\HomeController" public="true" autowire="true" autoconfigure="true">
       <tag name="controller.service_arguments"/>
       <tag name="container.service_subscriber"/>
@@ -361,6 +368,9 @@
       </call>
     </service>
     <service id="App\Form\ClassesType" class="App\Form\ClassesType" autowire="true" autoconfigure="true">
+      <tag name="form.type"/>
+    </service>
+    <service id="App\Form\Dnd35DonsType" class="App\Form\Dnd35DonsType" autowire="true" autoconfigure="true">
       <tag name="form.type"/>
     </service>
     <service id="App\Form\Dnd35RacesType" class="App\Form\Dnd35RacesType" autowire="true" autoconfigure="true">
@@ -1499,6 +1509,7 @@
       </argument>
       <argument type="collection">
         <argument>App\Form\ClassesType</argument>
+        <argument>App\Form\Dnd35DonsType</argument>
         <argument>App\Form\Dnd35RacesType</argument>
         <argument>App\Form\Dnd35SortsType</argument>
         <argument>App\Form\SortPickerType</argument>
@@ -3647,7 +3658,7 @@
       <argument type="service" id="form.registry"/>
     </service>
     <service id="form.extension" class="Symfony\Component\Form\Extension\DependencyInjection\DependencyInjectionExtension">
-      <argument type="service" id=".service_locator.nSCQFNO"/>
+      <argument type="service" id=".service_locator.2USgM8T"/>
       <argument type="collection">
         <argument key="Symfony\Component\Form\Extension\Core\Type\FormType" type="iterator">
           <argument type="service" id="form.type_extension.form.transformation_failure_handling"/>
@@ -6497,6 +6508,9 @@
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\ClassesController" class="App\Controller\ClassesController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\ClassesController" class="App\Controller\ClassesController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\ClassesController" class="App\Controller\ClassesController" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\DonsController" class="App\Controller\DonsController" autowire="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\DonsController" class="App\Controller\DonsController" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Controller\DonsController" class="App\Controller\DonsController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\HomeController" class="App\Controller\HomeController" autowire="true" autoconfigure="true" abstract="true"/>
@@ -6508,6 +6522,8 @@
     <service id=".abstract.instanceof.App\Controller\SortsController" class="App\Controller\SortsController" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\ClassesType" class="App\Form\ClassesType" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Form\ClassesType" class="App\Form\ClassesType" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\Dnd35DonsType" class="App\Form\Dnd35DonsType" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Form\Dnd35DonsType" class="App\Form\Dnd35DonsType" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\Dnd35RacesType" class="App\Form\Dnd35RacesType" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Form\Dnd35RacesType" class="App\Form\Dnd35RacesType" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Symfony\Component\Form\FormTypeInterface.0.App\Form\Dnd35SortsType" class="App\Form\Dnd35SortsType" autowire="true" abstract="true"/>
@@ -7029,6 +7045,25 @@
         <argument key="classesRepository" type="service_closure" id="App\Repository\ClassesRepository"/>
       </argument>
     </service>
+    <service id=".service_locator.vnO_0G7" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="donsRepository" type="service_closure" id="App\Repository\DonsRepository"/>
+      </argument>
+    </service>
+    <service id=".service_locator.joixzhu" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="dnd35Don" type="service_closure" id=".errored..service_locator.joixzhu.App\Entity\Dnd35Dons"/>
+      </argument>
+    </service>
+    <service id=".service_locator.D.IAsR6" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="dnd35Don" type="service_closure" id=".errored..service_locator.D.IAsR6.App\Entity\Dnd35Dons"/>
+        <argument key="donsRepository" type="service_closure" id="App\Repository\DonsRepository"/>
+      </argument>
+    </service>
     <service id=".service_locator.1lhwlKq" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
@@ -7075,7 +7110,7 @@
         <argument key="sortsRepository" type="service_closure" id="App\Repository\SortsRepository"/>
       </argument>
     </service>
-    <service id=".service_locator.SjvF5nn" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.yVvjmXM" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Controller\ClassesController::delete" type="service_closure" id=".service_locator.GEPnQmV"/>
@@ -7083,6 +7118,11 @@
         <argument key="App\Controller\ClassesController::index" type="service_closure" id=".service_locator.th3AHlh"/>
         <argument key="App\Controller\ClassesController::new" type="service_closure" id=".service_locator.th3AHlh"/>
         <argument key="App\Controller\ClassesController::show" type="service_closure" id=".service_locator.CQ79S7X"/>
+        <argument key="App\Controller\DonsController::delete" type="service_closure" id=".service_locator.D.IAsR6"/>
+        <argument key="App\Controller\DonsController::edit" type="service_closure" id=".service_locator.D.IAsR6"/>
+        <argument key="App\Controller\DonsController::index" type="service_closure" id=".service_locator.vnO_0G7"/>
+        <argument key="App\Controller\DonsController::new" type="service_closure" id=".service_locator.vnO_0G7"/>
+        <argument key="App\Controller\DonsController::show" type="service_closure" id=".service_locator.joixzhu"/>
         <argument key="App\Controller\HomeController::index" type="service_closure" id=".service_locator.1lhwlKq"/>
         <argument key="App\Controller\RacesController::delete" type="service_closure" id=".service_locator.En51Kqp"/>
         <argument key="App\Controller\RacesController::edit" type="service_closure" id=".service_locator.En51Kqp"/>
@@ -7103,6 +7143,11 @@
         <argument key="App\Controller\ClassesController:index" type="service_closure" id=".service_locator.th3AHlh"/>
         <argument key="App\Controller\ClassesController:new" type="service_closure" id=".service_locator.th3AHlh"/>
         <argument key="App\Controller\ClassesController:show" type="service_closure" id=".service_locator.CQ79S7X"/>
+        <argument key="App\Controller\DonsController:delete" type="service_closure" id=".service_locator.D.IAsR6"/>
+        <argument key="App\Controller\DonsController:edit" type="service_closure" id=".service_locator.D.IAsR6"/>
+        <argument key="App\Controller\DonsController:index" type="service_closure" id=".service_locator.vnO_0G7"/>
+        <argument key="App\Controller\DonsController:new" type="service_closure" id=".service_locator.vnO_0G7"/>
+        <argument key="App\Controller\DonsController:show" type="service_closure" id=".service_locator.joixzhu"/>
         <argument key="App\Controller\HomeController:index" type="service_closure" id=".service_locator.1lhwlKq"/>
         <argument key="App\Controller\RacesController:delete" type="service_closure" id=".service_locator.En51Kqp"/>
         <argument key="App\Controller\RacesController:edit" type="service_closure" id=".service_locator.En51Kqp"/>
@@ -7177,10 +7222,11 @@
       <argument type="service" id="debug.argument_resolver.not_tagged_controller.inner"/>
       <argument type="service" id="debug.stopwatch"/>
     </service>
-    <service id=".service_locator.nSCQFNO" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.2USgM8T" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Form\ClassesType" type="service_closure" id="App\Form\ClassesType"/>
+        <argument key="App\Form\Dnd35DonsType" type="service_closure" id="App\Form\Dnd35DonsType"/>
         <argument key="App\Form\Dnd35RacesType" type="service_closure" id="App\Form\Dnd35RacesType"/>
         <argument key="App\Form\Dnd35SortsType" type="service_closure" id="App\Form\Dnd35SortsType"/>
         <argument key="App\Form\SortPickerType" type="service_closure" id="App\Form\SortPickerType"/>
@@ -7633,6 +7679,12 @@
       <argument type="service" id="service_container"/>
       <factory service=".service_locator.GNc8e5B" method="withContext"/>
     </service>
+    <service id=".service_locator.GNc8e5B.App\Controller\DonsController" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator_context" id="App\Controller\DonsController"/>
+      <argument>App\Controller\DonsController</argument>
+      <argument type="service" id="service_container"/>
+      <factory service=".service_locator.GNc8e5B" method="withContext"/>
+    </service>
     <service id=".service_locator.GNc8e5B.App\Controller\HomeController" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator_context" id="App\Controller\HomeController"/>
       <argument>App\Controller\HomeController</argument>
@@ -7833,12 +7885,12 @@
       <argument type="service" id="security.token_storage"/>
     </service>
     <service id="debug.argument_resolver.service.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver">
-      <argument type="service" id=".service_locator.SjvF5nn"/>
+      <argument type="service" id=".service_locator.yVvjmXM"/>
     </service>
     <service id="debug.argument_resolver.default.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver"/>
     <service id="debug.argument_resolver.variadic.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver"/>
     <service id="debug.argument_resolver.not_tagged_controller.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\NotTaggedControllerValueResolver">
-      <argument type="service" id=".service_locator.SjvF5nn"/>
+      <argument type="service" id=".service_locator.yVvjmXM"/>
     </service>
     <service id="debug.traced.messenger.bus.default.inner" class="Symfony\Component\Messenger\MessageBus">
       <argument type="iterator">
@@ -7860,6 +7912,8 @@
     <service id=".errored..service_locator.KfbR3DY.Symfony\Component\Config\Loader\LoaderInterface" class="Symfony\Component\Config\Loader\LoaderInterface"/>
     <service id=".errored..service_locator.CQ79S7X.App\Entity\Classes" class="App\Entity\Classes"/>
     <service id=".errored..service_locator.GEPnQmV.App\Entity\Classes" class="App\Entity\Classes"/>
+    <service id=".errored..service_locator.joixzhu.App\Entity\Dnd35Dons" class="App\Entity\Dnd35Dons"/>
+    <service id=".errored..service_locator.D.IAsR6.App\Entity\Dnd35Dons" class="App\Entity\Dnd35Dons"/>
     <service id=".errored..service_locator.En51Kqp.App\Entity\Dnd35Races" class="App\Entity\Dnd35Races"/>
     <service id=".errored..service_locator.c2uCutV.App\Entity\Dnd35Sorts" class="App\Entity\Dnd35Sorts"/>
     <service id=".errored..service_locator.K6bU1Y0.App\Entity\Dnd35Sorts" class="App\Entity\Dnd35Sorts"/>
@@ -8799,7 +8853,7 @@
     <service id="sensio_framework_extra.security.expression_language" alias="sensio_framework_extra.security.expression_language.default"/>
     <service id="container.env_var_processors_locator" alias=".service_locator.gSv9zYw" public="true"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.SjvF5nn"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.yVvjmXM"/>
     <service id="session" alias=".session.do-not-use" public="true">
       <deprecated package="symfony/framework-bundle" version="5.3">The "%alias_id%" service and "SessionInterface" alias are deprecated, use "$requestStack-&gt;getSession()" instead.</deprecated>
     </service>
@@ -8823,9 +8877,9 @@
     <service id=".service_locator.80edgLI" alias="messenger.receiver_locator"/>
     <service id=".service_locator.h8Jkkd2" alias="messenger.retry_strategy_locator"/>
     <service id=".service_locator.0GV1BZZ" alias=".service_locator.gSv9zYw"/>
-    <service id=".service_locator.toSl6Ul" alias=".service_locator.SjvF5nn"/>
+    <service id=".service_locator.1UxOjAc" alias=".service_locator.yVvjmXM"/>
     <service id=".service_locator.wKF4yn1" alias=".service_locator.19_mNxd"/>
-    <service id=".service_locator.9FUO8sj" alias=".service_locator.nSCQFNO"/>
+    <service id=".service_locator.ItnMPL3" alias=".service_locator.2USgM8T"/>
     <service id=".service_locator.nk0lT0X" alias=".service_locator.1kmbKC8"/>
     <service id=".service_locator.O24_MAy" alias=".service_locator.yY.p4P7"/>
     <service id=".service_locator.W9y3dzm" alias=".service_locator.GNc8e5B"/>
@@ -8854,6 +8908,9 @@
     <service id=".service_locator.Z21ZKXu" alias=".service_locator.th3AHlh"/>
     <service id=".service_locator.dLnGI2A" alias=".service_locator.CQ79S7X"/>
     <service id=".service_locator.D.fqeay" alias=".service_locator.GEPnQmV"/>
+    <service id=".service_locator.egvEeLY" alias=".service_locator.vnO_0G7"/>
+    <service id=".service_locator.h1C4kV." alias=".service_locator.joixzhu"/>
+    <service id=".service_locator.pPFkcqJ" alias=".service_locator.D.IAsR6"/>
     <service id=".service_locator.e9nCIdu" alias=".service_locator.1lhwlKq"/>
     <service id=".service_locator.CUJ6gjx" alias=".service_locator.5Y4zUsP"/>
     <service id=".service_locator.WNYqGOf" alias=".service_locator.En51Kqp"/>

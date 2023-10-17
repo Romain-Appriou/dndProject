@@ -62,15 +62,47 @@ return [[
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%23addLink' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 0,
 '[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CAbstractController%24container' => 1,
+'App%5CController%5CClassesController' => 2,
+'[C]App%5CController%5CClassesController' => 1,
+'App%5CController%5CClassesController%23index' => 3,
+'[C]App%5CController%5CClassesController%23index' => 1,
+'App%5CController%5CClassesController%23new' => 4,
+'[C]App%5CController%5CClassesController%23new' => 1,
+'App%5CController%5CClassesController%23show' => 5,
+'[C]App%5CController%5CClassesController%23show' => 1,
+'App%5CController%5CClassesController%23edit' => 6,
+'[C]App%5CController%5CClassesController%23edit' => 1,
+'App%5CController%5CClassesController%23delete' => 7,
+'[C]App%5CController%5CClassesController%23delete' => 1,
 'App%5CController%5CHomeController' => 0,
 '[C]App%5CController%5CHomeController' => 1,
-'App%5CController%5CHomeController%23index' => 2,
+'App%5CController%5CHomeController%23index' => 8,
 '[C]App%5CController%5CHomeController%23index' => 1,
-'App%5CController%5CListController' => 0,
-'[C]App%5CController%5CListController' => 1,
-'App%5CController%5CListController%23index' => 3,
-'[C]App%5CController%5CListController%23index' => 1,
-'App%5CEntity%5CArmes' => 4,
+'App%5CController%5CRacesController' => 9,
+'[C]App%5CController%5CRacesController' => 1,
+'App%5CController%5CRacesController%23index' => 10,
+'[C]App%5CController%5CRacesController%23index' => 1,
+'App%5CController%5CRacesController%23new' => 11,
+'[C]App%5CController%5CRacesController%23new' => 1,
+'App%5CController%5CRacesController%23show' => 12,
+'[C]App%5CController%5CRacesController%23show' => 1,
+'App%5CController%5CRacesController%23edit' => 13,
+'[C]App%5CController%5CRacesController%23edit' => 1,
+'App%5CController%5CRacesController%23delete' => 14,
+'[C]App%5CController%5CRacesController%23delete' => 1,
+'App%5CController%5CSortsController' => 15,
+'[C]App%5CController%5CSortsController' => 1,
+'App%5CController%5CSortsController%23index' => 16,
+'[C]App%5CController%5CSortsController%23index' => 1,
+'App%5CController%5CSortsController%23new' => 17,
+'[C]App%5CController%5CSortsController%23new' => 1,
+'App%5CController%5CSortsController%23show' => 18,
+'[C]App%5CController%5CSortsController%23show' => 1,
+'App%5CController%5CSortsController%23edit' => 19,
+'[C]App%5CController%5CSortsController%23edit' => 1,
+'App%5CController%5CSortsController%23delete' => 20,
+'[C]App%5CController%5CSortsController%23delete' => 1,
+'App%5CEntity%5CArmes' => 21,
 '[C]App%5CEntity%5CArmes' => 1,
 'App%5CEntity%5CArmes%23getId' => 0,
 '[C]App%5CEntity%5CArmes%23getId' => 1,
@@ -118,31 +150,31 @@ return [[
 '[C]App%5CEntity%5CArmes%23getForcemin' => 1,
 'App%5CEntity%5CArmes%23setForcemin' => 0,
 '[C]App%5CEntity%5CArmes%23setForcemin' => 1,
-'App%5CEntity%5CArmes%24id' => 5,
+'App%5CEntity%5CArmes%24id' => 22,
 '[C]App%5CEntity%5CArmes%24id' => 1,
-'App%5CEntity%5CArmes%24type' => 6,
+'App%5CEntity%5CArmes%24type' => 23,
 '[C]App%5CEntity%5CArmes%24type' => 1,
-'App%5CEntity%5CArmes%24soustype' => 7,
+'App%5CEntity%5CArmes%24soustype' => 24,
 '[C]App%5CEntity%5CArmes%24soustype' => 1,
-'App%5CEntity%5CArmes%24nom' => 8,
+'App%5CEntity%5CArmes%24nom' => 25,
 '[C]App%5CEntity%5CArmes%24nom' => 1,
-'App%5CEntity%5CArmes%24degatsp' => 9,
+'App%5CEntity%5CArmes%24degatsp' => 26,
 '[C]App%5CEntity%5CArmes%24degatsp' => 1,
-'App%5CEntity%5CArmes%24degatsm' => 10,
+'App%5CEntity%5CArmes%24degatsm' => 27,
 '[C]App%5CEntity%5CArmes%24degatsm' => 1,
-'App%5CEntity%5CArmes%24critique' => 11,
+'App%5CEntity%5CArmes%24critique' => 28,
 '[C]App%5CEntity%5CArmes%24critique' => 1,
-'App%5CEntity%5CArmes%24portee' => 12,
+'App%5CEntity%5CArmes%24portee' => 29,
 '[C]App%5CEntity%5CArmes%24portee' => 1,
-'App%5CEntity%5CArmes%24poids' => 13,
+'App%5CEntity%5CArmes%24poids' => 30,
 '[C]App%5CEntity%5CArmes%24poids' => 1,
-'App%5CEntity%5CArmes%24typedegats' => 14,
+'App%5CEntity%5CArmes%24typedegats' => 31,
 '[C]App%5CEntity%5CArmes%24typedegats' => 1,
-'App%5CEntity%5CArmes%24prix' => 15,
+'App%5CEntity%5CArmes%24prix' => 32,
 '[C]App%5CEntity%5CArmes%24prix' => 1,
-'App%5CEntity%5CArmes%24forcemin' => 16,
+'App%5CEntity%5CArmes%24forcemin' => 33,
 '[C]App%5CEntity%5CArmes%24forcemin' => 1,
-'App%5CEntity%5CClasses' => 17,
+'App%5CEntity%5CClasses' => 34,
 '[C]App%5CEntity%5CClasses' => 1,
 'App%5CEntity%5CClasses%23__construct' => 0,
 '[C]App%5CEntity%5CClasses%23__construct' => 1,
@@ -186,27 +218,27 @@ return [[
 '[C]App%5CEntity%5CClasses%23addClasseCapaciteSpeciale' => 1,
 'App%5CEntity%5CClasses%23removeClasseCapaciteSpeciale' => 0,
 '[C]App%5CEntity%5CClasses%23removeClasseCapaciteSpeciale' => 1,
-'App%5CEntity%5CClasses%24id' => 5,
+'App%5CEntity%5CClasses%24id' => 22,
 '[C]App%5CEntity%5CClasses%24id' => 1,
-'App%5CEntity%5CClasses%24nom' => 18,
+'App%5CEntity%5CClasses%24nom' => 35,
 '[C]App%5CEntity%5CClasses%24nom' => 1,
-'App%5CEntity%5CClasses%24dv' => 19,
+'App%5CEntity%5CClasses%24dv' => 36,
 '[C]App%5CEntity%5CClasses%24dv' => 1,
-'App%5CEntity%5CClasses%24pointscompetences' => 20,
+'App%5CEntity%5CClasses%24pointscompetences' => 37,
 '[C]App%5CEntity%5CClasses%24pointscompetences' => 1,
-'App%5CEntity%5CClasses%24caracteristiquelanceursort' => 21,
+'App%5CEntity%5CClasses%24caracteristiquelanceursort' => 38,
 '[C]App%5CEntity%5CClasses%24caracteristiquelanceursort' => 1,
-'App%5CEntity%5CClasses%24pominlvl1' => 22,
+'App%5CEntity%5CClasses%24pominlvl1' => 39,
 '[C]App%5CEntity%5CClasses%24pominlvl1' => 1,
-'App%5CEntity%5CClasses%24pomaxlvl1' => 23,
+'App%5CEntity%5CClasses%24pomaxlvl1' => 40,
 '[C]App%5CEntity%5CClasses%24pomaxlvl1' => 1,
-'App%5CEntity%5CClasses%24description' => 24,
+'App%5CEntity%5CClasses%24description' => 41,
 '[C]App%5CEntity%5CClasses%24description' => 1,
-'App%5CEntity%5CClasses%24typemagie' => 25,
+'App%5CEntity%5CClasses%24typemagie' => 42,
 '[C]App%5CEntity%5CClasses%24typemagie' => 1,
-'App%5CEntity%5CClasses%24ClasseCapaciteSpeciales' => 26,
+'App%5CEntity%5CClasses%24ClasseCapaciteSpeciales' => 43,
 '[C]App%5CEntity%5CClasses%24ClasseCapaciteSpeciales' => 1,
-'App%5CEntity%5CDnd35Age' => 27,
+'App%5CEntity%5CDnd35Age' => 44,
 '[C]App%5CEntity%5CDnd35Age' => 1,
 'App%5CEntity%5CDnd35Age%23__construct' => 0,
 '[C]App%5CEntity%5CDnd35Age%23__construct' => 1,
@@ -238,21 +270,21 @@ return [[
 '[C]App%5CEntity%5CDnd35Age%23addRace' => 1,
 'App%5CEntity%5CDnd35Age%23removeRace' => 0,
 '[C]App%5CEntity%5CDnd35Age%23removeRace' => 1,
-'App%5CEntity%5CDnd35Age%24id' => 5,
+'App%5CEntity%5CDnd35Age%24id' => 22,
 '[C]App%5CEntity%5CDnd35Age%24id' => 1,
-'App%5CEntity%5CDnd35Age%24ageadulte' => 28,
+'App%5CEntity%5CDnd35Age%24ageadulte' => 45,
 '[C]App%5CEntity%5CDnd35Age%24ageadulte' => 1,
-'App%5CEntity%5CDnd35Age%24agemur' => 29,
+'App%5CEntity%5CDnd35Age%24agemur' => 46,
 '[C]App%5CEntity%5CDnd35Age%24agemur' => 1,
-'App%5CEntity%5CDnd35Age%24agegrand' => 30,
+'App%5CEntity%5CDnd35Age%24agegrand' => 47,
 '[C]App%5CEntity%5CDnd35Age%24agegrand' => 1,
-'App%5CEntity%5CDnd35Age%24agevenerable' => 31,
+'App%5CEntity%5CDnd35Age%24agevenerable' => 48,
 '[C]App%5CEntity%5CDnd35Age%24agevenerable' => 1,
-'App%5CEntity%5CDnd35Age%24agemaximal' => 32,
+'App%5CEntity%5CDnd35Age%24agemaximal' => 49,
 '[C]App%5CEntity%5CDnd35Age%24agemaximal' => 1,
-'App%5CEntity%5CDnd35Age%24race' => 33,
+'App%5CEntity%5CDnd35Age%24race' => 50,
 '[C]App%5CEntity%5CDnd35Age%24race' => 1,
-'App%5CEntity%5CDnd35Alignements' => 34,
+'App%5CEntity%5CDnd35Alignements' => 51,
 '[C]App%5CEntity%5CDnd35Alignements' => 1,
 'App%5CEntity%5CDnd35Alignements%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Alignements%23getId' => 1,
@@ -268,15 +300,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Alignements%23getDescription' => 1,
 'App%5CEntity%5CDnd35Alignements%23setDescription' => 0,
 '[C]App%5CEntity%5CDnd35Alignements%23setDescription' => 1,
-'App%5CEntity%5CDnd35Alignements%24id' => 5,
+'App%5CEntity%5CDnd35Alignements%24id' => 22,
 '[C]App%5CEntity%5CDnd35Alignements%24id' => 1,
-'App%5CEntity%5CDnd35Alignements%24nom' => 18,
+'App%5CEntity%5CDnd35Alignements%24nom' => 35,
 '[C]App%5CEntity%5CDnd35Alignements%24nom' => 1,
-'App%5CEntity%5CDnd35Alignements%24diminutif' => 35,
+'App%5CEntity%5CDnd35Alignements%24diminutif' => 52,
 '[C]App%5CEntity%5CDnd35Alignements%24diminutif' => 1,
-'App%5CEntity%5CDnd35Alignements%24description' => 36,
+'App%5CEntity%5CDnd35Alignements%24description' => 53,
 '[C]App%5CEntity%5CDnd35Alignements%24description' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers' => 37,
+'App%5CEntity%5CDnd35Armuresboucliers' => 54,
 '[C]App%5CEntity%5CDnd35Armuresboucliers' => 1,
 'App%5CEntity%5CDnd35Armuresboucliers%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%23getId' => 1,
@@ -320,29 +352,29 @@ return [[
 '[C]App%5CEntity%5CDnd35Armuresboucliers%23getPoids' => 1,
 'App%5CEntity%5CDnd35Armuresboucliers%23setPoids' => 0,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%23setPoids' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24id' => 5,
+'App%5CEntity%5CDnd35Armuresboucliers%24id' => 22,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24id' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24nom' => 18,
+'App%5CEntity%5CDnd35Armuresboucliers%24nom' => 35,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24nom' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24type' => 6,
+'App%5CEntity%5CDnd35Armuresboucliers%24type' => 23,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24type' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24prix' => 38,
+'App%5CEntity%5CDnd35Armuresboucliers%24prix' => 55,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24prix' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24bonus' => 39,
+'App%5CEntity%5CDnd35Armuresboucliers%24bonus' => 56,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24bonus' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24dexmax' => 40,
+'App%5CEntity%5CDnd35Armuresboucliers%24dexmax' => 57,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24dexmax' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24malustests' => 41,
+'App%5CEntity%5CDnd35Armuresboucliers%24malustests' => 58,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24malustests' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24echecsorts' => 42,
+'App%5CEntity%5CDnd35Armuresboucliers%24echecsorts' => 59,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24echecsorts' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24vitesse9' => 43,
+'App%5CEntity%5CDnd35Armuresboucliers%24vitesse9' => 60,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24vitesse9' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24vitesse6' => 44,
+'App%5CEntity%5CDnd35Armuresboucliers%24vitesse6' => 61,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24vitesse6' => 1,
-'App%5CEntity%5CDnd35Armuresboucliers%24poids' => 45,
+'App%5CEntity%5CDnd35Armuresboucliers%24poids' => 62,
 '[C]App%5CEntity%5CDnd35Armuresboucliers%24poids' => 1,
-'App%5CEntity%5CDnd35Capacitesspeciales' => 46,
+'App%5CEntity%5CDnd35Capacitesspeciales' => 63,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales' => 1,
 'App%5CEntity%5CDnd35Capacitesspeciales%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%23getId' => 1,
@@ -358,15 +390,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%23getDnd35Classecapacitespeciale' => 1,
 'App%5CEntity%5CDnd35Capacitesspeciales%23setDnd35Classecapacitespeciale' => 0,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%23setDnd35Classecapacitespeciale' => 1,
-'App%5CEntity%5CDnd35Capacitesspeciales%24id' => 5,
+'App%5CEntity%5CDnd35Capacitesspeciales%24id' => 22,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%24id' => 1,
-'App%5CEntity%5CDnd35Capacitesspeciales%24nom' => 8,
+'App%5CEntity%5CDnd35Capacitesspeciales%24nom' => 25,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%24nom' => 1,
-'App%5CEntity%5CDnd35Capacitesspeciales%24description' => 36,
+'App%5CEntity%5CDnd35Capacitesspeciales%24description' => 53,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%24description' => 1,
-'App%5CEntity%5CDnd35Capacitesspeciales%24dnd35Classecapacitespeciale' => 47,
+'App%5CEntity%5CDnd35Capacitesspeciales%24dnd35Classecapacitespeciale' => 64,
 '[C]App%5CEntity%5CDnd35Capacitesspeciales%24dnd35Classecapacitespeciale' => 1,
-'App%5CEntity%5CDnd35Caracteristiques' => 48,
+'App%5CEntity%5CDnd35Caracteristiques' => 65,
 '[C]App%5CEntity%5CDnd35Caracteristiques' => 1,
 'App%5CEntity%5CDnd35Caracteristiques%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Caracteristiques%23getId' => 1,
@@ -378,13 +410,13 @@ return [[
 '[C]App%5CEntity%5CDnd35Caracteristiques%23getDiminutif' => 1,
 'App%5CEntity%5CDnd35Caracteristiques%23setDiminutif' => 0,
 '[C]App%5CEntity%5CDnd35Caracteristiques%23setDiminutif' => 1,
-'App%5CEntity%5CDnd35Caracteristiques%24id' => 5,
+'App%5CEntity%5CDnd35Caracteristiques%24id' => 22,
 '[C]App%5CEntity%5CDnd35Caracteristiques%24id' => 1,
-'App%5CEntity%5CDnd35Caracteristiques%24nom' => 18,
+'App%5CEntity%5CDnd35Caracteristiques%24nom' => 35,
 '[C]App%5CEntity%5CDnd35Caracteristiques%24nom' => 1,
-'App%5CEntity%5CDnd35Caracteristiques%24diminutif' => 49,
+'App%5CEntity%5CDnd35Caracteristiques%24diminutif' => 66,
 '[C]App%5CEntity%5CDnd35Caracteristiques%24diminutif' => 1,
-'App%5CEntity%5CDnd35Charge' => 50,
+'App%5CEntity%5CDnd35Charge' => 67,
 '[C]App%5CEntity%5CDnd35Charge' => 1,
 'App%5CEntity%5CDnd35Charge%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Charge%23getId' => 1,
@@ -404,17 +436,17 @@ return [[
 '[C]App%5CEntity%5CDnd35Charge%23getLourdemax' => 1,
 'App%5CEntity%5CDnd35Charge%23setLourdemax' => 0,
 '[C]App%5CEntity%5CDnd35Charge%23setLourdemax' => 1,
-'App%5CEntity%5CDnd35Charge%24id' => 5,
+'App%5CEntity%5CDnd35Charge%24id' => 22,
 '[C]App%5CEntity%5CDnd35Charge%24id' => 1,
-'App%5CEntity%5CDnd35Charge%24force' => 51,
+'App%5CEntity%5CDnd35Charge%24force' => 68,
 '[C]App%5CEntity%5CDnd35Charge%24force' => 1,
-'App%5CEntity%5CDnd35Charge%24legeremax' => 52,
+'App%5CEntity%5CDnd35Charge%24legeremax' => 69,
 '[C]App%5CEntity%5CDnd35Charge%24legeremax' => 1,
-'App%5CEntity%5CDnd35Charge%24intermediairemax' => 53,
+'App%5CEntity%5CDnd35Charge%24intermediairemax' => 70,
 '[C]App%5CEntity%5CDnd35Charge%24intermediairemax' => 1,
-'App%5CEntity%5CDnd35Charge%24lourdemax' => 54,
+'App%5CEntity%5CDnd35Charge%24lourdemax' => 71,
 '[C]App%5CEntity%5CDnd35Charge%24lourdemax' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale' => 55,
+'App%5CEntity%5CDnd35Classecapacitespeciale' => 72,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale' => 1,
 'App%5CEntity%5CDnd35Classecapacitespeciale%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%23getId' => 1,
@@ -434,17 +466,17 @@ return [[
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%23getIdCapacite' => 1,
 'App%5CEntity%5CDnd35Classecapacitespeciale%23setIdCapacite' => 0,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%23setIdCapacite' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale%24id' => 5,
+'App%5CEntity%5CDnd35Classecapacitespeciale%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%24id' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale%24niveau' => 56,
+'App%5CEntity%5CDnd35Classecapacitespeciale%24niveau' => 73,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%24niveau' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale%24precision' => 57,
+'App%5CEntity%5CDnd35Classecapacitespeciale%24precision' => 74,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%24precision' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale%24idClass' => 58,
+'App%5CEntity%5CDnd35Classecapacitespeciale%24idClass' => 75,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%24idClass' => 1,
-'App%5CEntity%5CDnd35Classecapacitespeciale%24idCapacite' => 59,
+'App%5CEntity%5CDnd35Classecapacitespeciale%24idCapacite' => 76,
 '[C]App%5CEntity%5CDnd35Classecapacitespeciale%24idCapacite' => 1,
-'App%5CEntity%5CDnd35Classecompetence' => 60,
+'App%5CEntity%5CDnd35Classecompetence' => 77,
 '[C]App%5CEntity%5CDnd35Classecompetence' => 1,
 'App%5CEntity%5CDnd35Classecompetence%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classecompetence%23getId' => 1,
@@ -460,15 +492,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Classecompetence%23isIscc' => 1,
 'App%5CEntity%5CDnd35Classecompetence%23setIscc' => 0,
 '[C]App%5CEntity%5CDnd35Classecompetence%23setIscc' => 1,
-'App%5CEntity%5CDnd35Classecompetence%24id' => 5,
+'App%5CEntity%5CDnd35Classecompetence%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classecompetence%24id' => 1,
-'App%5CEntity%5CDnd35Classecompetence%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classecompetence%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classecompetence%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classecompetence%24idcompetence' => 62,
+'App%5CEntity%5CDnd35Classecompetence%24idcompetence' => 79,
 '[C]App%5CEntity%5CDnd35Classecompetence%24idcompetence' => 1,
-'App%5CEntity%5CDnd35Classecompetence%24iscc' => 63,
+'App%5CEntity%5CDnd35Classecompetence%24iscc' => 80,
 '[C]App%5CEntity%5CDnd35Classecompetence%24iscc' => 1,
-'App%5CEntity%5CDnd35Classedieu' => 64,
+'App%5CEntity%5CDnd35Classedieu' => 81,
 '[C]App%5CEntity%5CDnd35Classedieu' => 1,
 'App%5CEntity%5CDnd35Classedieu%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classedieu%23getId' => 1,
@@ -480,13 +512,13 @@ return [[
 '[C]App%5CEntity%5CDnd35Classedieu%23getIddieu' => 1,
 'App%5CEntity%5CDnd35Classedieu%23setIddieu' => 0,
 '[C]App%5CEntity%5CDnd35Classedieu%23setIddieu' => 1,
-'App%5CEntity%5CDnd35Classedieu%24id' => 5,
+'App%5CEntity%5CDnd35Classedieu%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classedieu%24id' => 1,
-'App%5CEntity%5CDnd35Classedieu%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classedieu%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classedieu%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classedieu%24iddieu' => 65,
+'App%5CEntity%5CDnd35Classedieu%24iddieu' => 82,
 '[C]App%5CEntity%5CDnd35Classedieu%24iddieu' => 1,
-'App%5CEntity%5CDnd35Classedon' => 66,
+'App%5CEntity%5CDnd35Classedon' => 83,
 '[C]App%5CEntity%5CDnd35Classedon' => 1,
 'App%5CEntity%5CDnd35Classedon%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classedon%23getId' => 1,
@@ -502,15 +534,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Classedon%23getLevel' => 1,
 'App%5CEntity%5CDnd35Classedon%23setLevel' => 0,
 '[C]App%5CEntity%5CDnd35Classedon%23setLevel' => 1,
-'App%5CEntity%5CDnd35Classedon%24id' => 5,
+'App%5CEntity%5CDnd35Classedon%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classedon%24id' => 1,
-'App%5CEntity%5CDnd35Classedon%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classedon%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classedon%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classedon%24iddon' => 67,
+'App%5CEntity%5CDnd35Classedon%24iddon' => 84,
 '[C]App%5CEntity%5CDnd35Classedon%24iddon' => 1,
-'App%5CEntity%5CDnd35Classedon%24level' => 68,
+'App%5CEntity%5CDnd35Classedon%24level' => 85,
 '[C]App%5CEntity%5CDnd35Classedon%24level' => 1,
-'App%5CEntity%5CDnd35Classeleveling' => 69,
+'App%5CEntity%5CDnd35Classeleveling' => 86,
 '[C]App%5CEntity%5CDnd35Classeleveling' => 1,
 'App%5CEntity%5CDnd35Classeleveling%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classeleveling%23getId' => 1,
@@ -650,77 +682,77 @@ return [[
 '[C]App%5CEntity%5CDnd35Classeleveling%23getSortlvl9' => 1,
 'App%5CEntity%5CDnd35Classeleveling%23setSortlvl9' => 0,
 '[C]App%5CEntity%5CDnd35Classeleveling%23setSortlvl9' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24id' => 5,
+'App%5CEntity%5CDnd35Classeleveling%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classeleveling%24id' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classeleveling%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classeleveling%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24niveau' => 56,
+'App%5CEntity%5CDnd35Classeleveling%24niveau' => 73,
 '[C]App%5CEntity%5CDnd35Classeleveling%24niveau' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24bba' => 70,
+'App%5CEntity%5CDnd35Classeleveling%24bba' => 87,
 '[C]App%5CEntity%5CDnd35Classeleveling%24bba' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24reflexes' => 71,
+'App%5CEntity%5CDnd35Classeleveling%24reflexes' => 88,
 '[C]App%5CEntity%5CDnd35Classeleveling%24reflexes' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24vigueur' => 72,
+'App%5CEntity%5CDnd35Classeleveling%24vigueur' => 89,
 '[C]App%5CEntity%5CDnd35Classeleveling%24vigueur' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24volonte' => 73,
+'App%5CEntity%5CDnd35Classeleveling%24volonte' => 90,
 '[C]App%5CEntity%5CDnd35Classeleveling%24volonte' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24special' => 74,
+'App%5CEntity%5CDnd35Classeleveling%24special' => 91,
 '[C]App%5CEntity%5CDnd35Classeleveling%24special' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24donsupp' => 75,
+'App%5CEntity%5CDnd35Classeleveling%24donsupp' => 92,
 '[C]App%5CEntity%5CDnd35Classeleveling%24donsupp' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24donsuppguerrier' => 76,
+'App%5CEntity%5CDnd35Classeleveling%24donsuppguerrier' => 93,
 '[C]App%5CEntity%5CDnd35Classeleveling%24donsuppguerrier' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24delugecoups' => 77,
+'App%5CEntity%5CDnd35Classeleveling%24delugecoups' => 94,
 '[C]App%5CEntity%5CDnd35Classeleveling%24delugecoups' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesp' => 78,
+'App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesp' => 95,
 '[C]App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesp' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesm' => 79,
+'App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesm' => 96,
 '[C]App%5CEntity%5CDnd35Classeleveling%24degatsmainsnuesm' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24bonusca' => 80,
+'App%5CEntity%5CDnd35Classeleveling%24bonusca' => 97,
 '[C]App%5CEntity%5CDnd35Classeleveling%24bonusca' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24deplacementaccelere' => 81,
+'App%5CEntity%5CDnd35Classeleveling%24deplacementaccelere' => 98,
 '[C]App%5CEntity%5CDnd35Classeleveling%24deplacementaccelere' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl0' => 82,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl0' => 99,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl0' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl1' => 83,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl1' => 100,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl1' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl2' => 84,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl2' => 101,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl2' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl3' => 85,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl3' => 102,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl3' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl4' => 86,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl4' => 103,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl4' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl5' => 87,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl5' => 104,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl5' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl6' => 88,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl6' => 105,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl6' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl7' => 89,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl7' => 106,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl7' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl8' => 90,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl8' => 107,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl8' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl9' => 91,
+'App%5CEntity%5CDnd35Classeleveling%24sortconnulvl9' => 108,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortconnulvl9' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl0' => 92,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl0' => 109,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl0' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl1' => 93,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl1' => 110,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl1' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl2' => 94,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl2' => 111,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl2' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl3' => 95,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl3' => 112,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl3' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl4' => 96,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl4' => 113,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl4' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl5' => 97,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl5' => 114,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl5' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl6' => 98,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl6' => 115,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl6' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl7' => 99,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl7' => 116,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl7' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl8' => 100,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl8' => 117,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl8' => 1,
-'App%5CEntity%5CDnd35Classeleveling%24sortlvl9' => 101,
+'App%5CEntity%5CDnd35Classeleveling%24sortlvl9' => 118,
 '[C]App%5CEntity%5CDnd35Classeleveling%24sortlvl9' => 1,
-'App%5CEntity%5CDnd35Classepredilection' => 102,
+'App%5CEntity%5CDnd35Classepredilection' => 119,
 '[C]App%5CEntity%5CDnd35Classepredilection' => 1,
 'App%5CEntity%5CDnd35Classepredilection%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classepredilection%23getId' => 1,
@@ -736,15 +768,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Classepredilection%23isSpecial' => 1,
 'App%5CEntity%5CDnd35Classepredilection%23setSpecial' => 0,
 '[C]App%5CEntity%5CDnd35Classepredilection%23setSpecial' => 1,
-'App%5CEntity%5CDnd35Classepredilection%24id' => 5,
+'App%5CEntity%5CDnd35Classepredilection%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classepredilection%24id' => 1,
-'App%5CEntity%5CDnd35Classepredilection%24idrace' => 103,
+'App%5CEntity%5CDnd35Classepredilection%24idrace' => 120,
 '[C]App%5CEntity%5CDnd35Classepredilection%24idrace' => 1,
-'App%5CEntity%5CDnd35Classepredilection%24idclasse' => 104,
+'App%5CEntity%5CDnd35Classepredilection%24idclasse' => 121,
 '[C]App%5CEntity%5CDnd35Classepredilection%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classepredilection%24special' => 105,
+'App%5CEntity%5CDnd35Classepredilection%24special' => 122,
 '[C]App%5CEntity%5CDnd35Classepredilection%24special' => 1,
-'App%5CEntity%5CDnd35Classesalignements' => 106,
+'App%5CEntity%5CDnd35Classesalignements' => 123,
 '[C]App%5CEntity%5CDnd35Classesalignements' => 1,
 'App%5CEntity%5CDnd35Classesalignements%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesalignements%23getId' => 1,
@@ -756,13 +788,13 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesalignements%23getIdalignement' => 1,
 'App%5CEntity%5CDnd35Classesalignements%23setIdalignement' => 0,
 '[C]App%5CEntity%5CDnd35Classesalignements%23setIdalignement' => 1,
-'App%5CEntity%5CDnd35Classesalignements%24id' => 5,
+'App%5CEntity%5CDnd35Classesalignements%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesalignements%24id' => 1,
-'App%5CEntity%5CDnd35Classesalignements%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classesalignements%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classesalignements%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classesalignements%24idalignement' => 107,
+'App%5CEntity%5CDnd35Classesalignements%24idalignement' => 124,
 '[C]App%5CEntity%5CDnd35Classesalignements%24idalignement' => 1,
-'App%5CEntity%5CDnd35Classesprestige' => 108,
+'App%5CEntity%5CDnd35Classesprestige' => 125,
 '[C]App%5CEntity%5CDnd35Classesprestige' => 1,
 'App%5CEntity%5CDnd35Classesprestige%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestige%23getId' => 1,
@@ -794,23 +826,23 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesprestige%23getTypemagie' => 1,
 'App%5CEntity%5CDnd35Classesprestige%23setTypemagie' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestige%23setTypemagie' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24id' => 5,
+'App%5CEntity%5CDnd35Classesprestige%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesprestige%24id' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24nom' => 18,
+'App%5CEntity%5CDnd35Classesprestige%24nom' => 35,
 '[C]App%5CEntity%5CDnd35Classesprestige%24nom' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24dv' => 19,
+'App%5CEntity%5CDnd35Classesprestige%24dv' => 36,
 '[C]App%5CEntity%5CDnd35Classesprestige%24dv' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24pointscompetences' => 20,
+'App%5CEntity%5CDnd35Classesprestige%24pointscompetences' => 37,
 '[C]App%5CEntity%5CDnd35Classesprestige%24pointscompetences' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24caracteristiquelanceursort' => 21,
+'App%5CEntity%5CDnd35Classesprestige%24caracteristiquelanceursort' => 38,
 '[C]App%5CEntity%5CDnd35Classesprestige%24caracteristiquelanceursort' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24description' => 24,
+'App%5CEntity%5CDnd35Classesprestige%24description' => 41,
 '[C]App%5CEntity%5CDnd35Classesprestige%24description' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24niveaumax' => 109,
+'App%5CEntity%5CDnd35Classesprestige%24niveaumax' => 126,
 '[C]App%5CEntity%5CDnd35Classesprestige%24niveaumax' => 1,
-'App%5CEntity%5CDnd35Classesprestige%24typemagie' => 25,
+'App%5CEntity%5CDnd35Classesprestige%24typemagie' => 42,
 '[C]App%5CEntity%5CDnd35Classesprestige%24typemagie' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale' => 110,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale' => 127,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale' => 1,
 'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%23getId' => 1,
@@ -830,17 +862,17 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%23getPrecision' => 1,
 'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%23setPrecision' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%23setPrecision' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24id' => 5,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24id' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idclasseprestige' => 111,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idclasseprestige' => 128,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idclasseprestige' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idcapacite' => 112,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idcapacite' => 129,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24idcapacite' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24niveau' => 56,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24niveau' => 73,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24niveau' => 1,
-'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24precision' => 57,
+'App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24precision' => 74,
 '[C]App%5CEntity%5CDnd35Classesprestigecapacitespeciale%24precision' => 1,
-'App%5CEntity%5CDnd35Classesprestigecompetence' => 113,
+'App%5CEntity%5CDnd35Classesprestigecompetence' => 130,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence' => 1,
 'App%5CEntity%5CDnd35Classesprestigecompetence%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%23getId' => 1,
@@ -856,15 +888,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%23getIscc' => 1,
 'App%5CEntity%5CDnd35Classesprestigecompetence%23setIscc' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%23setIscc' => 1,
-'App%5CEntity%5CDnd35Classesprestigecompetence%24id' => 5,
+'App%5CEntity%5CDnd35Classesprestigecompetence%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%24id' => 1,
-'App%5CEntity%5CDnd35Classesprestigecompetence%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classesprestigecompetence%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classesprestigecompetence%24idcompetence' => 62,
+'App%5CEntity%5CDnd35Classesprestigecompetence%24idcompetence' => 79,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%24idcompetence' => 1,
-'App%5CEntity%5CDnd35Classesprestigecompetence%24iscc' => 114,
+'App%5CEntity%5CDnd35Classesprestigecompetence%24iscc' => 131,
 '[C]App%5CEntity%5CDnd35Classesprestigecompetence%24iscc' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling' => 115,
+'App%5CEntity%5CDnd35Classesprestigeleveling' => 132,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling' => 1,
 'App%5CEntity%5CDnd35Classesprestigeleveling%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%23getId' => 1,
@@ -1004,77 +1036,77 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%23getSortlvl9' => 1,
 'App%5CEntity%5CDnd35Classesprestigeleveling%23setSortlvl9' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%23setSortlvl9' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24id' => 5,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24id' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24idclasse' => 61,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24idclasse' => 78,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24idclasse' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24niveau' => 56,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24niveau' => 73,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24niveau' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24bba' => 116,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24bba' => 133,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24bba' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24reflexes' => 71,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24reflexes' => 88,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24reflexes' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24vigueur' => 72,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24vigueur' => 89,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24vigueur' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24volonte' => 73,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24volonte' => 90,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24volonte' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24special' => 74,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24special' => 91,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24special' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24bonusca' => 80,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24bonusca' => 97,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24bonusca' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortarcane' => 117,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortarcane' => 134,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortarcane' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortdivin' => 118,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortdivin' => 135,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24niveausortdivin' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausorteffectif' => 119,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24niveausorteffectif' => 136,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24niveausorteffectif' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortsbonus' => 120,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortsbonus' => 137,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortsbonus' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24donsupp' => 75,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24donsupp' => 92,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24donsupp' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24donsuppguerrier' => 76,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24donsuppguerrier' => 93,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24donsuppguerrier' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl0' => 82,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl0' => 99,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl0' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl1' => 83,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl1' => 100,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl1' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl2' => 84,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl2' => 101,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl2' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl3' => 85,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl3' => 102,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl3' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl4' => 86,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl4' => 103,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl4' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl5' => 87,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl5' => 104,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl5' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl6' => 88,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl6' => 105,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl6' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl7' => 89,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl7' => 106,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl7' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl8' => 90,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl8' => 107,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl8' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl9' => 91,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl9' => 108,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortconnulvl9' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl0' => 92,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl0' => 109,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl0' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl1' => 93,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl1' => 110,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl1' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl2' => 94,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl2' => 111,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl2' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl3' => 95,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl3' => 112,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl3' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl4' => 96,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl4' => 113,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl4' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl5' => 97,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl5' => 114,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl5' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl6' => 98,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl6' => 115,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl6' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl7' => 99,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl7' => 116,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl7' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl8' => 100,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl8' => 117,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl8' => 1,
-'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl9' => 101,
+'App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl9' => 118,
 '[C]App%5CEntity%5CDnd35Classesprestigeleveling%24sortlvl9' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis' => 121,
+'App%5CEntity%5CDnd35Classesprestigeprerequis' => 138,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis' => 1,
 'App%5CEntity%5CDnd35Classesprestigeprerequis%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%23getId' => 1,
@@ -1098,19 +1130,19 @@ return [[
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%23getNombre' => 1,
 'App%5CEntity%5CDnd35Classesprestigeprerequis%23setNombre' => 0,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%23setNombre' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24id' => 5,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24id' => 22,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24id' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24idclasseprestige' => 111,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24idclasseprestige' => 128,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24idclasseprestige' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24type' => 122,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24type' => 139,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24type' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24valeur' => 123,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24valeur' => 140,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24valeur' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24maitrise' => 124,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24maitrise' => 141,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24maitrise' => 1,
-'App%5CEntity%5CDnd35Classesprestigeprerequis%24nombre' => 125,
+'App%5CEntity%5CDnd35Classesprestigeprerequis%24nombre' => 142,
 '[C]App%5CEntity%5CDnd35Classesprestigeprerequis%24nombre' => 1,
-'App%5CEntity%5CDnd35Competences' => 126,
+'App%5CEntity%5CDnd35Competences' => 143,
 '[C]App%5CEntity%5CDnd35Competences' => 1,
 'App%5CEntity%5CDnd35Competences%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Competences%23getId' => 1,
@@ -1146,25 +1178,25 @@ return [[
 '[C]App%5CEntity%5CDnd35Competences%23getSpecial' => 1,
 'App%5CEntity%5CDnd35Competences%23setSpecial' => 0,
 '[C]App%5CEntity%5CDnd35Competences%23setSpecial' => 1,
-'App%5CEntity%5CDnd35Competences%24id' => 5,
+'App%5CEntity%5CDnd35Competences%24id' => 22,
 '[C]App%5CEntity%5CDnd35Competences%24id' => 1,
-'App%5CEntity%5CDnd35Competences%24nom' => 18,
+'App%5CEntity%5CDnd35Competences%24nom' => 35,
 '[C]App%5CEntity%5CDnd35Competences%24nom' => 1,
-'App%5CEntity%5CDnd35Competences%24caracteristique' => 127,
+'App%5CEntity%5CDnd35Competences%24caracteristique' => 144,
 '[C]App%5CEntity%5CDnd35Competences%24caracteristique' => 1,
-'App%5CEntity%5CDnd35Competences%24malusarmure' => 128,
+'App%5CEntity%5CDnd35Competences%24malusarmure' => 145,
 '[C]App%5CEntity%5CDnd35Competences%24malusarmure' => 1,
-'App%5CEntity%5CDnd35Competences%24formationnecessaire' => 129,
+'App%5CEntity%5CDnd35Competences%24formationnecessaire' => 146,
 '[C]App%5CEntity%5CDnd35Competences%24formationnecessaire' => 1,
-'App%5CEntity%5CDnd35Competences%24description' => 24,
+'App%5CEntity%5CDnd35Competences%24description' => 41,
 '[C]App%5CEntity%5CDnd35Competences%24description' => 1,
-'App%5CEntity%5CDnd35Competences%24action' => 130,
+'App%5CEntity%5CDnd35Competences%24action' => 147,
 '[C]App%5CEntity%5CDnd35Competences%24action' => 1,
-'App%5CEntity%5CDnd35Competences%24nouvelletentative' => 131,
+'App%5CEntity%5CDnd35Competences%24nouvelletentative' => 148,
 '[C]App%5CEntity%5CDnd35Competences%24nouvelletentative' => 1,
-'App%5CEntity%5CDnd35Competences%24special' => 132,
+'App%5CEntity%5CDnd35Competences%24special' => 149,
 '[C]App%5CEntity%5CDnd35Competences%24special' => 1,
-'App%5CEntity%5CDnd35Competencesynergie' => 133,
+'App%5CEntity%5CDnd35Competencesynergie' => 150,
 '[C]App%5CEntity%5CDnd35Competencesynergie' => 1,
 'App%5CEntity%5CDnd35Competencesynergie%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Competencesynergie%23getId' => 1,
@@ -1176,13 +1208,13 @@ return [[
 '[C]App%5CEntity%5CDnd35Competencesynergie%23getIdcompetencebonus' => 1,
 'App%5CEntity%5CDnd35Competencesynergie%23setIdcompetencebonus' => 0,
 '[C]App%5CEntity%5CDnd35Competencesynergie%23setIdcompetencebonus' => 1,
-'App%5CEntity%5CDnd35Competencesynergie%24id' => 5,
+'App%5CEntity%5CDnd35Competencesynergie%24id' => 22,
 '[C]App%5CEntity%5CDnd35Competencesynergie%24id' => 1,
-'App%5CEntity%5CDnd35Competencesynergie%24idcompetencemaitrise' => 134,
+'App%5CEntity%5CDnd35Competencesynergie%24idcompetencemaitrise' => 151,
 '[C]App%5CEntity%5CDnd35Competencesynergie%24idcompetencemaitrise' => 1,
-'App%5CEntity%5CDnd35Competencesynergie%24idcompetencebonus' => 135,
+'App%5CEntity%5CDnd35Competencesynergie%24idcompetencebonus' => 152,
 '[C]App%5CEntity%5CDnd35Competencesynergie%24idcompetencebonus' => 1,
-'App%5CEntity%5CDnd35Donprerequis' => 136,
+'App%5CEntity%5CDnd35Donprerequis' => 153,
 '[C]App%5CEntity%5CDnd35Donprerequis' => 1,
 'App%5CEntity%5CDnd35Donprerequis%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Donprerequis%23getId' => 1,
@@ -1226,29 +1258,29 @@ return [[
 '[C]App%5CEntity%5CDnd35Donprerequis%23getNiveaulanceursorts' => 1,
 'App%5CEntity%5CDnd35Donprerequis%23setNiveaulanceursorts' => 0,
 '[C]App%5CEntity%5CDnd35Donprerequis%23setNiveaulanceursorts' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24id' => 5,
+'App%5CEntity%5CDnd35Donprerequis%24id' => 22,
 '[C]App%5CEntity%5CDnd35Donprerequis%24id' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24iddon' => 137,
+'App%5CEntity%5CDnd35Donprerequis%24iddon' => 154,
 '[C]App%5CEntity%5CDnd35Donprerequis%24iddon' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24iddonprerequis' => 138,
+'App%5CEntity%5CDnd35Donprerequis%24iddonprerequis' => 155,
 '[C]App%5CEntity%5CDnd35Donprerequis%24iddonprerequis' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24idclasse' => 104,
+'App%5CEntity%5CDnd35Donprerequis%24idclasse' => 121,
 '[C]App%5CEntity%5CDnd35Donprerequis%24idclasse' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24niveauclasse' => 139,
+'App%5CEntity%5CDnd35Donprerequis%24niveauclasse' => 156,
 '[C]App%5CEntity%5CDnd35Donprerequis%24niveauclasse' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24idcompetence' => 140,
+'App%5CEntity%5CDnd35Donprerequis%24idcompetence' => 157,
 '[C]App%5CEntity%5CDnd35Donprerequis%24idcompetence' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24maitrise' => 124,
+'App%5CEntity%5CDnd35Donprerequis%24maitrise' => 141,
 '[C]App%5CEntity%5CDnd35Donprerequis%24maitrise' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24capacite' => 141,
+'App%5CEntity%5CDnd35Donprerequis%24capacite' => 158,
 '[C]App%5CEntity%5CDnd35Donprerequis%24capacite' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24niveaupersonnage' => 142,
+'App%5CEntity%5CDnd35Donprerequis%24niveaupersonnage' => 159,
 '[C]App%5CEntity%5CDnd35Donprerequis%24niveaupersonnage' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24maniementarme' => 143,
+'App%5CEntity%5CDnd35Donprerequis%24maniementarme' => 160,
 '[C]App%5CEntity%5CDnd35Donprerequis%24maniementarme' => 1,
-'App%5CEntity%5CDnd35Donprerequis%24niveaulanceursorts' => 144,
+'App%5CEntity%5CDnd35Donprerequis%24niveaulanceursorts' => 161,
 '[C]App%5CEntity%5CDnd35Donprerequis%24niveaulanceursorts' => 1,
-'App%5CEntity%5CDnd35Dons' => 145,
+'App%5CEntity%5CDnd35Dons' => 162,
 '[C]App%5CEntity%5CDnd35Dons' => 1,
 'App%5CEntity%5CDnd35Dons%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Dons%23getId' => 1,
@@ -1300,33 +1332,33 @@ return [[
 '[C]App%5CEntity%5CDnd35Dons%23getNiveaulanceursort' => 1,
 'App%5CEntity%5CDnd35Dons%23setNiveaulanceursort' => 0,
 '[C]App%5CEntity%5CDnd35Dons%23setNiveaulanceursort' => 1,
-'App%5CEntity%5CDnd35Dons%24id' => 5,
+'App%5CEntity%5CDnd35Dons%24id' => 22,
 '[C]App%5CEntity%5CDnd35Dons%24id' => 1,
-'App%5CEntity%5CDnd35Dons%24nom' => 8,
+'App%5CEntity%5CDnd35Dons%24nom' => 25,
 '[C]App%5CEntity%5CDnd35Dons%24nom' => 1,
-'App%5CEntity%5CDnd35Dons%24description' => 146,
+'App%5CEntity%5CDnd35Dons%24description' => 163,
 '[C]App%5CEntity%5CDnd35Dons%24description' => 1,
-'App%5CEntity%5CDnd35Dons%24special' => 147,
+'App%5CEntity%5CDnd35Dons%24special' => 164,
 '[C]App%5CEntity%5CDnd35Dons%24special' => 1,
-'App%5CEntity%5CDnd35Dons%24bbaprerequis' => 148,
+'App%5CEntity%5CDnd35Dons%24bbaprerequis' => 165,
 '[C]App%5CEntity%5CDnd35Dons%24bbaprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24forprerequis' => 149,
+'App%5CEntity%5CDnd35Dons%24forprerequis' => 166,
 '[C]App%5CEntity%5CDnd35Dons%24forprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24dexprerequis' => 150,
+'App%5CEntity%5CDnd35Dons%24dexprerequis' => 167,
 '[C]App%5CEntity%5CDnd35Dons%24dexprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24conprerequis' => 151,
+'App%5CEntity%5CDnd35Dons%24conprerequis' => 168,
 '[C]App%5CEntity%5CDnd35Dons%24conprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24intprerequis' => 152,
+'App%5CEntity%5CDnd35Dons%24intprerequis' => 169,
 '[C]App%5CEntity%5CDnd35Dons%24intprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24sagprerequis' => 153,
+'App%5CEntity%5CDnd35Dons%24sagprerequis' => 170,
 '[C]App%5CEntity%5CDnd35Dons%24sagprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24chaprerequis' => 154,
+'App%5CEntity%5CDnd35Dons%24chaprerequis' => 171,
 '[C]App%5CEntity%5CDnd35Dons%24chaprerequis' => 1,
-'App%5CEntity%5CDnd35Dons%24donsuppguerrier' => 155,
+'App%5CEntity%5CDnd35Dons%24donsuppguerrier' => 172,
 '[C]App%5CEntity%5CDnd35Dons%24donsuppguerrier' => 1,
-'App%5CEntity%5CDnd35Dons%24niveaulanceursort' => 156,
+'App%5CEntity%5CDnd35Dons%24niveaulanceursort' => 173,
 '[C]App%5CEntity%5CDnd35Dons%24niveaulanceursort' => 1,
-'App%5CEntity%5CDnd35Effetage' => 157,
+'App%5CEntity%5CDnd35Effetage' => 174,
 '[C]App%5CEntity%5CDnd35Effetage' => 1,
 'App%5CEntity%5CDnd35Effetage%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Effetage%23getId' => 1,
@@ -1350,19 +1382,19 @@ return [[
 '[C]App%5CEntity%5CDnd35Effetage%23getEffetintsagcha' => 1,
 'App%5CEntity%5CDnd35Effetage%23setEffetintsagcha' => 0,
 '[C]App%5CEntity%5CDnd35Effetage%23setEffetintsagcha' => 1,
-'App%5CEntity%5CDnd35Effetage%24id' => 5,
+'App%5CEntity%5CDnd35Effetage%24id' => 22,
 '[C]App%5CEntity%5CDnd35Effetage%24id' => 1,
-'App%5CEntity%5CDnd35Effetage%24race' => 33,
+'App%5CEntity%5CDnd35Effetage%24race' => 50,
 '[C]App%5CEntity%5CDnd35Effetage%24race' => 1,
-'App%5CEntity%5CDnd35Effetage%24agemin' => 158,
+'App%5CEntity%5CDnd35Effetage%24agemin' => 175,
 '[C]App%5CEntity%5CDnd35Effetage%24agemin' => 1,
-'App%5CEntity%5CDnd35Effetage%24agemax' => 159,
+'App%5CEntity%5CDnd35Effetage%24agemax' => 176,
 '[C]App%5CEntity%5CDnd35Effetage%24agemax' => 1,
-'App%5CEntity%5CDnd35Effetage%24effetfordexcon' => 160,
+'App%5CEntity%5CDnd35Effetage%24effetfordexcon' => 177,
 '[C]App%5CEntity%5CDnd35Effetage%24effetfordexcon' => 1,
-'App%5CEntity%5CDnd35Effetage%24effetintsagcha' => 161,
+'App%5CEntity%5CDnd35Effetage%24effetintsagcha' => 178,
 '[C]App%5CEntity%5CDnd35Effetage%24effetintsagcha' => 1,
-'App%5CEntity%5CDnd35Effetcharge' => 162,
+'App%5CEntity%5CDnd35Effetcharge' => 179,
 '[C]App%5CEntity%5CDnd35Effetcharge' => 1,
 'App%5CEntity%5CDnd35Effetcharge%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Effetcharge%23getId' => 1,
@@ -1390,21 +1422,21 @@ return [[
 '[C]App%5CEntity%5CDnd35Effetcharge%23getCourse' => 1,
 'App%5CEntity%5CDnd35Effetcharge%23setCourse' => 0,
 '[C]App%5CEntity%5CDnd35Effetcharge%23setCourse' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24id' => 5,
+'App%5CEntity%5CDnd35Effetcharge%24id' => 22,
 '[C]App%5CEntity%5CDnd35Effetcharge%24id' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24charge' => 163,
+'App%5CEntity%5CDnd35Effetcharge%24charge' => 180,
 '[C]App%5CEntity%5CDnd35Effetcharge%24charge' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24dexmax' => 40,
+'App%5CEntity%5CDnd35Effetcharge%24dexmax' => 57,
 '[C]App%5CEntity%5CDnd35Effetcharge%24dexmax' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24malustests' => 41,
+'App%5CEntity%5CDnd35Effetcharge%24malustests' => 58,
 '[C]App%5CEntity%5CDnd35Effetcharge%24malustests' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24vitesse9' => 164,
+'App%5CEntity%5CDnd35Effetcharge%24vitesse9' => 181,
 '[C]App%5CEntity%5CDnd35Effetcharge%24vitesse9' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24vitesse6' => 165,
+'App%5CEntity%5CDnd35Effetcharge%24vitesse6' => 182,
 '[C]App%5CEntity%5CDnd35Effetcharge%24vitesse6' => 1,
-'App%5CEntity%5CDnd35Effetcharge%24course' => 166,
+'App%5CEntity%5CDnd35Effetcharge%24course' => 183,
 '[C]App%5CEntity%5CDnd35Effetcharge%24course' => 1,
-'App%5CEntity%5CDnd35Effetdon' => 167,
+'App%5CEntity%5CDnd35Effetdon' => 184,
 '[C]App%5CEntity%5CDnd35Effetdon' => 1,
 'App%5CEntity%5CDnd35Effetdon%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Effetdon%23getId' => 1,
@@ -1456,33 +1488,33 @@ return [[
 '[C]App%5CEntity%5CDnd35Effetdon%23getEffetlutte' => 1,
 'App%5CEntity%5CDnd35Effetdon%23setEffetlutte' => 0,
 '[C]App%5CEntity%5CDnd35Effetdon%23setEffetlutte' => 1,
-'App%5CEntity%5CDnd35Effetdon%24id' => 5,
+'App%5CEntity%5CDnd35Effetdon%24id' => 22,
 '[C]App%5CEntity%5CDnd35Effetdon%24id' => 1,
-'App%5CEntity%5CDnd35Effetdon%24iddon' => 67,
+'App%5CEntity%5CDnd35Effetdon%24iddon' => 84,
 '[C]App%5CEntity%5CDnd35Effetdon%24iddon' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetinitiative' => 168,
+'App%5CEntity%5CDnd35Effetdon%24effetinitiative' => 185,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetinitiative' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetbba' => 169,
+'App%5CEntity%5CDnd35Effetdon%24effetbba' => 186,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetbba' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetvigueur' => 170,
+'App%5CEntity%5CDnd35Effetdon%24effetvigueur' => 187,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetvigueur' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetreflexe' => 171,
+'App%5CEntity%5CDnd35Effetdon%24effetreflexe' => 188,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetreflexe' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetvolonte' => 172,
+'App%5CEntity%5CDnd35Effetdon%24effetvolonte' => 189,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetvolonte' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetca' => 173,
+'App%5CEntity%5CDnd35Effetdon%24effetca' => 190,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetca' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetpv' => 174,
+'App%5CEntity%5CDnd35Effetdon%24effetpv' => 191,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetpv' => 1,
-'App%5CEntity%5CDnd35Effetdon%24limitationidarme' => 175,
+'App%5CEntity%5CDnd35Effetdon%24limitationidarme' => 192,
 '[C]App%5CEntity%5CDnd35Effetdon%24limitationidarme' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetcompetence' => 176,
+'App%5CEntity%5CDnd35Effetdon%24effetcompetence' => 193,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetcompetence' => 1,
-'App%5CEntity%5CDnd35Effetdon%24limitationcompetence' => 177,
+'App%5CEntity%5CDnd35Effetdon%24limitationcompetence' => 194,
 '[C]App%5CEntity%5CDnd35Effetdon%24limitationcompetence' => 1,
-'App%5CEntity%5CDnd35Effetdon%24effetlutte' => 178,
+'App%5CEntity%5CDnd35Effetdon%24effetlutte' => 195,
 '[C]App%5CEntity%5CDnd35Effetdon%24effetlutte' => 1,
-'App%5CEntity%5CDnd35Experience' => 179,
+'App%5CEntity%5CDnd35Experience' => 196,
 '[C]App%5CEntity%5CDnd35Experience' => 1,
 'App%5CEntity%5CDnd35Experience%23getNiveau' => 0,
 '[C]App%5CEntity%5CDnd35Experience%23getNiveau' => 1,
@@ -1498,15 +1530,15 @@ return [[
 '[C]App%5CEntity%5CDnd35Experience%23getAugmentationcarac' => 1,
 'App%5CEntity%5CDnd35Experience%23setAugmentationcarac' => 0,
 '[C]App%5CEntity%5CDnd35Experience%23setAugmentationcarac' => 1,
-'App%5CEntity%5CDnd35Experience%24niveau' => 180,
+'App%5CEntity%5CDnd35Experience%24niveau' => 197,
 '[C]App%5CEntity%5CDnd35Experience%24niveau' => 1,
-'App%5CEntity%5CDnd35Experience%24experience' => 181,
+'App%5CEntity%5CDnd35Experience%24experience' => 198,
 '[C]App%5CEntity%5CDnd35Experience%24experience' => 1,
-'App%5CEntity%5CDnd35Experience%24dons' => 182,
+'App%5CEntity%5CDnd35Experience%24dons' => 199,
 '[C]App%5CEntity%5CDnd35Experience%24dons' => 1,
-'App%5CEntity%5CDnd35Experience%24augmentationcarac' => 183,
+'App%5CEntity%5CDnd35Experience%24augmentationcarac' => 200,
 '[C]App%5CEntity%5CDnd35Experience%24augmentationcarac' => 1,
-'App%5CEntity%5CDnd35Gemmes' => 184,
+'App%5CEntity%5CDnd35Gemmes' => 201,
 '[C]App%5CEntity%5CDnd35Gemmes' => 1,
 'App%5CEntity%5CDnd35Gemmes%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Gemmes%23getId' => 1,
@@ -1526,17 +1558,17 @@ return [[
 '[C]App%5CEntity%5CDnd35Gemmes%23getExemples' => 1,
 'App%5CEntity%5CDnd35Gemmes%23setExemples' => 0,
 '[C]App%5CEntity%5CDnd35Gemmes%23setExemples' => 1,
-'App%5CEntity%5CDnd35Gemmes%24id' => 5,
+'App%5CEntity%5CDnd35Gemmes%24id' => 22,
 '[C]App%5CEntity%5CDnd35Gemmes%24id' => 1,
-'App%5CEntity%5CDnd35Gemmes%24prcmin' => 185,
+'App%5CEntity%5CDnd35Gemmes%24prcmin' => 202,
 '[C]App%5CEntity%5CDnd35Gemmes%24prcmin' => 1,
-'App%5CEntity%5CDnd35Gemmes%24prcmax' => 186,
+'App%5CEntity%5CDnd35Gemmes%24prcmax' => 203,
 '[C]App%5CEntity%5CDnd35Gemmes%24prcmax' => 1,
-'App%5CEntity%5CDnd35Gemmes%24valeur' => 187,
+'App%5CEntity%5CDnd35Gemmes%24valeur' => 204,
 '[C]App%5CEntity%5CDnd35Gemmes%24valeur' => 1,
-'App%5CEntity%5CDnd35Gemmes%24exemples' => 188,
+'App%5CEntity%5CDnd35Gemmes%24exemples' => 205,
 '[C]App%5CEntity%5CDnd35Gemmes%24exemples' => 1,
-'App%5CEntity%5CDnd35Langueraceclasse' => 189,
+'App%5CEntity%5CDnd35Langueraceclasse' => 206,
 '[C]App%5CEntity%5CDnd35Langueraceclasse' => 1,
 'App%5CEntity%5CDnd35Langueraceclasse%23getId' => 0,
 '[C]App%5CEntity%5CDnd35Langueraceclasse%23getId' => 1,
@@ -1556,3633 +1588,3633 @@ return [[
 '[C]App%5CEntity%5CDnd35Langueraceclasse%23isSupplementaire' => 1,
 'App%5CEntity%5CDnd35Langueraceclasse%23setSupplementaire' => 0,
 '[C]App%5CEntity%5CDnd35Langueraceclasse%23setSupplementaire' => 1,
-'App%5CEntity%5CDnd35Langueraceclasse%24id' => 5,
+'App%5CEntity%5CDnd35Langueraceclasse%24id' => 22,
 '[C]App%5CEntity%5CDnd35Langueraceclasse%24id' => 1,
-'App%5CEntity%5CDnd35Langueraceclasse%24idlangue' => 190,
-'[C]App%5CEntity%5CDnd35Langueraceclasse%24idlangue' => 191,
-'App%5CEntity%5CDnd35Langueraceclasse%24idrace' => 192,
-'[C]App%5CEntity%5CDnd35Langueraceclasse%24idrace' => 191,
-'App%5CEntity%5CDnd35Langueraceclasse%24idclasse' => 104,
-'[C]App%5CEntity%5CDnd35Langueraceclasse%24idclasse' => 191,
-'App%5CEntity%5CDnd35Langueraceclasse%24supplementaire' => 193,
-'[C]App%5CEntity%5CDnd35Langueraceclasse%24supplementaire' => 191,
-'App%5CEntity%5CDnd35Langues' => 194,
-'[C]App%5CEntity%5CDnd35Langues' => 191,
+'App%5CEntity%5CDnd35Langueraceclasse%24idlangue' => 207,
+'[C]App%5CEntity%5CDnd35Langueraceclasse%24idlangue' => 1,
+'App%5CEntity%5CDnd35Langueraceclasse%24idrace' => 208,
+'[C]App%5CEntity%5CDnd35Langueraceclasse%24idrace' => 1,
+'App%5CEntity%5CDnd35Langueraceclasse%24idclasse' => 121,
+'[C]App%5CEntity%5CDnd35Langueraceclasse%24idclasse' => 1,
+'App%5CEntity%5CDnd35Langueraceclasse%24supplementaire' => 209,
+'[C]App%5CEntity%5CDnd35Langueraceclasse%24supplementaire' => 1,
+'App%5CEntity%5CDnd35Langues' => 210,
+'[C]App%5CEntity%5CDnd35Langues' => 1,
 'App%5CEntity%5CDnd35Langues%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23getId' => 1,
 'App%5CEntity%5CDnd35Langues%23getLangue' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23getLangue' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23getLangue' => 1,
 'App%5CEntity%5CDnd35Langues%23setLangue' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23setLangue' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23setLangue' => 1,
 'App%5CEntity%5CDnd35Langues%23getUtilisateurs' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23getUtilisateurs' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23getUtilisateurs' => 1,
 'App%5CEntity%5CDnd35Langues%23setUtilisateurs' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23setUtilisateurs' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23setUtilisateurs' => 1,
 'App%5CEntity%5CDnd35Langues%23getAlphabet' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23getAlphabet' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23getAlphabet' => 1,
 'App%5CEntity%5CDnd35Langues%23setAlphabet' => 0,
-'[C]App%5CEntity%5CDnd35Langues%23setAlphabet' => 191,
-'App%5CEntity%5CDnd35Langues%24id' => 5,
-'[C]App%5CEntity%5CDnd35Langues%24id' => 191,
-'App%5CEntity%5CDnd35Langues%24langue' => 195,
-'[C]App%5CEntity%5CDnd35Langues%24langue' => 191,
-'App%5CEntity%5CDnd35Langues%24utilisateurs' => 196,
-'[C]App%5CEntity%5CDnd35Langues%24utilisateurs' => 191,
-'App%5CEntity%5CDnd35Langues%24alphabet' => 197,
-'[C]App%5CEntity%5CDnd35Langues%24alphabet' => 191,
-'App%5CEntity%5CDnd35Modificateurs' => 198,
-'[C]App%5CEntity%5CDnd35Modificateurs' => 191,
+'[C]App%5CEntity%5CDnd35Langues%23setAlphabet' => 1,
+'App%5CEntity%5CDnd35Langues%24id' => 22,
+'[C]App%5CEntity%5CDnd35Langues%24id' => 1,
+'App%5CEntity%5CDnd35Langues%24langue' => 211,
+'[C]App%5CEntity%5CDnd35Langues%24langue' => 1,
+'App%5CEntity%5CDnd35Langues%24utilisateurs' => 212,
+'[C]App%5CEntity%5CDnd35Langues%24utilisateurs' => 1,
+'App%5CEntity%5CDnd35Langues%24alphabet' => 213,
+'[C]App%5CEntity%5CDnd35Langues%24alphabet' => 1,
+'App%5CEntity%5CDnd35Modificateurs' => 214,
+'[C]App%5CEntity%5CDnd35Modificateurs' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getId' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getValeurcaracteristique' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getValeurcaracteristique' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getValeurcaracteristique' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setValeurcaracteristique' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setValeurcaracteristique' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setValeurcaracteristique' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setModificateur' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort0' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort0' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort0' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort0' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort0' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort0' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort1' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort1' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort1' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort1' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort1' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort1' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort2' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort2' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort2' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort2' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort2' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort2' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort3' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort3' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort3' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort3' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort3' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort3' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort4' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort4' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort4' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort4' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort4' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort4' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort5' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort5' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort5' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort5' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort5' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort5' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort6' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort6' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort6' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort6' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort6' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort6' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort7' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort7' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort7' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort7' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort7' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort7' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort8' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort8' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort8' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort8' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort8' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort8' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23getBonussort9' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort9' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23getBonussort9' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setBonussort9' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort9' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setBonussort9' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23isCancast' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23isCancast' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23isCancast' => 1,
 'App%5CEntity%5CDnd35Modificateurs%23setCancast' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurs%23setCancast' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24id' => 5,
-'[C]App%5CEntity%5CDnd35Modificateurs%24id' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24valeurcaracteristique' => 199,
-'[C]App%5CEntity%5CDnd35Modificateurs%24valeurcaracteristique' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24modificateur' => 200,
-'[C]App%5CEntity%5CDnd35Modificateurs%24modificateur' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort0' => 201,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort0' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort1' => 202,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort1' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort2' => 203,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort2' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort3' => 204,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort3' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort4' => 205,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort4' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort5' => 206,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort5' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort6' => 207,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort6' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort7' => 208,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort7' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort8' => 209,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort8' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24bonussort9' => 210,
-'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort9' => 191,
-'App%5CEntity%5CDnd35Modificateurs%24cancast' => 211,
-'[C]App%5CEntity%5CDnd35Modificateurs%24cancast' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille' => 212,
-'[C]App%5CEntity%5CDnd35Modificateurtaille' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurs%23setCancast' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24id' => 22,
+'[C]App%5CEntity%5CDnd35Modificateurs%24id' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24valeurcaracteristique' => 215,
+'[C]App%5CEntity%5CDnd35Modificateurs%24valeurcaracteristique' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24modificateur' => 216,
+'[C]App%5CEntity%5CDnd35Modificateurs%24modificateur' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort0' => 217,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort0' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort1' => 218,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort1' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort2' => 219,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort2' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort3' => 220,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort3' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort4' => 221,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort4' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort5' => 222,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort5' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort6' => 223,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort6' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort7' => 224,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort7' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort8' => 225,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort8' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24bonussort9' => 226,
+'[C]App%5CEntity%5CDnd35Modificateurs%24bonussort9' => 1,
+'App%5CEntity%5CDnd35Modificateurs%24cancast' => 227,
+'[C]App%5CEntity%5CDnd35Modificateurs%24cancast' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille' => 228,
+'[C]App%5CEntity%5CDnd35Modificateurtaille' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getId' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getTaille' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getTaille' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getTaille' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23setTaille' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23setTaille' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23setTaille' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getBonusca' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusca' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusca' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23setBonusca' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusca' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusca' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getBonusbba' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusbba' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusbba' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23setBonusbba' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusbba' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusbba' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getBonusdiscretion' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusdiscretion' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getBonusdiscretion' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23setBonusdiscretion' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusdiscretion' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23setBonusdiscretion' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23getPoidsmax' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23getPoidsmax' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23getPoidsmax' => 1,
 'App%5CEntity%5CDnd35Modificateurtaille%23setPoidsmax' => 0,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%23setPoidsmax' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24id' => 5,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24id' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24taille' => 213,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24taille' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24bonusca' => 214,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusca' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24bonusbba' => 215,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusbba' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24bonusdiscretion' => 216,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusdiscretion' => 191,
-'App%5CEntity%5CDnd35Modificateurtaille%24poidsmax' => 217,
-'[C]App%5CEntity%5CDnd35Modificateurtaille%24poidsmax' => 191,
-'App%5CEntity%5CDnd35Monstres' => 218,
-'[C]App%5CEntity%5CDnd35Monstres' => 191,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%23setPoidsmax' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24id' => 22,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24id' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24taille' => 229,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24taille' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24bonusca' => 230,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusca' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24bonusbba' => 231,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusbba' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24bonusdiscretion' => 232,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24bonusdiscretion' => 1,
+'App%5CEntity%5CDnd35Modificateurtaille%24poidsmax' => 233,
+'[C]App%5CEntity%5CDnd35Modificateurtaille%24poidsmax' => 1,
+'App%5CEntity%5CDnd35Monstres' => 234,
+'[C]App%5CEntity%5CDnd35Monstres' => 1,
 'App%5CEntity%5CDnd35Monstres%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getId' => 1,
 'App%5CEntity%5CDnd35Monstres%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getNom' => 1,
 'App%5CEntity%5CDnd35Monstres%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setNom' => 1,
 'App%5CEntity%5CDnd35Monstres%23getImage' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getImage' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getImage' => 1,
 'App%5CEntity%5CDnd35Monstres%23setImage' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setImage' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setImage' => 1,
 'App%5CEntity%5CDnd35Monstres%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getType' => 1,
 'App%5CEntity%5CDnd35Monstres%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setType' => 1,
 'App%5CEntity%5CDnd35Monstres%23getSoustype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getSoustype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getSoustype' => 1,
 'App%5CEntity%5CDnd35Monstres%23setSoustype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setSoustype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setSoustype' => 1,
 'App%5CEntity%5CDnd35Monstres%23getTaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getTaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getTaille' => 1,
 'App%5CEntity%5CDnd35Monstres%23setTaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setTaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setTaille' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDv' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDv' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDv' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDv' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDv' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDv' => 1,
 'App%5CEntity%5CDnd35Monstres%23getViemoyenne' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getViemoyenne' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getViemoyenne' => 1,
 'App%5CEntity%5CDnd35Monstres%23setViemoyenne' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setViemoyenne' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setViemoyenne' => 1,
 'App%5CEntity%5CDnd35Monstres%23getInitiative' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getInitiative' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getInitiative' => 1,
 'App%5CEntity%5CDnd35Monstres%23setInitiative' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setInitiative' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setInitiative' => 1,
 'App%5CEntity%5CDnd35Monstres%23getVitesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getVitesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getVitesse' => 1,
 'App%5CEntity%5CDnd35Monstres%23setVitesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setVitesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setVitesse' => 1,
 'App%5CEntity%5CDnd35Monstres%23getNage' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getNage' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getNage' => 1,
 'App%5CEntity%5CDnd35Monstres%23setNage' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setNage' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setNage' => 1,
 'App%5CEntity%5CDnd35Monstres%23getVol' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getVol' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getVol' => 1,
 'App%5CEntity%5CDnd35Monstres%23setVol' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setVol' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setVol' => 1,
 'App%5CEntity%5CDnd35Monstres%23getEscalade' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getEscalade' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getEscalade' => 1,
 'App%5CEntity%5CDnd35Monstres%23setEscalade' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setEscalade' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setEscalade' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCreusement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCreusement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCreusement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCreusement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCreusement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCreusement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCa' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCa' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCa' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCa' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCa' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCa' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCacontact' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCacontact' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCacontact' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCacontact' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCacontact' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCacontact' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCadepourvu' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCadepourvu' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCadepourvu' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCadepourvu' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCadepourvu' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCadepourvu' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCamodiftaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCamodiftaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCamodiftaille' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCamodiftaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCamodiftaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCamodiftaille' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCamodifdex' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCamodifdex' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCamodifdex' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCamodifdex' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCamodifdex' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCamodifdex' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCamodifnaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCamodifnaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCamodifnaturelle' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCamodifnaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCamodifnaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCamodifnaturelle' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCamodifparade' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCamodifparade' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCamodifparade' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCamodifparade' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCamodifparade' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCamodifparade' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCamodifesquive' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCamodifesquive' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCamodifesquive' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCamodifesquive' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCamodifesquive' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCamodifesquive' => 1,
 'App%5CEntity%5CDnd35Monstres%23getArmure' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getArmure' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getArmure' => 1,
 'App%5CEntity%5CDnd35Monstres%23setArmure' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setArmure' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setArmure' => 1,
 'App%5CEntity%5CDnd35Monstres%23getModifarmure' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getModifarmure' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getModifarmure' => 1,
 'App%5CEntity%5CDnd35Monstres%23setModifarmure' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setModifarmure' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setModifarmure' => 1,
 'App%5CEntity%5CDnd35Monstres%23getBouclier' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getBouclier' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getBouclier' => 1,
 'App%5CEntity%5CDnd35Monstres%23setBouclier' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setBouclier' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setBouclier' => 1,
 'App%5CEntity%5CDnd35Monstres%23getModifbouclier' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getModifbouclier' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getModifbouclier' => 1,
 'App%5CEntity%5CDnd35Monstres%23setModifbouclier' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setModifbouclier' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setModifbouclier' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquebase' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquebase' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquebase' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquebase' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquebase' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquebase' => 1,
 'App%5CEntity%5CDnd35Monstres%23getLutte' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getLutte' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getLutte' => 1,
 'App%5CEntity%5CDnd35Monstres%23setLutte' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setLutte' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setLutte' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement2' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement3' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement4' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement5' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaque6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaque6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaque6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaque6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaque6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaque6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetouche6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetouche6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetouche6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetouche6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquetype6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquetype6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquetype6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquetype6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquedegats6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquedegats6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquedegats6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquedegats6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquecomplement6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquecomplement6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquecomplement6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquecomplement6' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoptionnelle6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoptionnelle6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement2' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle2' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle2' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle2' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle2' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement3' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle3' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle3' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle3' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle3' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement4' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle4' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle4' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle4' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle4' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement5' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle5' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle5' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle5' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle5' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrance6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrance6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetouche6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetouche6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancetype6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancetype6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancedegats6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancedegats6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaqueoutrancecomplement6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutrancecomplement6' => 1,
 'App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isAttaqueoutranceoptionnelle6' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle6' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle6' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaqueoutranceoptionnelle6' => 1,
 'App%5CEntity%5CDnd35Monstres%23getSouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getSouffle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getSouffle' => 1,
 'App%5CEntity%5CDnd35Monstres%23setSouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setSouffle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setSouffle' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDdsouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDdsouffle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDdsouffle' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDdsouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDdsouffle' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDdsouffle' => 1,
 'App%5CEntity%5CDnd35Monstres%23getEspaceoccupe' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getEspaceoccupe' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getEspaceoccupe' => 1,
 'App%5CEntity%5CDnd35Monstres%23setEspaceoccupe' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setEspaceoccupe' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setEspaceoccupe' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAllonge' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAllonge' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAllonge' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAllonge' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAllonge' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAllonge' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAllongecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAllongecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAllongecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAllongecomplement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAllongecomplement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAllongecomplement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAttaquesspeciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAttaquesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAttaquesspeciales' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAttaquesspeciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAttaquesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAttaquesspeciales' => 1,
 'App%5CEntity%5CDnd35Monstres%23getParticularites' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getParticularites' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getParticularites' => 1,
 'App%5CEntity%5CDnd35Monstres%23setParticularites' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setParticularites' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setParticularites' => 1,
 'App%5CEntity%5CDnd35Monstres%23getReflexe' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getReflexe' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getReflexe' => 1,
 'App%5CEntity%5CDnd35Monstres%23setReflexe' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setReflexe' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setReflexe' => 1,
 'App%5CEntity%5CDnd35Monstres%23getVigueur' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getVigueur' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getVigueur' => 1,
 'App%5CEntity%5CDnd35Monstres%23setVigueur' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setVigueur' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setVigueur' => 1,
 'App%5CEntity%5CDnd35Monstres%23getVolonte' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getVolonte' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getVolonte' => 1,
 'App%5CEntity%5CDnd35Monstres%23setVolonte' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setVolonte' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setVolonte' => 1,
 'App%5CEntity%5CDnd35Monstres%23getVigueurpoison' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getVigueurpoison' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getVigueurpoison' => 1,
 'App%5CEntity%5CDnd35Monstres%23setVigueurpoison' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setVigueurpoison' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setVigueurpoison' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDdpresenceterrifiante' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDdpresenceterrifiante' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDdpresenceterrifiante' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDdpresenceterrifiante' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDdpresenceterrifiante' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDdpresenceterrifiante' => 1,
 'App%5CEntity%5CDnd35Monstres%23getForce' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getForce' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getForce' => 1,
 'App%5CEntity%5CDnd35Monstres%23setForce' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setForce' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setForce' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDexterite' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDexterite' => 1,
 'App%5CEntity%5CDnd35Monstres%23getConstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getConstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getConstitution' => 1,
 'App%5CEntity%5CDnd35Monstres%23setConstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setConstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setConstitution' => 1,
 'App%5CEntity%5CDnd35Monstres%23getIntelligence' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getIntelligence' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getIntelligence' => 1,
 'App%5CEntity%5CDnd35Monstres%23setIntelligence' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setIntelligence' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setIntelligence' => 1,
 'App%5CEntity%5CDnd35Monstres%23getSagesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getSagesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getSagesse' => 1,
 'App%5CEntity%5CDnd35Monstres%23setSagesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setSagesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setSagesse' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCharisme' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCharisme' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCharisme' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCharisme' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCharisme' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCharisme' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCompetences' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCompetences' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCompetences' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCompetences' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCompetences' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCompetences' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDons' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDons' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDons' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDons' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDons' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDons' => 1,
 'App%5CEntity%5CDnd35Monstres%23getNiveaulanceursorts' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getNiveaulanceursorts' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getNiveaulanceursorts' => 1,
 'App%5CEntity%5CDnd35Monstres%23setNiveaulanceursorts' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setNiveaulanceursorts' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setNiveaulanceursorts' => 1,
 'App%5CEntity%5CDnd35Monstres%23getRm' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getRm' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getRm' => 1,
 'App%5CEntity%5CDnd35Monstres%23setRm' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setRm' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setRm' => 1,
 'App%5CEntity%5CDnd35Monstres%23getEnvironnement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getEnvironnement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getEnvironnement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setEnvironnement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setEnvironnement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setEnvironnement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getOrganisation' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getOrganisation' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getOrganisation' => 1,
 'App%5CEntity%5CDnd35Monstres%23setOrganisation' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setOrganisation' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setOrganisation' => 1,
 'App%5CEntity%5CDnd35Monstres%23getFp' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getFp' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getFp' => 1,
 'App%5CEntity%5CDnd35Monstres%23setFp' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setFp' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setFp' => 1,
 'App%5CEntity%5CDnd35Monstres%23getTresor' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getTresor' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getTresor' => 1,
 'App%5CEntity%5CDnd35Monstres%23setTresor' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setTresor' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setTresor' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAlignement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAlignement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAlignement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAlignement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getEvolutions' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getEvolutions' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getEvolutions' => 1,
 'App%5CEntity%5CDnd35Monstres%23setEvolutions' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setEvolutions' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setEvolutions' => 1,
 'App%5CEntity%5CDnd35Monstres%23getAjustement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getAjustement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getAjustement' => 1,
 'App%5CEntity%5CDnd35Monstres%23setAjustement' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setAjustement' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setAjustement' => 1,
 'App%5CEntity%5CDnd35Monstres%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getDescription' => 1,
 'App%5CEntity%5CDnd35Monstres%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setDescription' => 1,
 'App%5CEntity%5CDnd35Monstres%23getCombat' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getCombat' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getCombat' => 1,
 'App%5CEntity%5CDnd35Monstres%23setCombat' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setCombat' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setCombat' => 1,
 'App%5CEntity%5CDnd35Monstres%23isJouable' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23isJouable' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23isJouable' => 1,
 'App%5CEntity%5CDnd35Monstres%23setJouable' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setJouable' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setJouable' => 1,
 'App%5CEntity%5CDnd35Monstres%23getSquelette' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23getSquelette' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23getSquelette' => 1,
 'App%5CEntity%5CDnd35Monstres%23setSquelette' => 0,
-'[C]App%5CEntity%5CDnd35Monstres%23setSquelette' => 191,
-'App%5CEntity%5CDnd35Monstres%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstres%24id' => 191,
-'App%5CEntity%5CDnd35Monstres%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Monstres%24nom' => 191,
-'App%5CEntity%5CDnd35Monstres%24image' => 219,
-'[C]App%5CEntity%5CDnd35Monstres%24image' => 191,
-'App%5CEntity%5CDnd35Monstres%24type' => 122,
-'[C]App%5CEntity%5CDnd35Monstres%24type' => 191,
-'App%5CEntity%5CDnd35Monstres%24soustype' => 220,
-'[C]App%5CEntity%5CDnd35Monstres%24soustype' => 191,
-'App%5CEntity%5CDnd35Monstres%24taille' => 213,
-'[C]App%5CEntity%5CDnd35Monstres%24taille' => 191,
-'App%5CEntity%5CDnd35Monstres%24dv' => 221,
-'[C]App%5CEntity%5CDnd35Monstres%24dv' => 191,
-'App%5CEntity%5CDnd35Monstres%24viemoyenne' => 222,
-'[C]App%5CEntity%5CDnd35Monstres%24viemoyenne' => 191,
-'App%5CEntity%5CDnd35Monstres%24initiative' => 223,
-'[C]App%5CEntity%5CDnd35Monstres%24initiative' => 191,
-'App%5CEntity%5CDnd35Monstres%24vitesse' => 224,
-'[C]App%5CEntity%5CDnd35Monstres%24vitesse' => 191,
-'App%5CEntity%5CDnd35Monstres%24nage' => 225,
-'[C]App%5CEntity%5CDnd35Monstres%24nage' => 191,
-'App%5CEntity%5CDnd35Monstres%24vol' => 226,
-'[C]App%5CEntity%5CDnd35Monstres%24vol' => 191,
-'App%5CEntity%5CDnd35Monstres%24escalade' => 227,
-'[C]App%5CEntity%5CDnd35Monstres%24escalade' => 191,
-'App%5CEntity%5CDnd35Monstres%24creusement' => 228,
-'[C]App%5CEntity%5CDnd35Monstres%24creusement' => 191,
-'App%5CEntity%5CDnd35Monstres%24ca' => 229,
-'[C]App%5CEntity%5CDnd35Monstres%24ca' => 191,
-'App%5CEntity%5CDnd35Monstres%24cacontact' => 230,
-'[C]App%5CEntity%5CDnd35Monstres%24cacontact' => 191,
-'App%5CEntity%5CDnd35Monstres%24cadepourvu' => 231,
-'[C]App%5CEntity%5CDnd35Monstres%24cadepourvu' => 191,
-'App%5CEntity%5CDnd35Monstres%24camodiftaille' => 232,
-'[C]App%5CEntity%5CDnd35Monstres%24camodiftaille' => 191,
-'App%5CEntity%5CDnd35Monstres%24camodifdex' => 233,
-'[C]App%5CEntity%5CDnd35Monstres%24camodifdex' => 191,
-'App%5CEntity%5CDnd35Monstres%24camodifnaturelle' => 234,
-'[C]App%5CEntity%5CDnd35Monstres%24camodifnaturelle' => 191,
-'App%5CEntity%5CDnd35Monstres%24camodifparade' => 235,
-'[C]App%5CEntity%5CDnd35Monstres%24camodifparade' => 191,
-'App%5CEntity%5CDnd35Monstres%24camodifesquive' => 236,
-'[C]App%5CEntity%5CDnd35Monstres%24camodifesquive' => 191,
-'App%5CEntity%5CDnd35Monstres%24armure' => 237,
-'[C]App%5CEntity%5CDnd35Monstres%24armure' => 191,
-'App%5CEntity%5CDnd35Monstres%24modifarmure' => 238,
-'[C]App%5CEntity%5CDnd35Monstres%24modifarmure' => 191,
-'App%5CEntity%5CDnd35Monstres%24bouclier' => 239,
-'[C]App%5CEntity%5CDnd35Monstres%24bouclier' => 191,
-'App%5CEntity%5CDnd35Monstres%24modifbouclier' => 240,
-'[C]App%5CEntity%5CDnd35Monstres%24modifbouclier' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquebase' => 241,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquebase' => 191,
-'App%5CEntity%5CDnd35Monstres%24lutte' => 242,
-'[C]App%5CEntity%5CDnd35Monstres%24lutte' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque' => 243,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche' => 244,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype' => 245,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats' => 246,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement' => 247,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque2' => 248,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche2' => 249,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype2' => 250,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats2' => 251,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement2' => 252,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle2' => 253,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque3' => 254,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche3' => 255,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype3' => 256,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats3' => 257,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement3' => 258,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle3' => 259,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque4' => 260,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche4' => 261,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype4' => 262,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats4' => 263,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement4' => 264,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle4' => 265,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque5' => 266,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche5' => 267,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype5' => 268,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats5' => 269,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement5' => 270,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle5' => 271,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaque6' => 272,
-'[C]App%5CEntity%5CDnd35Monstres%24attaque6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetouche6' => 273,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquetype6' => 274,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquetype6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquedegats6' => 275,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquecomplement6' => 276,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle6' => 277,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance' => 278,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche' => 279,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype' => 280,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats' => 281,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement' => 282,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance2' => 283,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche2' => 284,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype2' => 285,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats2' => 286,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement2' => 287,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle2' => 288,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle2' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance3' => 289,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche3' => 290,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype3' => 291,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats3' => 292,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement3' => 293,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle3' => 294,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle3' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance4' => 295,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche4' => 296,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype4' => 297,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats4' => 298,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement4' => 299,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle4' => 300,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle4' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance5' => 301,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche5' => 302,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype5' => 303,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats5' => 304,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement5' => 305,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle5' => 306,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle5' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrance6' => 307,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche6' => 308,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype6' => 309,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats6' => 310,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement6' => 311,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement6' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle6' => 312,
-'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle6' => 191,
-'App%5CEntity%5CDnd35Monstres%24souffle' => 313,
-'[C]App%5CEntity%5CDnd35Monstres%24souffle' => 191,
-'App%5CEntity%5CDnd35Monstres%24ddsouffle' => 314,
-'[C]App%5CEntity%5CDnd35Monstres%24ddsouffle' => 191,
-'App%5CEntity%5CDnd35Monstres%24espaceoccupe' => 315,
-'[C]App%5CEntity%5CDnd35Monstres%24espaceoccupe' => 191,
-'App%5CEntity%5CDnd35Monstres%24allonge' => 316,
-'[C]App%5CEntity%5CDnd35Monstres%24allonge' => 191,
-'App%5CEntity%5CDnd35Monstres%24allongecomplement' => 317,
-'[C]App%5CEntity%5CDnd35Monstres%24allongecomplement' => 191,
-'App%5CEntity%5CDnd35Monstres%24attaquesspeciales' => 318,
-'[C]App%5CEntity%5CDnd35Monstres%24attaquesspeciales' => 191,
-'App%5CEntity%5CDnd35Monstres%24particularites' => 319,
-'[C]App%5CEntity%5CDnd35Monstres%24particularites' => 191,
-'App%5CEntity%5CDnd35Monstres%24reflexe' => 320,
-'[C]App%5CEntity%5CDnd35Monstres%24reflexe' => 191,
-'App%5CEntity%5CDnd35Monstres%24vigueur' => 72,
-'[C]App%5CEntity%5CDnd35Monstres%24vigueur' => 191,
-'App%5CEntity%5CDnd35Monstres%24volonte' => 73,
-'[C]App%5CEntity%5CDnd35Monstres%24volonte' => 191,
-'App%5CEntity%5CDnd35Monstres%24vigueurpoison' => 321,
-'[C]App%5CEntity%5CDnd35Monstres%24vigueurpoison' => 191,
-'App%5CEntity%5CDnd35Monstres%24ddpresenceterrifiante' => 322,
-'[C]App%5CEntity%5CDnd35Monstres%24ddpresenceterrifiante' => 191,
-'App%5CEntity%5CDnd35Monstres%24force' => 323,
-'[C]App%5CEntity%5CDnd35Monstres%24force' => 191,
-'App%5CEntity%5CDnd35Monstres%24dexterite' => 324,
-'[C]App%5CEntity%5CDnd35Monstres%24dexterite' => 191,
-'App%5CEntity%5CDnd35Monstres%24constitution' => 325,
-'[C]App%5CEntity%5CDnd35Monstres%24constitution' => 191,
-'App%5CEntity%5CDnd35Monstres%24intelligence' => 326,
-'[C]App%5CEntity%5CDnd35Monstres%24intelligence' => 191,
-'App%5CEntity%5CDnd35Monstres%24sagesse' => 327,
-'[C]App%5CEntity%5CDnd35Monstres%24sagesse' => 191,
-'App%5CEntity%5CDnd35Monstres%24charisme' => 328,
-'[C]App%5CEntity%5CDnd35Monstres%24charisme' => 191,
-'App%5CEntity%5CDnd35Monstres%24competences' => 329,
-'[C]App%5CEntity%5CDnd35Monstres%24competences' => 191,
-'App%5CEntity%5CDnd35Monstres%24dons' => 330,
-'[C]App%5CEntity%5CDnd35Monstres%24dons' => 191,
-'App%5CEntity%5CDnd35Monstres%24niveaulanceursorts' => 144,
-'[C]App%5CEntity%5CDnd35Monstres%24niveaulanceursorts' => 191,
-'App%5CEntity%5CDnd35Monstres%24rm' => 331,
-'[C]App%5CEntity%5CDnd35Monstres%24rm' => 191,
-'App%5CEntity%5CDnd35Monstres%24environnement' => 332,
-'[C]App%5CEntity%5CDnd35Monstres%24environnement' => 191,
-'App%5CEntity%5CDnd35Monstres%24organisation' => 333,
-'[C]App%5CEntity%5CDnd35Monstres%24organisation' => 191,
-'App%5CEntity%5CDnd35Monstres%24fp' => 334,
-'[C]App%5CEntity%5CDnd35Monstres%24fp' => 191,
-'App%5CEntity%5CDnd35Monstres%24tresor' => 335,
-'[C]App%5CEntity%5CDnd35Monstres%24tresor' => 191,
-'App%5CEntity%5CDnd35Monstres%24alignement' => 336,
-'[C]App%5CEntity%5CDnd35Monstres%24alignement' => 191,
-'App%5CEntity%5CDnd35Monstres%24evolutions' => 337,
-'[C]App%5CEntity%5CDnd35Monstres%24evolutions' => 191,
-'App%5CEntity%5CDnd35Monstres%24ajustement' => 338,
-'[C]App%5CEntity%5CDnd35Monstres%24ajustement' => 191,
-'App%5CEntity%5CDnd35Monstres%24description' => 36,
-'[C]App%5CEntity%5CDnd35Monstres%24description' => 191,
-'App%5CEntity%5CDnd35Monstres%24combat' => 339,
-'[C]App%5CEntity%5CDnd35Monstres%24combat' => 191,
-'App%5CEntity%5CDnd35Monstres%24jouable' => 340,
-'[C]App%5CEntity%5CDnd35Monstres%24jouable' => 191,
-'App%5CEntity%5CDnd35Monstres%24squelette' => 341,
-'[C]App%5CEntity%5CDnd35Monstres%24squelette' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes' => 342,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes' => 191,
+'[C]App%5CEntity%5CDnd35Monstres%23setSquelette' => 1,
+'App%5CEntity%5CDnd35Monstres%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstres%24id' => 1,
+'App%5CEntity%5CDnd35Monstres%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Monstres%24nom' => 1,
+'App%5CEntity%5CDnd35Monstres%24image' => 235,
+'[C]App%5CEntity%5CDnd35Monstres%24image' => 1,
+'App%5CEntity%5CDnd35Monstres%24type' => 139,
+'[C]App%5CEntity%5CDnd35Monstres%24type' => 1,
+'App%5CEntity%5CDnd35Monstres%24soustype' => 236,
+'[C]App%5CEntity%5CDnd35Monstres%24soustype' => 1,
+'App%5CEntity%5CDnd35Monstres%24taille' => 229,
+'[C]App%5CEntity%5CDnd35Monstres%24taille' => 1,
+'App%5CEntity%5CDnd35Monstres%24dv' => 237,
+'[C]App%5CEntity%5CDnd35Monstres%24dv' => 1,
+'App%5CEntity%5CDnd35Monstres%24viemoyenne' => 238,
+'[C]App%5CEntity%5CDnd35Monstres%24viemoyenne' => 1,
+'App%5CEntity%5CDnd35Monstres%24initiative' => 239,
+'[C]App%5CEntity%5CDnd35Monstres%24initiative' => 1,
+'App%5CEntity%5CDnd35Monstres%24vitesse' => 240,
+'[C]App%5CEntity%5CDnd35Monstres%24vitesse' => 1,
+'App%5CEntity%5CDnd35Monstres%24nage' => 241,
+'[C]App%5CEntity%5CDnd35Monstres%24nage' => 1,
+'App%5CEntity%5CDnd35Monstres%24vol' => 242,
+'[C]App%5CEntity%5CDnd35Monstres%24vol' => 1,
+'App%5CEntity%5CDnd35Monstres%24escalade' => 243,
+'[C]App%5CEntity%5CDnd35Monstres%24escalade' => 1,
+'App%5CEntity%5CDnd35Monstres%24creusement' => 244,
+'[C]App%5CEntity%5CDnd35Monstres%24creusement' => 1,
+'App%5CEntity%5CDnd35Monstres%24ca' => 245,
+'[C]App%5CEntity%5CDnd35Monstres%24ca' => 1,
+'App%5CEntity%5CDnd35Monstres%24cacontact' => 246,
+'[C]App%5CEntity%5CDnd35Monstres%24cacontact' => 1,
+'App%5CEntity%5CDnd35Monstres%24cadepourvu' => 247,
+'[C]App%5CEntity%5CDnd35Monstres%24cadepourvu' => 1,
+'App%5CEntity%5CDnd35Monstres%24camodiftaille' => 248,
+'[C]App%5CEntity%5CDnd35Monstres%24camodiftaille' => 1,
+'App%5CEntity%5CDnd35Monstres%24camodifdex' => 249,
+'[C]App%5CEntity%5CDnd35Monstres%24camodifdex' => 1,
+'App%5CEntity%5CDnd35Monstres%24camodifnaturelle' => 250,
+'[C]App%5CEntity%5CDnd35Monstres%24camodifnaturelle' => 1,
+'App%5CEntity%5CDnd35Monstres%24camodifparade' => 251,
+'[C]App%5CEntity%5CDnd35Monstres%24camodifparade' => 1,
+'App%5CEntity%5CDnd35Monstres%24camodifesquive' => 252,
+'[C]App%5CEntity%5CDnd35Monstres%24camodifesquive' => 1,
+'App%5CEntity%5CDnd35Monstres%24armure' => 253,
+'[C]App%5CEntity%5CDnd35Monstres%24armure' => 1,
+'App%5CEntity%5CDnd35Monstres%24modifarmure' => 254,
+'[C]App%5CEntity%5CDnd35Monstres%24modifarmure' => 1,
+'App%5CEntity%5CDnd35Monstres%24bouclier' => 255,
+'[C]App%5CEntity%5CDnd35Monstres%24bouclier' => 1,
+'App%5CEntity%5CDnd35Monstres%24modifbouclier' => 256,
+'[C]App%5CEntity%5CDnd35Monstres%24modifbouclier' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquebase' => 257,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquebase' => 1,
+'App%5CEntity%5CDnd35Monstres%24lutte' => 258,
+'[C]App%5CEntity%5CDnd35Monstres%24lutte' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque' => 259,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche' => 260,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype' => 261,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats' => 262,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement' => 263,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque2' => 264,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche2' => 265,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype2' => 266,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats2' => 267,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement2' => 268,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle2' => 269,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque3' => 270,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche3' => 271,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype3' => 272,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats3' => 273,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement3' => 274,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle3' => 275,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque4' => 276,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche4' => 277,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype4' => 278,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats4' => 279,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement4' => 280,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle4' => 281,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque5' => 282,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche5' => 283,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype5' => 284,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats5' => 285,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement5' => 286,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle5' => 287,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaque6' => 288,
+'[C]App%5CEntity%5CDnd35Monstres%24attaque6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetouche6' => 289,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetouche6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquetype6' => 290,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquetype6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquedegats6' => 291,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquedegats6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquecomplement6' => 292,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquecomplement6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle6' => 293,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoptionnelle6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance' => 294,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche' => 295,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype' => 296,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats' => 297,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement' => 298,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance2' => 299,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche2' => 300,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype2' => 301,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats2' => 302,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement2' => 303,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle2' => 304,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle2' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance3' => 305,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche3' => 306,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype3' => 307,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats3' => 308,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement3' => 309,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle3' => 310,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle3' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance4' => 311,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche4' => 312,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype4' => 313,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats4' => 314,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement4' => 315,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle4' => 316,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle4' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance5' => 317,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche5' => 318,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype5' => 319,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats5' => 320,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement5' => 321,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle5' => 322,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle5' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrance6' => 323,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrance6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche6' => 324,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetouche6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype6' => 325,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancetype6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats6' => 326,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancedegats6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement6' => 327,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutrancecomplement6' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle6' => 328,
+'[C]App%5CEntity%5CDnd35Monstres%24attaqueoutranceoptionnelle6' => 1,
+'App%5CEntity%5CDnd35Monstres%24souffle' => 329,
+'[C]App%5CEntity%5CDnd35Monstres%24souffle' => 1,
+'App%5CEntity%5CDnd35Monstres%24ddsouffle' => 330,
+'[C]App%5CEntity%5CDnd35Monstres%24ddsouffle' => 1,
+'App%5CEntity%5CDnd35Monstres%24espaceoccupe' => 331,
+'[C]App%5CEntity%5CDnd35Monstres%24espaceoccupe' => 1,
+'App%5CEntity%5CDnd35Monstres%24allonge' => 332,
+'[C]App%5CEntity%5CDnd35Monstres%24allonge' => 1,
+'App%5CEntity%5CDnd35Monstres%24allongecomplement' => 333,
+'[C]App%5CEntity%5CDnd35Monstres%24allongecomplement' => 1,
+'App%5CEntity%5CDnd35Monstres%24attaquesspeciales' => 334,
+'[C]App%5CEntity%5CDnd35Monstres%24attaquesspeciales' => 1,
+'App%5CEntity%5CDnd35Monstres%24particularites' => 335,
+'[C]App%5CEntity%5CDnd35Monstres%24particularites' => 1,
+'App%5CEntity%5CDnd35Monstres%24reflexe' => 336,
+'[C]App%5CEntity%5CDnd35Monstres%24reflexe' => 1,
+'App%5CEntity%5CDnd35Monstres%24vigueur' => 89,
+'[C]App%5CEntity%5CDnd35Monstres%24vigueur' => 1,
+'App%5CEntity%5CDnd35Monstres%24volonte' => 90,
+'[C]App%5CEntity%5CDnd35Monstres%24volonte' => 1,
+'App%5CEntity%5CDnd35Monstres%24vigueurpoison' => 337,
+'[C]App%5CEntity%5CDnd35Monstres%24vigueurpoison' => 1,
+'App%5CEntity%5CDnd35Monstres%24ddpresenceterrifiante' => 338,
+'[C]App%5CEntity%5CDnd35Monstres%24ddpresenceterrifiante' => 1,
+'App%5CEntity%5CDnd35Monstres%24force' => 339,
+'[C]App%5CEntity%5CDnd35Monstres%24force' => 1,
+'App%5CEntity%5CDnd35Monstres%24dexterite' => 340,
+'[C]App%5CEntity%5CDnd35Monstres%24dexterite' => 1,
+'App%5CEntity%5CDnd35Monstres%24constitution' => 341,
+'[C]App%5CEntity%5CDnd35Monstres%24constitution' => 1,
+'App%5CEntity%5CDnd35Monstres%24intelligence' => 342,
+'[C]App%5CEntity%5CDnd35Monstres%24intelligence' => 1,
+'App%5CEntity%5CDnd35Monstres%24sagesse' => 343,
+'[C]App%5CEntity%5CDnd35Monstres%24sagesse' => 1,
+'App%5CEntity%5CDnd35Monstres%24charisme' => 344,
+'[C]App%5CEntity%5CDnd35Monstres%24charisme' => 1,
+'App%5CEntity%5CDnd35Monstres%24competences' => 345,
+'[C]App%5CEntity%5CDnd35Monstres%24competences' => 1,
+'App%5CEntity%5CDnd35Monstres%24dons' => 346,
+'[C]App%5CEntity%5CDnd35Monstres%24dons' => 1,
+'App%5CEntity%5CDnd35Monstres%24niveaulanceursorts' => 161,
+'[C]App%5CEntity%5CDnd35Monstres%24niveaulanceursorts' => 1,
+'App%5CEntity%5CDnd35Monstres%24rm' => 347,
+'[C]App%5CEntity%5CDnd35Monstres%24rm' => 1,
+'App%5CEntity%5CDnd35Monstres%24environnement' => 348,
+'[C]App%5CEntity%5CDnd35Monstres%24environnement' => 1,
+'App%5CEntity%5CDnd35Monstres%24organisation' => 349,
+'[C]App%5CEntity%5CDnd35Monstres%24organisation' => 1,
+'App%5CEntity%5CDnd35Monstres%24fp' => 350,
+'[C]App%5CEntity%5CDnd35Monstres%24fp' => 1,
+'App%5CEntity%5CDnd35Monstres%24tresor' => 351,
+'[C]App%5CEntity%5CDnd35Monstres%24tresor' => 1,
+'App%5CEntity%5CDnd35Monstres%24alignement' => 352,
+'[C]App%5CEntity%5CDnd35Monstres%24alignement' => 1,
+'App%5CEntity%5CDnd35Monstres%24evolutions' => 353,
+'[C]App%5CEntity%5CDnd35Monstres%24evolutions' => 1,
+'App%5CEntity%5CDnd35Monstres%24ajustement' => 354,
+'[C]App%5CEntity%5CDnd35Monstres%24ajustement' => 1,
+'App%5CEntity%5CDnd35Monstres%24description' => 53,
+'[C]App%5CEntity%5CDnd35Monstres%24description' => 1,
+'App%5CEntity%5CDnd35Monstres%24combat' => 355,
+'[C]App%5CEntity%5CDnd35Monstres%24combat' => 1,
+'App%5CEntity%5CDnd35Monstres%24jouable' => 356,
+'[C]App%5CEntity%5CDnd35Monstres%24jouable' => 1,
+'App%5CEntity%5CDnd35Monstres%24squelette' => 357,
+'[C]App%5CEntity%5CDnd35Monstres%24squelette' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes' => 358,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getNom' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setNom' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getImage' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getImage' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getImage' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setImage' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setImage' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setImage' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getLimitationtypes' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getLimitationtypes' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getLimitationtypes' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setLimitationtypes' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setLimitationtypes' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setLimitationtypes' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getModificationstype' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getModificationstype' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getModificationstype' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setModificationstype' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setModificationstype' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setModificationstype' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getModificationssoustype' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getModificationssoustype' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getModificationssoustype' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setModificationssoustype' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setModificationssoustype' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setModificationssoustype' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusforce' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusforce' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusforce' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusforce' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusforce' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusforce' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdexterite' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdexterite' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusconstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusconstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusconstitution' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusconstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusconstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusconstitution' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusintelligence' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusintelligence' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusintelligence' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusintelligence' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusintelligence' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusintelligence' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonussagesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonussagesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonussagesse' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonussagesse' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonussagesse' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonussagesse' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscharisme' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscharisme' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscharisme' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscharisme' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscharisme' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscharisme' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getVitessedeplacement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getVitessedeplacement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getVitessedeplacement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setVitessedeplacement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setVitessedeplacement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setVitessedeplacement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getTaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getTaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getTaille' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setTaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setTaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setTaille' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getCapacites' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getCapacites' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getCapacites' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setCapacites' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setCapacites' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setCapacites' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getDesvie' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDesvie' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDesvie' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setDesvie' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDesvie' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDesvie' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdesvie' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdesvie' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusdesvie' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdesvie' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdesvie' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusdesvie' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusbba' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusbba' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusbba' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusbba' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusbba' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusbba' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonuslutte' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuslutte' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuslutte' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonuslutte' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuslutte' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuslutte' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusreflexe' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusreflexe' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusreflexe' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusreflexe' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusreflexe' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusreflexe' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvigueur' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvigueur' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvigueur' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvigueur' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvigueur' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvigueur' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvolonte' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvolonte' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusvolonte' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvolonte' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvolonte' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusvolonte' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetences' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetences' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetences' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetences' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetences' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetences' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getCompetencesraciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getCompetencesraciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getCompetencesraciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setCompetencesraciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setCompetencesraciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setCompetencesraciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getDonsraciaux' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDonsraciaux' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDonsraciaux' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setDonsraciaux' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDonsraciaux' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDonsraciaux' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getDonsbonus' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDonsbonus' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDonsbonus' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setDonsbonus' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDonsbonus' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDonsbonus' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getArmurenaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getArmurenaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getArmurenaturelle' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setArmurenaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setArmurenaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setArmurenaturelle' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusca' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusca' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusca' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusca' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusca' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusca' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonusesquive' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusesquive' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonusesquive' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonusesquive' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusesquive' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonusesquive' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getResistances' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getResistances' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getResistances' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setResistances' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setResistances' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setResistances' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetencesraciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetencesraciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getBonuscompetencesraciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetencesraciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetencesraciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBonuscompetencesraciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getAttaques' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAttaques' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAttaques' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setAttaques' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAttaques' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAttaques' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getAttaquesspeciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAttaquesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAttaquesspeciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setAttaquesspeciales' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAttaquesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAttaquesspeciales' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getParticularites' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getParticularites' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getParticularites' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setParticularites' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setParticularites' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setParticularites' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirs' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirs' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirs' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirs' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirs' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirs' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirsmagiques' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirsmagiques' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPouvoirsmagiques' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirsmagiques' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirsmagiques' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPouvoirsmagiques' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getManiements' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getManiements' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getManiements' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setManiements' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setManiements' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setManiements' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getDegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDegats' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setDegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDegats' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getClasspredilection' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getClasspredilection' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getClasspredilection' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setClasspredilection' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setClasspredilection' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setClasspredilection' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getLangues' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getLangues' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getLangues' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setLangues' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setLangues' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setLangues' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getAjustementniveau' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAjustementniveau' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAjustementniveau' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setAjustementniveau' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAjustementniveau' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAjustementniveau' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getFp' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getFp' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getFp' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setFp' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setFp' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setFp' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAlignement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getAlignement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAlignement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setAlignement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getDescription' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setDescription' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getPrerequis' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPrerequis' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getPrerequis' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setPrerequis' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPrerequis' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setPrerequis' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getEnvironnement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getEnvironnement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getEnvironnement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setEnvironnement' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setEnvironnement' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setEnvironnement' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23getOrganisationsociale' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getOrganisationsociale' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23getOrganisationsociale' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setOrganisationsociale' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setOrganisationsociale' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setOrganisationsociale' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23isBesoincreaturebase' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23isBesoincreaturebase' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23isBesoincreaturebase' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setBesoincreaturebase' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBesoincreaturebase' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setBesoincreaturebase' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23isMortvivant' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23isMortvivant' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23isMortvivant' => 1,
 'App%5CEntity%5CDnd35Monstresarchetypes%23setMortvivant' => 0,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setMortvivant' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24id' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24nom' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24image' => 219,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24image' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24limitationtypes' => 343,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24limitationtypes' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24modificationstype' => 344,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24modificationstype' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24modificationssoustype' => 345,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24modificationssoustype' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusforce' => 346,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusforce' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusdexterite' => 347,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusdexterite' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusconstitution' => 348,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusconstitution' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusintelligence' => 349,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusintelligence' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonussagesse' => 350,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonussagesse' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscharisme' => 351,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscharisme' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24vitessedeplacement' => 352,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24vitessedeplacement' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24taille' => 353,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24taille' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24capacites' => 354,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24capacites' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24desvie' => 355,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24desvie' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusdesvie' => 356,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusdesvie' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusbba' => 357,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusbba' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonuslutte' => 358,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuslutte' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusreflexe' => 359,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusreflexe' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusvigueur' => 360,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusvigueur' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusvolonte' => 361,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusvolonte' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetences' => 362,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetences' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24competencesraciales' => 363,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24competencesraciales' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24donsraciaux' => 364,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24donsraciaux' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24donsbonus' => 365,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24donsbonus' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24armurenaturelle' => 366,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24armurenaturelle' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusca' => 367,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusca' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonusesquive' => 368,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusesquive' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24resistances' => 369,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24resistances' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetencesraciales' => 370,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetencesraciales' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24attaques' => 371,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24attaques' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24attaquesspeciales' => 372,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24attaquesspeciales' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24particularites' => 373,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24particularites' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirs' => 374,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirs' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirsmagiques' => 375,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirsmagiques' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24maniements' => 376,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24maniements' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24degats' => 377,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24degats' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24classpredilection' => 378,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24classpredilection' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24langues' => 379,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24langues' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24ajustementniveau' => 380,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24ajustementniveau' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24fp' => 381,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24fp' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24alignement' => 382,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24alignement' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24description' => 24,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24description' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24prerequis' => 383,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24prerequis' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24environnement' => 384,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24environnement' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24organisationsociale' => 385,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24organisationsociale' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24besoincreaturebase' => 386,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24besoincreaturebase' => 191,
-'App%5CEntity%5CDnd35Monstresarchetypes%24mortvivant' => 387,
-'[C]App%5CEntity%5CDnd35Monstresarchetypes%24mortvivant' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationdegats' => 388,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%23setMortvivant' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24id' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24nom' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24image' => 235,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24image' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24limitationtypes' => 359,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24limitationtypes' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24modificationstype' => 360,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24modificationstype' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24modificationssoustype' => 361,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24modificationssoustype' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusforce' => 362,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusforce' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusdexterite' => 363,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusdexterite' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusconstitution' => 364,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusconstitution' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusintelligence' => 365,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusintelligence' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonussagesse' => 366,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonussagesse' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscharisme' => 367,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscharisme' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24vitessedeplacement' => 368,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24vitessedeplacement' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24taille' => 369,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24taille' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24capacites' => 370,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24capacites' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24desvie' => 371,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24desvie' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusdesvie' => 372,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusdesvie' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusbba' => 373,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusbba' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonuslutte' => 374,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuslutte' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusreflexe' => 375,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusreflexe' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusvigueur' => 376,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusvigueur' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusvolonte' => 377,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusvolonte' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetences' => 378,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetences' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24competencesraciales' => 379,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24competencesraciales' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24donsraciaux' => 380,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24donsraciaux' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24donsbonus' => 381,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24donsbonus' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24armurenaturelle' => 382,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24armurenaturelle' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusca' => 383,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusca' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonusesquive' => 384,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonusesquive' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24resistances' => 385,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24resistances' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetencesraciales' => 386,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24bonuscompetencesraciales' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24attaques' => 387,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24attaques' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24attaquesspeciales' => 388,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24attaquesspeciales' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24particularites' => 389,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24particularites' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirs' => 390,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirs' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirsmagiques' => 391,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24pouvoirsmagiques' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24maniements' => 392,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24maniements' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24degats' => 393,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24degats' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24classpredilection' => 394,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24classpredilection' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24langues' => 395,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24langues' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24ajustementniveau' => 396,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24ajustementniveau' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24fp' => 397,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24fp' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24alignement' => 398,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24alignement' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24description' => 41,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24description' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24prerequis' => 399,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24prerequis' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24environnement' => 400,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24environnement' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24organisationsociale' => 401,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24organisationsociale' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24besoincreaturebase' => 402,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24besoincreaturebase' => 1,
+'App%5CEntity%5CDnd35Monstresarchetypes%24mortvivant' => 403,
+'[C]App%5CEntity%5CDnd35Monstresarchetypes%24mortvivant' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationdegats' => 404,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationdegats%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationdegats%23getAnciensdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getAnciensdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getAnciensdegats' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationdegats%23setAnciensdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23setAnciensdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23setAnciensdegats' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationdegats%23getNouveauxdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getNouveauxdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23getNouveauxdegats' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationdegats%23setNouveauxdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23setNouveauxdegats' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationdegats%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24id' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationdegats%24anciensdegats' => 389,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24anciensdegats' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationdegats%24nouveauxdegats' => 390,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24nouveauxdegats' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationfp' => 391,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%23setNouveauxdegats' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationdegats%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24id' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationdegats%24anciensdegats' => 405,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24anciensdegats' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationdegats%24nouveauxdegats' => 406,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationdegats%24nouveauxdegats' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationfp' => 407,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationfp%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationfp%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getType' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationfp%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23setType' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationfp%23getAugmentation' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getAugmentation' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23getAugmentation' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationfp%23setAugmentation' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23setAugmentation' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationfp%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24id' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationfp%24type' => 122,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24type' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationfp%24augmentation' => 392,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24augmentation' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille' => 393,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%23setAugmentation' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationfp%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24id' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationfp%24type' => 139,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24type' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationfp%24augmentation' => 408,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationfp%24augmentation' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille' => 409,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getAnciennetaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getAnciennetaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getAnciennetaille' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setAnciennetaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setAnciennetaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setAnciennetaille' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getNouvelletaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getNouvelletaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getNouvelletaille' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setNouvelletaille' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setNouvelletaille' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setNouvelletaille' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getForce' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getForce' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getForce' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setForce' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setForce' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setForce' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getDexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getDexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getDexterite' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setDexterite' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setDexterite' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setDexterite' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getConstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getConstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getConstitution' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setConstitution' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setConstitution' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setConstitution' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getArmurenaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getArmurenaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getArmurenaturelle' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setArmurenaturelle' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setArmurenaturelle' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setArmurenaturelle' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23getCaattaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getCaattaque' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23getCaattaque' => 1,
 'App%5CEntity%5CDnd35Monstresaugmentationtaille%23setCaattaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setCaattaque' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24id' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24anciennetaille' => 394,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24anciennetaille' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24nouvelletaille' => 395,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24nouvelletaille' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24force' => 51,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24force' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24dexterite' => 324,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24dexterite' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24constitution' => 396,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24constitution' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24armurenaturelle' => 366,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24armurenaturelle' => 191,
-'App%5CEntity%5CDnd35Monstresaugmentationtaille%24caattaque' => 397,
-'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24caattaque' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons' => 398,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons' => 191,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%23setCaattaque' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24id' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24anciennetaille' => 410,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24anciennetaille' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24nouvelletaille' => 411,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24nouvelletaille' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24force' => 68,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24force' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24dexterite' => 340,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24dexterite' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24constitution' => 412,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24constitution' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24armurenaturelle' => 382,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24armurenaturelle' => 1,
+'App%5CEntity%5CDnd35Monstresaugmentationtaille%24caattaque' => 413,
+'[C]App%5CEntity%5CDnd35Monstresaugmentationtaille%24caattaque' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons' => 414,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getId' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getDescription' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setDescription' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getCombat' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getCombat' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getCombat' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setCombat' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setCombat' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setCombat' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getCategoriesage' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getCategoriesage' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getCategoriesage' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setCategoriesage' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setCategoriesage' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setCategoriesage' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getEspacesoccupes' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getEspacesoccupes' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getEspacesoccupes' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setEspacesoccupes' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setEspacesoccupes' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setEspacesoccupes' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getAttaquesdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getAttaquesdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getAttaquesdegats' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setAttaquesdegats' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setAttaquesdegats' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setAttaquesdegats' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23getSouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getSouffle' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23getSouffle' => 1,
 'App%5CEntity%5CDnd35Monstrescommundragons%23setSouffle' => 0,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setSouffle' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24id' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24description' => 36,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24description' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24combat' => 339,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24combat' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24categoriesage' => 399,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24categoriesage' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24espacesoccupes' => 400,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24espacesoccupes' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24attaquesdegats' => 401,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24attaquesdegats' => 191,
-'App%5CEntity%5CDnd35Monstrescommundragons%24souffle' => 402,
-'[C]App%5CEntity%5CDnd35Monstrescommundragons%24souffle' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions' => 403,
-'[C]App%5CEntity%5CDnd35Monstresevolutions' => 191,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%23setSouffle' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24id' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24description' => 53,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24description' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24combat' => 355,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24combat' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24categoriesage' => 415,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24categoriesage' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24espacesoccupes' => 416,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24espacesoccupes' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24attaquesdegats' => 417,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24attaquesdegats' => 1,
+'App%5CEntity%5CDnd35Monstrescommundragons%24souffle' => 418,
+'[C]App%5CEntity%5CDnd35Monstrescommundragons%24souffle' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions' => 419,
+'[C]App%5CEntity%5CDnd35Monstresevolutions' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getType' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23setType' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getDv' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getDv' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getDv' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23setDv' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23setDv' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23setDv' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getBonusattaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getBonusattaque' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getBonusattaque' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23setBonusattaque' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23setBonusattaque' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23setBonusattaque' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getJsfavorables' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getJsfavorables' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getJsfavorables' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23setJsfavorables' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23setJsfavorables' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23setJsfavorables' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23getPtscompetence' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23getPtscompetence' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23getPtscompetence' => 1,
 'App%5CEntity%5CDnd35Monstresevolutions%23setPtscompetence' => 0,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%23setPtscompetence' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24id' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24type' => 122,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24type' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24dv' => 221,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24dv' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24bonusattaque' => 404,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24bonusattaque' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24jsfavorables' => 405,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24jsfavorables' => 191,
-'App%5CEntity%5CDnd35Monstresevolutions%24ptscompetence' => 406,
-'[C]App%5CEntity%5CDnd35Monstresevolutions%24ptscompetence' => 191,
-'App%5CEntity%5CDnd35Monstresexperience' => 407,
-'[C]App%5CEntity%5CDnd35Monstresexperience' => 191,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%23setPtscompetence' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24id' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24type' => 139,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24type' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24dv' => 237,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24dv' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24bonusattaque' => 420,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24bonusattaque' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24jsfavorables' => 421,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24jsfavorables' => 1,
+'App%5CEntity%5CDnd35Monstresevolutions%24ptscompetence' => 422,
+'[C]App%5CEntity%5CDnd35Monstresevolutions%24ptscompetence' => 1,
+'App%5CEntity%5CDnd35Monstresexperience' => 423,
+'[C]App%5CEntity%5CDnd35Monstresexperience' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23getId' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23getFpmonstre' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23getFpmonstre' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23getFpmonstre' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23setFpmonstre' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23setFpmonstre' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23setFpmonstre' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23getLvlpj' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23getLvlpj' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23getLvlpj' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23setLvlpj' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23setLvlpj' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23setLvlpj' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23getXp' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23getXp' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23getXp' => 1,
 'App%5CEntity%5CDnd35Monstresexperience%23setXp' => 0,
-'[C]App%5CEntity%5CDnd35Monstresexperience%23setXp' => 191,
-'App%5CEntity%5CDnd35Monstresexperience%24id' => 5,
-'[C]App%5CEntity%5CDnd35Monstresexperience%24id' => 191,
-'App%5CEntity%5CDnd35Monstresexperience%24fpmonstre' => 408,
-'[C]App%5CEntity%5CDnd35Monstresexperience%24fpmonstre' => 191,
-'App%5CEntity%5CDnd35Monstresexperience%24lvlpj' => 409,
-'[C]App%5CEntity%5CDnd35Monstresexperience%24lvlpj' => 191,
-'App%5CEntity%5CDnd35Monstresexperience%24xp' => 410,
-'[C]App%5CEntity%5CDnd35Monstresexperience%24xp' => 191,
-'App%5CEntity%5CDnd35Objets' => 411,
-'[C]App%5CEntity%5CDnd35Objets' => 191,
+'[C]App%5CEntity%5CDnd35Monstresexperience%23setXp' => 1,
+'App%5CEntity%5CDnd35Monstresexperience%24id' => 22,
+'[C]App%5CEntity%5CDnd35Monstresexperience%24id' => 1,
+'App%5CEntity%5CDnd35Monstresexperience%24fpmonstre' => 424,
+'[C]App%5CEntity%5CDnd35Monstresexperience%24fpmonstre' => 1,
+'App%5CEntity%5CDnd35Monstresexperience%24lvlpj' => 425,
+'[C]App%5CEntity%5CDnd35Monstresexperience%24lvlpj' => 1,
+'App%5CEntity%5CDnd35Monstresexperience%24xp' => 426,
+'[C]App%5CEntity%5CDnd35Monstresexperience%24xp' => 1,
+'App%5CEntity%5CDnd35Objets' => 427,
+'[C]App%5CEntity%5CDnd35Objets' => 1,
 'App%5CEntity%5CDnd35Objets%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23getId' => 1,
 'App%5CEntity%5CDnd35Objets%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23getNom' => 1,
 'App%5CEntity%5CDnd35Objets%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23setNom' => 1,
 'App%5CEntity%5CDnd35Objets%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objets%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23setPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23setPrix' => 1,
 'App%5CEntity%5CDnd35Objets%23getPoids' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23getPoids' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23getPoids' => 1,
 'App%5CEntity%5CDnd35Objets%23setPoids' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23setPoids' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23setPoids' => 1,
 'App%5CEntity%5CDnd35Objets%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23getDescription' => 1,
 'App%5CEntity%5CDnd35Objets%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Objets%23setDescription' => 191,
-'App%5CEntity%5CDnd35Objets%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objets%24id' => 191,
-'App%5CEntity%5CDnd35Objets%24nom' => 18,
-'[C]App%5CEntity%5CDnd35Objets%24nom' => 191,
-'App%5CEntity%5CDnd35Objets%24prix' => 412,
-'[C]App%5CEntity%5CDnd35Objets%24prix' => 191,
-'App%5CEntity%5CDnd35Objets%24poids' => 13,
-'[C]App%5CEntity%5CDnd35Objets%24poids' => 191,
-'App%5CEntity%5CDnd35Objets%24description' => 24,
-'[C]App%5CEntity%5CDnd35Objets%24description' => 191,
-'App%5CEntity%5CDnd35Objetsart' => 413,
-'[C]App%5CEntity%5CDnd35Objetsart' => 191,
+'[C]App%5CEntity%5CDnd35Objets%23setDescription' => 1,
+'App%5CEntity%5CDnd35Objets%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objets%24id' => 1,
+'App%5CEntity%5CDnd35Objets%24nom' => 35,
+'[C]App%5CEntity%5CDnd35Objets%24nom' => 1,
+'App%5CEntity%5CDnd35Objets%24prix' => 428,
+'[C]App%5CEntity%5CDnd35Objets%24prix' => 1,
+'App%5CEntity%5CDnd35Objets%24poids' => 30,
+'[C]App%5CEntity%5CDnd35Objets%24poids' => 1,
+'App%5CEntity%5CDnd35Objets%24description' => 41,
+'[C]App%5CEntity%5CDnd35Objets%24description' => 1,
+'App%5CEntity%5CDnd35Objetsart' => 429,
+'[C]App%5CEntity%5CDnd35Objetsart' => 1,
 'App%5CEntity%5CDnd35Objetsart%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsart%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsart%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsart%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsart%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsart%23getValeur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23getValeur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23getValeur' => 1,
 'App%5CEntity%5CDnd35Objetsart%23setValeur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23setValeur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23setValeur' => 1,
 'App%5CEntity%5CDnd35Objetsart%23getExemples' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23getExemples' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23getExemples' => 1,
 'App%5CEntity%5CDnd35Objetsart%23setExemples' => 0,
-'[C]App%5CEntity%5CDnd35Objetsart%23setExemples' => 191,
-'App%5CEntity%5CDnd35Objetsart%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsart%24id' => 191,
-'App%5CEntity%5CDnd35Objetsart%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsart%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsart%24prcmax' => 186,
-'[C]App%5CEntity%5CDnd35Objetsart%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsart%24valeur' => 187,
-'[C]App%5CEntity%5CDnd35Objetsart%24valeur' => 191,
-'App%5CEntity%5CDnd35Objetsart%24exemples' => 188,
-'[C]App%5CEntity%5CDnd35Objetsart%24exemples' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques' => 414,
-'[C]App%5CEntity%5CDnd35Objetsmagiques' => 191,
+'[C]App%5CEntity%5CDnd35Objetsart%23setExemples' => 1,
+'App%5CEntity%5CDnd35Objetsart%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsart%24id' => 1,
+'App%5CEntity%5CDnd35Objetsart%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsart%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsart%24prcmax' => 203,
+'[C]App%5CEntity%5CDnd35Objetsart%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsart%24valeur' => 204,
+'[C]App%5CEntity%5CDnd35Objetsart%24valeur' => 1,
+'App%5CEntity%5CDnd35Objetsart%24exemples' => 205,
+'[C]App%5CEntity%5CDnd35Objetsart%24exemples' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques' => 430,
+'[C]App%5CEntity%5CDnd35Objetsmagiques' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23getCategorie' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23getCategorie' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23getCategorie' => 1,
 'App%5CEntity%5CDnd35Objetsmagiques%23setCategorie' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%23setCategorie' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiques%24categorie' => 417,
-'[C]App%5CEntity%5CDnd35Objetsmagiques%24categorie' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes' => 418,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%23setCategorie' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiques%24categorie' => 433,
+'[C]App%5CEntity%5CDnd35Objetsmagiques%24categorie' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes' => 434,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getAdversaire' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getAdversaire' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23getAdversaire' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setAdversaire' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setAdversaire' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmax' => 186,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24adversaire' => 419,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24adversaire' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux' => 420,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%23setAdversaire' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmax' => 203,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24adversaire' => 435,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesadversairesdesignes%24adversaire' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux' => 436,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24nom' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prix' => 38,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes' => 422,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24nom' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prix' => 55,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesanneaux%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes' => 438,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getBonus' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getBonus' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getBonus' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23setBonus' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setBonus' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setBonus' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrixbase' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrixbase' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23getPrixbase' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrixbase' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrixbase' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24bonus' => 423,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24bonus' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prixbase' => 424,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prixbase' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps' => 425,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%23setPrixbase' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24bonus' => 439,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24bonus' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmes%24prixbase' => 440,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmes%24prixbase' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps' => 441,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales' => 428,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorps%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales' => 444,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setModificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24nom' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance' => 429,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%23setModificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24nom' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmescorpsacorpsproprietesspeciales%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance' => 445,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcminmunition' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcminmunition' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcminmunition' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcminmunition' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcminmunition' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcminmunition' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmaxmunition' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmaxmunition' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrcmaxmunition' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmaxmunition' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmaxmunition' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrcmaxmunition' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcminmunition' => 430,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcminmunition' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmaxmunition' => 431,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmaxmunition' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales' => 432,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcminmunition' => 446,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcminmunition' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmaxmunition' => 447,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prcmaxmunition' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistance%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales' => 448,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setModificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24nom' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles' => 433,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%23setModificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24nom' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesdistanceproprietesspeciales%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles' => 449,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setType' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24type' => 434,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24type' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques' => 435,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%23setType' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24type' => 450,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesinhabituelles%24type' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques' => 451,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures' => 437,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmesspecifiques%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures' => 453,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24type' => 6,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24type' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales' => 438,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24type' => 23,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24type' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmures%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmures%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales' => 454,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateurprix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateurprix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23getModificateurprix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateurprix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateurprix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24nom' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateurprix' => 439,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateurprix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques' => 440,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%23setModificateurprix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24nom' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateurprix' => 455,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresproprietesspeciales%24modificateurprix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques' => 456,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes' => 441,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesarmuresspecifiques%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes' => 457,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getBaguette' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getBaguette' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getBaguette' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setBaguette' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setBaguette' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setBaguette' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24baguette' => 442,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24baguette' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons' => 443,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24baguette' => 458,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24baguette' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbaguettes%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons' => 459,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getBaton' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getBaton' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getBaton' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23setBaton' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setBaton' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setBaton' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24baton' => 444,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24baton' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales' => 445,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24baton' => 460,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24baton' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesbatons%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesbatons%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales' => 461,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setNom' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateurprix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateurprix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23getModificateurprix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateurprix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateurprix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24puissance' => 415,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24nom' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateur' => 421,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateurprix' => 439,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateurprix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques' => 446,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%23setModificateurprix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24puissance' => 431,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24nom' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateur' => 437,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateurprix' => 455,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersproprietesspeciales%24modificateurprix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques' => 462,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setArme' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setArme' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setArme' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24puissance' => 436,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24arme' => 426,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24arme' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux' => 447,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24puissance' => 452,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24arme' => 442,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24arme' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesboucliersspecifiques%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux' => 463,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getObjet' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getObjet' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getObjet' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setObjet' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setObjet' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setObjet' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24puissance' => 448,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24objet' => 449,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24objet' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins' => 450,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24puissance' => 464,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24objet' => 465,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24objet' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesmerveilleux%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins' => 466,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getTypesort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getTypesort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getTypesort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setTypesort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setTypesort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setTypesort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getNiveausort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getNiveausort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getNiveausort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setNiveausort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setNiveausort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setNiveausort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getSort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getSort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getSort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setSort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setSort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setSort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24typesort' => 451,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24typesort' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24niveausort' => 452,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24niveausort' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24sort' => 453,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24sort' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prix' => 454,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts' => 455,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24typesort' => 467,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24typesort' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24niveausort' => 468,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24niveausort' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24sort' => 469,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24sort' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prix' => 470,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparchemins%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts' => 471,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveausort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveausort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveausort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveausort' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveausort' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveausort' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveaulanceur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveaulanceur' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23getNiveaulanceur' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveaulanceur' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveaulanceur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24puissance' => 456,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveausort' => 457,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveausort' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveaulanceur' => 458,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveaulanceur' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts' => 459,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%23setNiveaulanceur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24puissance' => 472,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveausort' => 473,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveausort' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveaulanceur' => 474,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsniveausorts%24niveaulanceur' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts' => 475,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getNombre' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getNombre' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23getNombre' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setNombre' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setNombre' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24puissance' => 460,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24nombre' => 461,
-'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24nombre' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles' => 462,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%23setNombre' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24puissance' => 476,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24nombre' => 477,
+'[C]App%5CEntity%5CDnd35Objetsmagiquesparcheminsnombresorts%24nombre' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles' => 478,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPotion' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPotion' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPotion' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPotion' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPotion' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPotion' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24puissance' => 448,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24potion' => 463,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24potion' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres' => 464,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24puissance' => 464,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24potion' => 479,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24potion' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquespotionshuiles%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres' => 480,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPuissance' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPuissance' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPuissance' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getSceptre' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getSceptre' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getSceptre' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23setSceptre' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setSceptre' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setSceptre' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24puissance' => 448,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24puissance' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24sceptre' => 465,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24sceptre' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prix' => 427,
-'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmes' => 466,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24puissance' => 464,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24puissance' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24sceptre' => 481,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24sceptre' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquessceptres%24prix' => 443,
+'[C]App%5CEntity%5CDnd35Objetsmagiquessceptres%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmes' => 482,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setType' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24type' => 6,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24type' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures' => 467,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%23setType' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24type' => 23,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmes%24type' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures' => 483,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24type' => 6,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24type' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prix' => 38,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers' => 468,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24type' => 23,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24type' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prix' => 55,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesarmures%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers' => 484,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23getPrix' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24type' => 6,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24type' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prix' => 38,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prix' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins' => 469,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%23setPrix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24type' => 23,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24type' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prix' => 55,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesboucliers%24prix' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins' => 485,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23getType' => 1,
 'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setType' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24id' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmin' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmax' => 416,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmax' => 191,
-'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24type' => 6,
-'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24type' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques' => 470,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques' => 191,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%23setType' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24id' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmin' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmax' => 432,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24prcmax' => 1,
+'App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24type' => 23,
+'[C]App%5CEntity%5CDnd35Objetsmagiquestypesparchemins%24type' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques' => 486,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getId' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmincat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmincat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmincat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmincat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmincat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmincat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxcat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxcat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxcat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxcat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxcat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxcat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminsscat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminsscat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminsscat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminsscat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminsscat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminsscat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxsscat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxsscat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxsscat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxsscat' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxsscat' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxsscat' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminobj' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminobj' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcminobj' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminobj' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminobj' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcminobj' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxobj' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxobj' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxobj' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxobj' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxobj' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxobj' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getCategorie' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getCategorie' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getCategorie' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setCategorie' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setCategorie' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setCategorie' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getObjet' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getObjet' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getObjet' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setObjet' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setObjet' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setObjet' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillep' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillep' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillep' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillep' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillep' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillep' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillep' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillep' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillep' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillep' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillep' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillep' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillem' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillem' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmintaillem' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillem' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillem' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmintaillem' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillem' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillem' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23getPrcmaxtaillem' => 1,
 'App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillem' => 0,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillem' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24id' => 5,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24id' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmincat' => 471,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmincat' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxcat' => 472,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxcat' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcminsscat' => 473,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcminsscat' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxsscat' => 474,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxsscat' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcminobj' => 475,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcminobj' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxobj' => 476,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxobj' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24categorie' => 477,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24categorie' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24objet' => 478,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24objet' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillep' => 479,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillep' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillep' => 480,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillep' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillem' => 481,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillem' => 191,
-'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillem' => 482,
-'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillem' => 191,
-'App%5CEntity%5CDnd35Pieges' => 483,
-'[C]App%5CEntity%5CDnd35Pieges' => 191,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%23setPrcmaxtaillem' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24id' => 22,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24id' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmincat' => 487,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmincat' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxcat' => 488,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxcat' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcminsscat' => 489,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcminsscat' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxsscat' => 490,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxsscat' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcminobj' => 491,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcminobj' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxobj' => 492,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxobj' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24categorie' => 493,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24categorie' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24objet' => 494,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24objet' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillep' => 495,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillep' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillep' => 496,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillep' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillem' => 497,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmintaillem' => 1,
+'App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillem' => 498,
+'[C]App%5CEntity%5CDnd35Objetsnonmagiques%24prcmaxtaillem' => 1,
+'App%5CEntity%5CDnd35Pieges' => 499,
+'[C]App%5CEntity%5CDnd35Pieges' => 1,
 'App%5CEntity%5CDnd35Pieges%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getId' => 1,
 'App%5CEntity%5CDnd35Pieges%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getNom' => 1,
 'App%5CEntity%5CDnd35Pieges%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setNom' => 1,
 'App%5CEntity%5CDnd35Pieges%23getFp' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getFp' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getFp' => 1,
 'App%5CEntity%5CDnd35Pieges%23setFp' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setFp' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setFp' => 1,
 'App%5CEntity%5CDnd35Pieges%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getType' => 1,
 'App%5CEntity%5CDnd35Pieges%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setType' => 1,
 'App%5CEntity%5CDnd35Pieges%23getDeclencheur' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getDeclencheur' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getDeclencheur' => 1,
 'App%5CEntity%5CDnd35Pieges%23setDeclencheur' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setDeclencheur' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setDeclencheur' => 1,
 'App%5CEntity%5CDnd35Pieges%23getRemiseenplace' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getRemiseenplace' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getRemiseenplace' => 1,
 'App%5CEntity%5CDnd35Pieges%23setRemiseenplace' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setRemiseenplace' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setRemiseenplace' => 1,
 'App%5CEntity%5CDnd35Pieges%23getAttaque' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getAttaque' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getAttaque' => 1,
 'App%5CEntity%5CDnd35Pieges%23setAttaque' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setAttaque' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setAttaque' => 1,
 'App%5CEntity%5CDnd35Pieges%23getFouille' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getFouille' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getFouille' => 1,
 'App%5CEntity%5CDnd35Pieges%23setFouille' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setFouille' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setFouille' => 1,
 'App%5CEntity%5CDnd35Pieges%23getSabotage' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getSabotage' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getSabotage' => 1,
 'App%5CEntity%5CDnd35Pieges%23setSabotage' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setSabotage' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setSabotage' => 1,
 'App%5CEntity%5CDnd35Pieges%23getPrix' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getPrix' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getPrix' => 1,
 'App%5CEntity%5CDnd35Pieges%23setPrix' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setPrix' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setPrix' => 1,
 'App%5CEntity%5CDnd35Pieges%23getCoutxp' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23getCoutxp' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23getCoutxp' => 1,
 'App%5CEntity%5CDnd35Pieges%23setCoutxp' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setCoutxp' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setCoutxp' => 1,
 'App%5CEntity%5CDnd35Pieges%23isPnj' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23isPnj' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23isPnj' => 1,
 'App%5CEntity%5CDnd35Pieges%23setPnj' => 0,
-'[C]App%5CEntity%5CDnd35Pieges%23setPnj' => 191,
-'App%5CEntity%5CDnd35Pieges%24id' => 5,
-'[C]App%5CEntity%5CDnd35Pieges%24id' => 191,
-'App%5CEntity%5CDnd35Pieges%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Pieges%24nom' => 191,
-'App%5CEntity%5CDnd35Pieges%24fp' => 484,
-'[C]App%5CEntity%5CDnd35Pieges%24fp' => 191,
-'App%5CEntity%5CDnd35Pieges%24type' => 6,
-'[C]App%5CEntity%5CDnd35Pieges%24type' => 191,
-'App%5CEntity%5CDnd35Pieges%24declencheur' => 485,
-'[C]App%5CEntity%5CDnd35Pieges%24declencheur' => 191,
-'App%5CEntity%5CDnd35Pieges%24remiseenplace' => 486,
-'[C]App%5CEntity%5CDnd35Pieges%24remiseenplace' => 191,
-'App%5CEntity%5CDnd35Pieges%24attaque' => 487,
-'[C]App%5CEntity%5CDnd35Pieges%24attaque' => 191,
-'App%5CEntity%5CDnd35Pieges%24fouille' => 488,
-'[C]App%5CEntity%5CDnd35Pieges%24fouille' => 191,
-'App%5CEntity%5CDnd35Pieges%24sabotage' => 489,
-'[C]App%5CEntity%5CDnd35Pieges%24sabotage' => 191,
-'App%5CEntity%5CDnd35Pieges%24prix' => 490,
-'[C]App%5CEntity%5CDnd35Pieges%24prix' => 191,
-'App%5CEntity%5CDnd35Pieges%24coutxp' => 491,
-'[C]App%5CEntity%5CDnd35Pieges%24coutxp' => 191,
-'App%5CEntity%5CDnd35Pieges%24pnj' => 492,
-'[C]App%5CEntity%5CDnd35Pieges%24pnj' => 191,
-'App%5CEntity%5CDnd35Racecapacitespeciale' => 493,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale' => 191,
+'[C]App%5CEntity%5CDnd35Pieges%23setPnj' => 1,
+'App%5CEntity%5CDnd35Pieges%24id' => 22,
+'[C]App%5CEntity%5CDnd35Pieges%24id' => 1,
+'App%5CEntity%5CDnd35Pieges%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Pieges%24nom' => 1,
+'App%5CEntity%5CDnd35Pieges%24fp' => 500,
+'[C]App%5CEntity%5CDnd35Pieges%24fp' => 1,
+'App%5CEntity%5CDnd35Pieges%24type' => 23,
+'[C]App%5CEntity%5CDnd35Pieges%24type' => 1,
+'App%5CEntity%5CDnd35Pieges%24declencheur' => 501,
+'[C]App%5CEntity%5CDnd35Pieges%24declencheur' => 1,
+'App%5CEntity%5CDnd35Pieges%24remiseenplace' => 502,
+'[C]App%5CEntity%5CDnd35Pieges%24remiseenplace' => 1,
+'App%5CEntity%5CDnd35Pieges%24attaque' => 503,
+'[C]App%5CEntity%5CDnd35Pieges%24attaque' => 1,
+'App%5CEntity%5CDnd35Pieges%24fouille' => 504,
+'[C]App%5CEntity%5CDnd35Pieges%24fouille' => 1,
+'App%5CEntity%5CDnd35Pieges%24sabotage' => 505,
+'[C]App%5CEntity%5CDnd35Pieges%24sabotage' => 1,
+'App%5CEntity%5CDnd35Pieges%24prix' => 506,
+'[C]App%5CEntity%5CDnd35Pieges%24prix' => 1,
+'App%5CEntity%5CDnd35Pieges%24coutxp' => 507,
+'[C]App%5CEntity%5CDnd35Pieges%24coutxp' => 1,
+'App%5CEntity%5CDnd35Pieges%24pnj' => 508,
+'[C]App%5CEntity%5CDnd35Pieges%24pnj' => 1,
+'App%5CEntity%5CDnd35Racecapacitespeciale' => 509,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale' => 1,
 'App%5CEntity%5CDnd35Racecapacitespeciale%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getId' => 1,
 'App%5CEntity%5CDnd35Racecapacitespeciale%23getIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getIdrace' => 1,
 'App%5CEntity%5CDnd35Racecapacitespeciale%23setIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23setIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23setIdrace' => 1,
 'App%5CEntity%5CDnd35Racecapacitespeciale%23getIdcompetencespeciale' => 0,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getIdcompetencespeciale' => 191,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23getIdcompetencespeciale' => 1,
 'App%5CEntity%5CDnd35Racecapacitespeciale%23setIdcompetencespeciale' => 0,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23setIdcompetencespeciale' => 191,
-'App%5CEntity%5CDnd35Racecapacitespeciale%24id' => 5,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24id' => 191,
-'App%5CEntity%5CDnd35Racecapacitespeciale%24idrace' => 103,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24idrace' => 191,
-'App%5CEntity%5CDnd35Racecapacitespeciale%24idcompetencespeciale' => 494,
-'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24idcompetencespeciale' => 191,
-'App%5CEntity%5CDnd35Racecompetence' => 495,
-'[C]App%5CEntity%5CDnd35Racecompetence' => 191,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%23setIdcompetencespeciale' => 1,
+'App%5CEntity%5CDnd35Racecapacitespeciale%24id' => 22,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24id' => 1,
+'App%5CEntity%5CDnd35Racecapacitespeciale%24idrace' => 120,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24idrace' => 1,
+'App%5CEntity%5CDnd35Racecapacitespeciale%24idcompetencespeciale' => 510,
+'[C]App%5CEntity%5CDnd35Racecapacitespeciale%24idcompetencespeciale' => 1,
+'App%5CEntity%5CDnd35Racecompetence' => 511,
+'[C]App%5CEntity%5CDnd35Racecompetence' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23getId' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23getIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23getIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23getIdrace' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23setIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23setIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23setIdrace' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23getIdcompetence' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23getIdcompetence' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23getIdcompetence' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23setIdcompetence' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23setIdcompetence' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23setIdcompetence' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23getBonus' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23getBonus' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23getBonus' => 1,
 'App%5CEntity%5CDnd35Racecompetence%23setBonus' => 0,
-'[C]App%5CEntity%5CDnd35Racecompetence%23setBonus' => 191,
-'App%5CEntity%5CDnd35Racecompetence%24id' => 5,
-'[C]App%5CEntity%5CDnd35Racecompetence%24id' => 191,
-'App%5CEntity%5CDnd35Racecompetence%24idrace' => 103,
-'[C]App%5CEntity%5CDnd35Racecompetence%24idrace' => 191,
-'App%5CEntity%5CDnd35Racecompetence%24idcompetence' => 62,
-'[C]App%5CEntity%5CDnd35Racecompetence%24idcompetence' => 191,
-'App%5CEntity%5CDnd35Racecompetence%24bonus' => 39,
-'[C]App%5CEntity%5CDnd35Racecompetence%24bonus' => 191,
-'App%5CEntity%5CDnd35Racedieu' => 496,
-'[C]App%5CEntity%5CDnd35Racedieu' => 191,
+'[C]App%5CEntity%5CDnd35Racecompetence%23setBonus' => 1,
+'App%5CEntity%5CDnd35Racecompetence%24id' => 22,
+'[C]App%5CEntity%5CDnd35Racecompetence%24id' => 1,
+'App%5CEntity%5CDnd35Racecompetence%24idrace' => 120,
+'[C]App%5CEntity%5CDnd35Racecompetence%24idrace' => 1,
+'App%5CEntity%5CDnd35Racecompetence%24idcompetence' => 79,
+'[C]App%5CEntity%5CDnd35Racecompetence%24idcompetence' => 1,
+'App%5CEntity%5CDnd35Racecompetence%24bonus' => 56,
+'[C]App%5CEntity%5CDnd35Racecompetence%24bonus' => 1,
+'App%5CEntity%5CDnd35Racedieu' => 512,
+'[C]App%5CEntity%5CDnd35Racedieu' => 1,
 'App%5CEntity%5CDnd35Racedieu%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Racedieu%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Racedieu%23getId' => 1,
 'App%5CEntity%5CDnd35Racedieu%23getIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racedieu%23getIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racedieu%23getIdrace' => 1,
 'App%5CEntity%5CDnd35Racedieu%23setIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racedieu%23setIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racedieu%23setIdrace' => 1,
 'App%5CEntity%5CDnd35Racedieu%23getIddieu' => 0,
-'[C]App%5CEntity%5CDnd35Racedieu%23getIddieu' => 191,
+'[C]App%5CEntity%5CDnd35Racedieu%23getIddieu' => 1,
 'App%5CEntity%5CDnd35Racedieu%23setIddieu' => 0,
-'[C]App%5CEntity%5CDnd35Racedieu%23setIddieu' => 191,
-'App%5CEntity%5CDnd35Racedieu%24id' => 5,
-'[C]App%5CEntity%5CDnd35Racedieu%24id' => 191,
-'App%5CEntity%5CDnd35Racedieu%24idrace' => 103,
-'[C]App%5CEntity%5CDnd35Racedieu%24idrace' => 191,
-'App%5CEntity%5CDnd35Racedieu%24iddieu' => 65,
-'[C]App%5CEntity%5CDnd35Racedieu%24iddieu' => 191,
-'App%5CEntity%5CDnd35Racedon' => 497,
-'[C]App%5CEntity%5CDnd35Racedon' => 191,
+'[C]App%5CEntity%5CDnd35Racedieu%23setIddieu' => 1,
+'App%5CEntity%5CDnd35Racedieu%24id' => 22,
+'[C]App%5CEntity%5CDnd35Racedieu%24id' => 1,
+'App%5CEntity%5CDnd35Racedieu%24idrace' => 120,
+'[C]App%5CEntity%5CDnd35Racedieu%24idrace' => 1,
+'App%5CEntity%5CDnd35Racedieu%24iddieu' => 82,
+'[C]App%5CEntity%5CDnd35Racedieu%24iddieu' => 1,
+'App%5CEntity%5CDnd35Racedon' => 513,
+'[C]App%5CEntity%5CDnd35Racedon' => 1,
 'App%5CEntity%5CDnd35Racedon%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Racedon%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Racedon%23getId' => 1,
 'App%5CEntity%5CDnd35Racedon%23getIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racedon%23getIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racedon%23getIdrace' => 1,
 'App%5CEntity%5CDnd35Racedon%23setIdrace' => 0,
-'[C]App%5CEntity%5CDnd35Racedon%23setIdrace' => 191,
+'[C]App%5CEntity%5CDnd35Racedon%23setIdrace' => 1,
 'App%5CEntity%5CDnd35Racedon%23getIddon' => 0,
-'[C]App%5CEntity%5CDnd35Racedon%23getIddon' => 191,
+'[C]App%5CEntity%5CDnd35Racedon%23getIddon' => 1,
 'App%5CEntity%5CDnd35Racedon%23setIddon' => 0,
-'[C]App%5CEntity%5CDnd35Racedon%23setIddon' => 191,
-'App%5CEntity%5CDnd35Racedon%24id' => 5,
-'[C]App%5CEntity%5CDnd35Racedon%24id' => 191,
-'App%5CEntity%5CDnd35Racedon%24idrace' => 103,
-'[C]App%5CEntity%5CDnd35Racedon%24idrace' => 191,
-'App%5CEntity%5CDnd35Racedon%24iddon' => 67,
-'[C]App%5CEntity%5CDnd35Racedon%24iddon' => 191,
-'App%5CEntity%5CDnd35Races' => 498,
-'[C]App%5CEntity%5CDnd35Races' => 191,
+'[C]App%5CEntity%5CDnd35Racedon%23setIddon' => 1,
+'App%5CEntity%5CDnd35Racedon%24id' => 22,
+'[C]App%5CEntity%5CDnd35Racedon%24id' => 1,
+'App%5CEntity%5CDnd35Racedon%24idrace' => 120,
+'[C]App%5CEntity%5CDnd35Racedon%24idrace' => 1,
+'App%5CEntity%5CDnd35Racedon%24iddon' => 84,
+'[C]App%5CEntity%5CDnd35Racedon%24iddon' => 1,
+'App%5CEntity%5CDnd35Races' => 514,
+'[C]App%5CEntity%5CDnd35Races' => 1,
 'App%5CEntity%5CDnd35Races%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getId' => 1,
 'App%5CEntity%5CDnd35Races%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getNom' => 1,
 'App%5CEntity%5CDnd35Races%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setNom' => 1,
 'App%5CEntity%5CDnd35Races%23getTaille' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getTaille' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getTaille' => 1,
 'App%5CEntity%5CDnd35Races%23setTaille' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setTaille' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setTaille' => 1,
 'App%5CEntity%5CDnd35Races%23getVitesse' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getVitesse' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getVitesse' => 1,
 'App%5CEntity%5CDnd35Races%23setVitesse' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setVitesse' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setVitesse' => 1,
 'App%5CEntity%5CDnd35Races%23getDonssupplvl1' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getDonssupplvl1' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getDonssupplvl1' => 1,
 'App%5CEntity%5CDnd35Races%23setDonssupplvl1' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setDonssupplvl1' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setDonssupplvl1' => 1,
 'App%5CEntity%5CDnd35Races%23getCompsupplvl1' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getCompsupplvl1' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getCompsupplvl1' => 1,
 'App%5CEntity%5CDnd35Races%23setCompsupplvl1' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setCompsupplvl1' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setCompsupplvl1' => 1,
 'App%5CEntity%5CDnd35Races%23getCompsuppbylvl' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getCompsuppbylvl' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getCompsuppbylvl' => 1,
 'App%5CEntity%5CDnd35Races%23setCompsuppbylvl' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setCompsuppbylvl' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setCompsuppbylvl' => 1,
 'App%5CEntity%5CDnd35Races%23getIdclassepredilection' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getIdclassepredilection' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getIdclassepredilection' => 1,
 'App%5CEntity%5CDnd35Races%23setIdclassepredilection' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setIdclassepredilection' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setIdclassepredilection' => 1,
 'App%5CEntity%5CDnd35Races%23isImmunitesommeil' => 0,
-'[C]App%5CEntity%5CDnd35Races%23isImmunitesommeil' => 191,
+'[C]App%5CEntity%5CDnd35Races%23isImmunitesommeil' => 1,
 'App%5CEntity%5CDnd35Races%23setImmunitesommeil' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setImmunitesommeil' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setImmunitesommeil' => 1,
 'App%5CEntity%5CDnd35Races%23getVisionnocturne' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getVisionnocturne' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getVisionnocturne' => 1,
 'App%5CEntity%5CDnd35Races%23setVisionnocturne' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setVisionnocturne' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setVisionnocturne' => 1,
 'App%5CEntity%5CDnd35Races%23getModiffor' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModiffor' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModiffor' => 1,
 'App%5CEntity%5CDnd35Races%23setModiffor' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModiffor' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModiffor' => 1,
 'App%5CEntity%5CDnd35Races%23getModifdex' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModifdex' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModifdex' => 1,
 'App%5CEntity%5CDnd35Races%23setModifdex' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModifdex' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModifdex' => 1,
 'App%5CEntity%5CDnd35Races%23getModifcon' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModifcon' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModifcon' => 1,
 'App%5CEntity%5CDnd35Races%23setModifcon' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModifcon' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModifcon' => 1,
 'App%5CEntity%5CDnd35Races%23getModifint' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModifint' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModifint' => 1,
 'App%5CEntity%5CDnd35Races%23setModifint' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModifint' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModifint' => 1,
 'App%5CEntity%5CDnd35Races%23getModifsag' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModifsag' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModifsag' => 1,
 'App%5CEntity%5CDnd35Races%23setModifsag' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModifsag' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModifsag' => 1,
 'App%5CEntity%5CDnd35Races%23getModifcha' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getModifcha' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getModifcha' => 1,
 'App%5CEntity%5CDnd35Races%23setModifcha' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setModifcha' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setModifcha' => 1,
 'App%5CEntity%5CDnd35Races%23getNblanguessupplementaires' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getNblanguessupplementaires' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getNblanguessupplementaires' => 1,
 'App%5CEntity%5CDnd35Races%23setNblanguessupplementaires' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setNblanguessupplementaires' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setNblanguessupplementaires' => 1,
 'App%5CEntity%5CDnd35Races%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getDescription' => 1,
 'App%5CEntity%5CDnd35Races%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setDescription' => 1,
 'App%5CEntity%5CDnd35Races%23getAgeId' => 0,
-'[C]App%5CEntity%5CDnd35Races%23getAgeId' => 191,
+'[C]App%5CEntity%5CDnd35Races%23getAgeId' => 1,
 'App%5CEntity%5CDnd35Races%23setAgeId' => 0,
-'[C]App%5CEntity%5CDnd35Races%23setAgeId' => 191,
-'App%5CEntity%5CDnd35Races%24id' => 5,
-'[C]App%5CEntity%5CDnd35Races%24id' => 191,
-'App%5CEntity%5CDnd35Races%24nom' => 18,
-'[C]App%5CEntity%5CDnd35Races%24nom' => 191,
-'App%5CEntity%5CDnd35Races%24taille' => 213,
-'[C]App%5CEntity%5CDnd35Races%24taille' => 191,
-'App%5CEntity%5CDnd35Races%24vitesse' => 499,
-'[C]App%5CEntity%5CDnd35Races%24vitesse' => 191,
-'App%5CEntity%5CDnd35Races%24donssupplvl1' => 500,
-'[C]App%5CEntity%5CDnd35Races%24donssupplvl1' => 191,
-'App%5CEntity%5CDnd35Races%24compsupplvl1' => 501,
-'[C]App%5CEntity%5CDnd35Races%24compsupplvl1' => 191,
-'App%5CEntity%5CDnd35Races%24compsuppbylvl' => 502,
-'[C]App%5CEntity%5CDnd35Races%24compsuppbylvl' => 191,
-'App%5CEntity%5CDnd35Races%24idclassepredilection' => 503,
-'[C]App%5CEntity%5CDnd35Races%24idclassepredilection' => 191,
-'App%5CEntity%5CDnd35Races%24immunitesommeil' => 504,
-'[C]App%5CEntity%5CDnd35Races%24immunitesommeil' => 191,
-'App%5CEntity%5CDnd35Races%24visionnocturne' => 505,
-'[C]App%5CEntity%5CDnd35Races%24visionnocturne' => 191,
-'App%5CEntity%5CDnd35Races%24modiffor' => 506,
-'[C]App%5CEntity%5CDnd35Races%24modiffor' => 191,
-'App%5CEntity%5CDnd35Races%24modifdex' => 507,
-'[C]App%5CEntity%5CDnd35Races%24modifdex' => 191,
-'App%5CEntity%5CDnd35Races%24modifcon' => 508,
-'[C]App%5CEntity%5CDnd35Races%24modifcon' => 191,
-'App%5CEntity%5CDnd35Races%24modifint' => 509,
-'[C]App%5CEntity%5CDnd35Races%24modifint' => 191,
-'App%5CEntity%5CDnd35Races%24modifsag' => 510,
-'[C]App%5CEntity%5CDnd35Races%24modifsag' => 191,
-'App%5CEntity%5CDnd35Races%24modifcha' => 511,
-'[C]App%5CEntity%5CDnd35Races%24modifcha' => 191,
-'App%5CEntity%5CDnd35Races%24nblanguessupplementaires' => 512,
-'[C]App%5CEntity%5CDnd35Races%24nblanguessupplementaires' => 191,
-'App%5CEntity%5CDnd35Races%24description' => 36,
-'[C]App%5CEntity%5CDnd35Races%24description' => 191,
-'App%5CEntity%5CDnd35Races%24AgeId' => 513,
-'[C]App%5CEntity%5CDnd35Races%24AgeId' => 191,
-'App%5CEntity%5CDnd35Religion' => 514,
-'[C]App%5CEntity%5CDnd35Religion' => 191,
+'[C]App%5CEntity%5CDnd35Races%23setAgeId' => 1,
+'App%5CEntity%5CDnd35Races%24id' => 22,
+'[C]App%5CEntity%5CDnd35Races%24id' => 1,
+'App%5CEntity%5CDnd35Races%24nom' => 35,
+'[C]App%5CEntity%5CDnd35Races%24nom' => 1,
+'App%5CEntity%5CDnd35Races%24taille' => 229,
+'[C]App%5CEntity%5CDnd35Races%24taille' => 1,
+'App%5CEntity%5CDnd35Races%24vitesse' => 515,
+'[C]App%5CEntity%5CDnd35Races%24vitesse' => 1,
+'App%5CEntity%5CDnd35Races%24donssupplvl1' => 516,
+'[C]App%5CEntity%5CDnd35Races%24donssupplvl1' => 1,
+'App%5CEntity%5CDnd35Races%24compsupplvl1' => 517,
+'[C]App%5CEntity%5CDnd35Races%24compsupplvl1' => 1,
+'App%5CEntity%5CDnd35Races%24compsuppbylvl' => 518,
+'[C]App%5CEntity%5CDnd35Races%24compsuppbylvl' => 1,
+'App%5CEntity%5CDnd35Races%24idclassepredilection' => 519,
+'[C]App%5CEntity%5CDnd35Races%24idclassepredilection' => 1,
+'App%5CEntity%5CDnd35Races%24immunitesommeil' => 520,
+'[C]App%5CEntity%5CDnd35Races%24immunitesommeil' => 1,
+'App%5CEntity%5CDnd35Races%24visionnocturne' => 521,
+'[C]App%5CEntity%5CDnd35Races%24visionnocturne' => 1,
+'App%5CEntity%5CDnd35Races%24modiffor' => 522,
+'[C]App%5CEntity%5CDnd35Races%24modiffor' => 1,
+'App%5CEntity%5CDnd35Races%24modifdex' => 523,
+'[C]App%5CEntity%5CDnd35Races%24modifdex' => 1,
+'App%5CEntity%5CDnd35Races%24modifcon' => 524,
+'[C]App%5CEntity%5CDnd35Races%24modifcon' => 1,
+'App%5CEntity%5CDnd35Races%24modifint' => 525,
+'[C]App%5CEntity%5CDnd35Races%24modifint' => 1,
+'App%5CEntity%5CDnd35Races%24modifsag' => 526,
+'[C]App%5CEntity%5CDnd35Races%24modifsag' => 1,
+'App%5CEntity%5CDnd35Races%24modifcha' => 527,
+'[C]App%5CEntity%5CDnd35Races%24modifcha' => 1,
+'App%5CEntity%5CDnd35Races%24nblanguessupplementaires' => 528,
+'[C]App%5CEntity%5CDnd35Races%24nblanguessupplementaires' => 1,
+'App%5CEntity%5CDnd35Races%24description' => 53,
+'[C]App%5CEntity%5CDnd35Races%24description' => 1,
+'App%5CEntity%5CDnd35Races%24AgeId' => 529,
+'[C]App%5CEntity%5CDnd35Races%24AgeId' => 1,
+'App%5CEntity%5CDnd35Religion' => 530,
+'[C]App%5CEntity%5CDnd35Religion' => 1,
 'App%5CEntity%5CDnd35Religion%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23getId' => 1,
 'App%5CEntity%5CDnd35Religion%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23getNom' => 1,
 'App%5CEntity%5CDnd35Religion%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23setNom' => 1,
 'App%5CEntity%5CDnd35Religion%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23getDescription' => 1,
 'App%5CEntity%5CDnd35Religion%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23setDescription' => 1,
 'App%5CEntity%5CDnd35Religion%23getAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23getAlignement' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23getAlignement' => 1,
 'App%5CEntity%5CDnd35Religion%23setAlignement' => 0,
-'[C]App%5CEntity%5CDnd35Religion%23setAlignement' => 191,
-'App%5CEntity%5CDnd35Religion%24id' => 5,
-'[C]App%5CEntity%5CDnd35Religion%24id' => 191,
-'App%5CEntity%5CDnd35Religion%24nom' => 18,
-'[C]App%5CEntity%5CDnd35Religion%24nom' => 191,
-'App%5CEntity%5CDnd35Religion%24description' => 36,
-'[C]App%5CEntity%5CDnd35Religion%24description' => 191,
-'App%5CEntity%5CDnd35Religion%24alignement' => 515,
-'[C]App%5CEntity%5CDnd35Religion%24alignement' => 191,
-'App%5CEntity%5CDnd35Sauvegardes' => 516,
-'[C]App%5CEntity%5CDnd35Sauvegardes' => 191,
+'[C]App%5CEntity%5CDnd35Religion%23setAlignement' => 1,
+'App%5CEntity%5CDnd35Religion%24id' => 22,
+'[C]App%5CEntity%5CDnd35Religion%24id' => 1,
+'App%5CEntity%5CDnd35Religion%24nom' => 35,
+'[C]App%5CEntity%5CDnd35Religion%24nom' => 1,
+'App%5CEntity%5CDnd35Religion%24description' => 53,
+'[C]App%5CEntity%5CDnd35Religion%24description' => 1,
+'App%5CEntity%5CDnd35Religion%24alignement' => 531,
+'[C]App%5CEntity%5CDnd35Religion%24alignement' => 1,
+'App%5CEntity%5CDnd35Sauvegardes' => 532,
+'[C]App%5CEntity%5CDnd35Sauvegardes' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23getId' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23getLien' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23getLien' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23getLien' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23setLien' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23setLien' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23setLien' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23getPassword' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23getPassword' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23getPassword' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23setPassword' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23setPassword' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23setPassword' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23getPerso' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23getPerso' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23getPerso' => 1,
 'App%5CEntity%5CDnd35Sauvegardes%23setPerso' => 0,
-'[C]App%5CEntity%5CDnd35Sauvegardes%23setPerso' => 191,
-'App%5CEntity%5CDnd35Sauvegardes%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sauvegardes%24id' => 191,
-'App%5CEntity%5CDnd35Sauvegardes%24lien' => 517,
-'[C]App%5CEntity%5CDnd35Sauvegardes%24lien' => 191,
-'App%5CEntity%5CDnd35Sauvegardes%24password' => 518,
-'[C]App%5CEntity%5CDnd35Sauvegardes%24password' => 191,
-'App%5CEntity%5CDnd35Sauvegardes%24perso' => 519,
-'[C]App%5CEntity%5CDnd35Sauvegardes%24perso' => 191,
-'App%5CEntity%5CDnd35Sortclasse' => 520,
-'[C]App%5CEntity%5CDnd35Sortclasse' => 191,
+'[C]App%5CEntity%5CDnd35Sauvegardes%23setPerso' => 1,
+'App%5CEntity%5CDnd35Sauvegardes%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sauvegardes%24id' => 1,
+'App%5CEntity%5CDnd35Sauvegardes%24lien' => 533,
+'[C]App%5CEntity%5CDnd35Sauvegardes%24lien' => 1,
+'App%5CEntity%5CDnd35Sauvegardes%24password' => 534,
+'[C]App%5CEntity%5CDnd35Sauvegardes%24password' => 1,
+'App%5CEntity%5CDnd35Sauvegardes%24perso' => 535,
+'[C]App%5CEntity%5CDnd35Sauvegardes%24perso' => 1,
+'App%5CEntity%5CDnd35Sortclasse' => 536,
+'[C]App%5CEntity%5CDnd35Sortclasse' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23getId' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23getIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23getIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23getIdsort' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23setIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23setIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23setIdsort' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23getIdclasse' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23getIdclasse' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23getIdclasse' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23setIdclasse' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23setIdclasse' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23setIdclasse' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23getNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23getNiveau' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23getNiveau' => 1,
 'App%5CEntity%5CDnd35Sortclasse%23setNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasse%23setNiveau' => 191,
-'App%5CEntity%5CDnd35Sortclasse%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sortclasse%24id' => 191,
-'App%5CEntity%5CDnd35Sortclasse%24idsort' => 521,
-'[C]App%5CEntity%5CDnd35Sortclasse%24idsort' => 191,
-'App%5CEntity%5CDnd35Sortclasse%24idclasse' => 61,
-'[C]App%5CEntity%5CDnd35Sortclasse%24idclasse' => 191,
-'App%5CEntity%5CDnd35Sortclasse%24niveau' => 56,
-'[C]App%5CEntity%5CDnd35Sortclasse%24niveau' => 191,
-'App%5CEntity%5CDnd35Sortclasseprestige' => 522,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasse%23setNiveau' => 1,
+'App%5CEntity%5CDnd35Sortclasse%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sortclasse%24id' => 1,
+'App%5CEntity%5CDnd35Sortclasse%24idsort' => 537,
+'[C]App%5CEntity%5CDnd35Sortclasse%24idsort' => 1,
+'App%5CEntity%5CDnd35Sortclasse%24idclasse' => 78,
+'[C]App%5CEntity%5CDnd35Sortclasse%24idclasse' => 1,
+'App%5CEntity%5CDnd35Sortclasse%24niveau' => 73,
+'[C]App%5CEntity%5CDnd35Sortclasse%24niveau' => 1,
+'App%5CEntity%5CDnd35Sortclasseprestige' => 538,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getId' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23getIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getIdsort' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23setIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setIdsort' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23getIdclasse' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getIdclasse' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getIdclasse' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23setIdclasse' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setIdclasse' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setIdclasse' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23getNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getNiveau' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23getNiveau' => 1,
 'App%5CEntity%5CDnd35Sortclasseprestige%23setNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setNiveau' => 191,
-'App%5CEntity%5CDnd35Sortclasseprestige%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%24id' => 191,
-'App%5CEntity%5CDnd35Sortclasseprestige%24idsort' => 521,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%24idsort' => 191,
-'App%5CEntity%5CDnd35Sortclasseprestige%24idclasse' => 61,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%24idclasse' => 191,
-'App%5CEntity%5CDnd35Sortclasseprestige%24niveau' => 56,
-'[C]App%5CEntity%5CDnd35Sortclasseprestige%24niveau' => 191,
-'App%5CEntity%5CDnd35Sortdomaine' => 523,
-'[C]App%5CEntity%5CDnd35Sortdomaine' => 191,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%23setNiveau' => 1,
+'App%5CEntity%5CDnd35Sortclasseprestige%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%24id' => 1,
+'App%5CEntity%5CDnd35Sortclasseprestige%24idsort' => 537,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%24idsort' => 1,
+'App%5CEntity%5CDnd35Sortclasseprestige%24idclasse' => 78,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%24idclasse' => 1,
+'App%5CEntity%5CDnd35Sortclasseprestige%24niveau' => 73,
+'[C]App%5CEntity%5CDnd35Sortclasseprestige%24niveau' => 1,
+'App%5CEntity%5CDnd35Sortdomaine' => 539,
+'[C]App%5CEntity%5CDnd35Sortdomaine' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23getId' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23getIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23getIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23getIdsort' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23setIdsort' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23setIdsort' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23setIdsort' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23getDomaine' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23getDomaine' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23getDomaine' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23setDomaine' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23setDomaine' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23setDomaine' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23getNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23getNiveau' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23getNiveau' => 1,
 'App%5CEntity%5CDnd35Sortdomaine%23setNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Sortdomaine%23setNiveau' => 191,
-'App%5CEntity%5CDnd35Sortdomaine%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sortdomaine%24id' => 191,
-'App%5CEntity%5CDnd35Sortdomaine%24idsort' => 521,
-'[C]App%5CEntity%5CDnd35Sortdomaine%24idsort' => 191,
-'App%5CEntity%5CDnd35Sortdomaine%24domaine' => 524,
-'[C]App%5CEntity%5CDnd35Sortdomaine%24domaine' => 191,
-'App%5CEntity%5CDnd35Sortdomaine%24niveau' => 525,
-'[C]App%5CEntity%5CDnd35Sortdomaine%24niveau' => 191,
-'App%5CEntity%5CDnd35Sorts' => 526,
-'[C]App%5CEntity%5CDnd35Sorts' => 191,
+'[C]App%5CEntity%5CDnd35Sortdomaine%23setNiveau' => 1,
+'App%5CEntity%5CDnd35Sortdomaine%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sortdomaine%24id' => 1,
+'App%5CEntity%5CDnd35Sortdomaine%24idsort' => 537,
+'[C]App%5CEntity%5CDnd35Sortdomaine%24idsort' => 1,
+'App%5CEntity%5CDnd35Sortdomaine%24domaine' => 540,
+'[C]App%5CEntity%5CDnd35Sortdomaine%24domaine' => 1,
+'App%5CEntity%5CDnd35Sortdomaine%24niveau' => 541,
+'[C]App%5CEntity%5CDnd35Sortdomaine%24niveau' => 1,
+'App%5CEntity%5CDnd35Sorts' => 542,
+'[C]App%5CEntity%5CDnd35Sorts' => 1,
 'App%5CEntity%5CDnd35Sorts%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getId' => 1,
 'App%5CEntity%5CDnd35Sorts%23getNom' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getNom' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getNom' => 1,
 'App%5CEntity%5CDnd35Sorts%23setNom' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setNom' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setNom' => 1,
 'App%5CEntity%5CDnd35Sorts%23getEcole' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getEcole' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getEcole' => 1,
 'App%5CEntity%5CDnd35Sorts%23setEcole' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setEcole' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setEcole' => 1,
 'App%5CEntity%5CDnd35Sorts%23getComplementecole' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getComplementecole' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getComplementecole' => 1,
 'App%5CEntity%5CDnd35Sorts%23setComplementecole' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setComplementecole' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setComplementecole' => 1,
 'App%5CEntity%5CDnd35Sorts%23getDescription' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getDescription' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getDescription' => 1,
 'App%5CEntity%5CDnd35Sorts%23setDescription' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setDescription' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setDescription' => 1,
 'App%5CEntity%5CDnd35Sorts%23getSauvegarde' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getSauvegarde' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getSauvegarde' => 1,
 'App%5CEntity%5CDnd35Sorts%23setSauvegarde' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setSauvegarde' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setSauvegarde' => 1,
 'App%5CEntity%5CDnd35Sorts%23getComposantes' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getComposantes' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getComposantes' => 1,
 'App%5CEntity%5CDnd35Sorts%23setComposantes' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setComposantes' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setComposantes' => 1,
 'App%5CEntity%5CDnd35Sorts%23getTempsincantation' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getTempsincantation' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getTempsincantation' => 1,
 'App%5CEntity%5CDnd35Sorts%23setTempsincantation' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setTempsincantation' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setTempsincantation' => 1,
 'App%5CEntity%5CDnd35Sorts%23getPortee' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getPortee' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getPortee' => 1,
 'App%5CEntity%5CDnd35Sorts%23setPortee' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setPortee' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setPortee' => 1,
 'App%5CEntity%5CDnd35Sorts%23getEffet' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getEffet' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getEffet' => 1,
 'App%5CEntity%5CDnd35Sorts%23setEffet' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setEffet' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setEffet' => 1,
 'App%5CEntity%5CDnd35Sorts%23getDuree' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getDuree' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getDuree' => 1,
 'App%5CEntity%5CDnd35Sorts%23setDuree' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setDuree' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setDuree' => 1,
 'App%5CEntity%5CDnd35Sorts%23getResistancemagie' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getResistancemagie' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getResistancemagie' => 1,
 'App%5CEntity%5CDnd35Sorts%23setResistancemagie' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setResistancemagie' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setResistancemagie' => 1,
 'App%5CEntity%5CDnd35Sorts%23getCibles' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23getCibles' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23getCibles' => 1,
 'App%5CEntity%5CDnd35Sorts%23setCibles' => 0,
-'[C]App%5CEntity%5CDnd35Sorts%23setCibles' => 191,
-'App%5CEntity%5CDnd35Sorts%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sorts%24id' => 191,
-'App%5CEntity%5CDnd35Sorts%24nom' => 8,
-'[C]App%5CEntity%5CDnd35Sorts%24nom' => 191,
-'App%5CEntity%5CDnd35Sorts%24ecole' => 527,
-'[C]App%5CEntity%5CDnd35Sorts%24ecole' => 191,
-'App%5CEntity%5CDnd35Sorts%24complementecole' => 528,
-'[C]App%5CEntity%5CDnd35Sorts%24complementecole' => 191,
-'App%5CEntity%5CDnd35Sorts%24description' => 24,
-'[C]App%5CEntity%5CDnd35Sorts%24description' => 191,
-'App%5CEntity%5CDnd35Sorts%24sauvegarde' => 529,
-'[C]App%5CEntity%5CDnd35Sorts%24sauvegarde' => 191,
-'App%5CEntity%5CDnd35Sorts%24composantes' => 530,
-'[C]App%5CEntity%5CDnd35Sorts%24composantes' => 191,
-'App%5CEntity%5CDnd35Sorts%24tempsincantation' => 531,
-'[C]App%5CEntity%5CDnd35Sorts%24tempsincantation' => 191,
-'App%5CEntity%5CDnd35Sorts%24portee' => 532,
-'[C]App%5CEntity%5CDnd35Sorts%24portee' => 191,
-'App%5CEntity%5CDnd35Sorts%24effet' => 533,
-'[C]App%5CEntity%5CDnd35Sorts%24effet' => 191,
-'App%5CEntity%5CDnd35Sorts%24duree' => 534,
-'[C]App%5CEntity%5CDnd35Sorts%24duree' => 191,
-'App%5CEntity%5CDnd35Sorts%24resistancemagie' => 535,
-'[C]App%5CEntity%5CDnd35Sorts%24resistancemagie' => 191,
-'App%5CEntity%5CDnd35Sorts%24cibles' => 536,
-'[C]App%5CEntity%5CDnd35Sorts%24cibles' => 191,
-'App%5CEntity%5CDnd35Sortsdomaines' => 537,
-'[C]App%5CEntity%5CDnd35Sortsdomaines' => 191,
+'[C]App%5CEntity%5CDnd35Sorts%23setCibles' => 1,
+'App%5CEntity%5CDnd35Sorts%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sorts%24id' => 1,
+'App%5CEntity%5CDnd35Sorts%24nom' => 25,
+'[C]App%5CEntity%5CDnd35Sorts%24nom' => 1,
+'App%5CEntity%5CDnd35Sorts%24ecole' => 543,
+'[C]App%5CEntity%5CDnd35Sorts%24ecole' => 1,
+'App%5CEntity%5CDnd35Sorts%24complementecole' => 544,
+'[C]App%5CEntity%5CDnd35Sorts%24complementecole' => 1,
+'App%5CEntity%5CDnd35Sorts%24description' => 41,
+'[C]App%5CEntity%5CDnd35Sorts%24description' => 1,
+'App%5CEntity%5CDnd35Sorts%24sauvegarde' => 545,
+'[C]App%5CEntity%5CDnd35Sorts%24sauvegarde' => 1,
+'App%5CEntity%5CDnd35Sorts%24composantes' => 546,
+'[C]App%5CEntity%5CDnd35Sorts%24composantes' => 1,
+'App%5CEntity%5CDnd35Sorts%24tempsincantation' => 547,
+'[C]App%5CEntity%5CDnd35Sorts%24tempsincantation' => 1,
+'App%5CEntity%5CDnd35Sorts%24portee' => 548,
+'[C]App%5CEntity%5CDnd35Sorts%24portee' => 1,
+'App%5CEntity%5CDnd35Sorts%24effet' => 549,
+'[C]App%5CEntity%5CDnd35Sorts%24effet' => 1,
+'App%5CEntity%5CDnd35Sorts%24duree' => 550,
+'[C]App%5CEntity%5CDnd35Sorts%24duree' => 1,
+'App%5CEntity%5CDnd35Sorts%24resistancemagie' => 551,
+'[C]App%5CEntity%5CDnd35Sorts%24resistancemagie' => 1,
+'App%5CEntity%5CDnd35Sorts%24cibles' => 552,
+'[C]App%5CEntity%5CDnd35Sorts%24cibles' => 1,
+'App%5CEntity%5CDnd35Sortsdomaines' => 553,
+'[C]App%5CEntity%5CDnd35Sortsdomaines' => 1,
 'App%5CEntity%5CDnd35Sortsdomaines%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%23getId' => 1,
 'App%5CEntity%5CDnd35Sortsdomaines%23getDomaine' => 0,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%23getDomaine' => 191,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%23getDomaine' => 1,
 'App%5CEntity%5CDnd35Sortsdomaines%23setDomaine' => 0,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%23setDomaine' => 191,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%23setDomaine' => 1,
 'App%5CEntity%5CDnd35Sortsdomaines%23getPouvoir' => 0,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%23getPouvoir' => 191,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%23getPouvoir' => 1,
 'App%5CEntity%5CDnd35Sortsdomaines%23setPouvoir' => 0,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%23setPouvoir' => 191,
-'App%5CEntity%5CDnd35Sortsdomaines%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%24id' => 191,
-'App%5CEntity%5CDnd35Sortsdomaines%24domaine' => 538,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%24domaine' => 191,
-'App%5CEntity%5CDnd35Sortsdomaines%24pouvoir' => 539,
-'[C]App%5CEntity%5CDnd35Sortsdomaines%24pouvoir' => 191,
-'App%5CEntity%5CDnd35Sortsecoles' => 540,
-'[C]App%5CEntity%5CDnd35Sortsecoles' => 191,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%23setPouvoir' => 1,
+'App%5CEntity%5CDnd35Sortsdomaines%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%24id' => 1,
+'App%5CEntity%5CDnd35Sortsdomaines%24domaine' => 554,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%24domaine' => 1,
+'App%5CEntity%5CDnd35Sortsdomaines%24pouvoir' => 555,
+'[C]App%5CEntity%5CDnd35Sortsdomaines%24pouvoir' => 1,
+'App%5CEntity%5CDnd35Sortsecoles' => 556,
+'[C]App%5CEntity%5CDnd35Sortsecoles' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23getId' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23getEcole' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23getEcole' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23getEcole' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23setEcole' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23setEcole' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23setEcole' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23getTitre' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23getTitre' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23getTitre' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23setTitre' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23setTitre' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23setTitre' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23isPeutetreinterdite' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23isPeutetreinterdite' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23isPeutetreinterdite' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23setPeutetreinterdite' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23setPeutetreinterdite' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23setPeutetreinterdite' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23getNbecoleintedite' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23getNbecoleintedite' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23getNbecoleintedite' => 1,
 'App%5CEntity%5CDnd35Sortsecoles%23setNbecoleintedite' => 0,
-'[C]App%5CEntity%5CDnd35Sortsecoles%23setNbecoleintedite' => 191,
-'App%5CEntity%5CDnd35Sortsecoles%24id' => 5,
-'[C]App%5CEntity%5CDnd35Sortsecoles%24id' => 191,
-'App%5CEntity%5CDnd35Sortsecoles%24ecole' => 541,
-'[C]App%5CEntity%5CDnd35Sortsecoles%24ecole' => 191,
-'App%5CEntity%5CDnd35Sortsecoles%24titre' => 542,
-'[C]App%5CEntity%5CDnd35Sortsecoles%24titre' => 191,
-'App%5CEntity%5CDnd35Sortsecoles%24peutetreinterdite' => 543,
-'[C]App%5CEntity%5CDnd35Sortsecoles%24peutetreinterdite' => 191,
-'App%5CEntity%5CDnd35Sortsecoles%24nbecoleintedite' => 544,
-'[C]App%5CEntity%5CDnd35Sortsecoles%24nbecoleintedite' => 191,
-'App%5CEntity%5CDnd35Taillepoids' => 545,
-'[C]App%5CEntity%5CDnd35Taillepoids' => 191,
+'[C]App%5CEntity%5CDnd35Sortsecoles%23setNbecoleintedite' => 1,
+'App%5CEntity%5CDnd35Sortsecoles%24id' => 22,
+'[C]App%5CEntity%5CDnd35Sortsecoles%24id' => 1,
+'App%5CEntity%5CDnd35Sortsecoles%24ecole' => 557,
+'[C]App%5CEntity%5CDnd35Sortsecoles%24ecole' => 1,
+'App%5CEntity%5CDnd35Sortsecoles%24titre' => 558,
+'[C]App%5CEntity%5CDnd35Sortsecoles%24titre' => 1,
+'App%5CEntity%5CDnd35Sortsecoles%24peutetreinterdite' => 559,
+'[C]App%5CEntity%5CDnd35Sortsecoles%24peutetreinterdite' => 1,
+'App%5CEntity%5CDnd35Sortsecoles%24nbecoleintedite' => 560,
+'[C]App%5CEntity%5CDnd35Sortsecoles%24nbecoleintedite' => 1,
+'App%5CEntity%5CDnd35Taillepoids' => 561,
+'[C]App%5CEntity%5CDnd35Taillepoids' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getId' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getRace' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getRace' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getRace' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setRace' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setRace' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setRace' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getSexe' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getSexe' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getSexe' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setSexe' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setSexe' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setSexe' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getTaillemin' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getTaillemin' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getTaillemin' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setTaillemin' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setTaillemin' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setTaillemin' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getTaillemax' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getTaillemax' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getTaillemax' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setTaillemax' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setTaillemax' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setTaillemax' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getPoidsmin' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getPoidsmin' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getPoidsmin' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setPoidsmin' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setPoidsmin' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setPoidsmin' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23getPoidsmax' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23getPoidsmax' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23getPoidsmax' => 1,
 'App%5CEntity%5CDnd35Taillepoids%23setPoidsmax' => 0,
-'[C]App%5CEntity%5CDnd35Taillepoids%23setPoidsmax' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24id' => 5,
-'[C]App%5CEntity%5CDnd35Taillepoids%24id' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24race' => 33,
-'[C]App%5CEntity%5CDnd35Taillepoids%24race' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24sexe' => 546,
-'[C]App%5CEntity%5CDnd35Taillepoids%24sexe' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24taillemin' => 547,
-'[C]App%5CEntity%5CDnd35Taillepoids%24taillemin' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24taillemax' => 548,
-'[C]App%5CEntity%5CDnd35Taillepoids%24taillemax' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24poidsmin' => 549,
-'[C]App%5CEntity%5CDnd35Taillepoids%24poidsmin' => 191,
-'App%5CEntity%5CDnd35Taillepoids%24poidsmax' => 217,
-'[C]App%5CEntity%5CDnd35Taillepoids%24poidsmax' => 191,
-'App%5CEntity%5CDnd35Tresors' => 550,
-'[C]App%5CEntity%5CDnd35Tresors' => 191,
+'[C]App%5CEntity%5CDnd35Taillepoids%23setPoidsmax' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24id' => 22,
+'[C]App%5CEntity%5CDnd35Taillepoids%24id' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24race' => 50,
+'[C]App%5CEntity%5CDnd35Taillepoids%24race' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24sexe' => 562,
+'[C]App%5CEntity%5CDnd35Taillepoids%24sexe' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24taillemin' => 563,
+'[C]App%5CEntity%5CDnd35Taillepoids%24taillemin' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24taillemax' => 564,
+'[C]App%5CEntity%5CDnd35Taillepoids%24taillemax' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24poidsmin' => 565,
+'[C]App%5CEntity%5CDnd35Taillepoids%24poidsmin' => 1,
+'App%5CEntity%5CDnd35Taillepoids%24poidsmax' => 233,
+'[C]App%5CEntity%5CDnd35Taillepoids%24poidsmax' => 1,
+'App%5CEntity%5CDnd35Tresors' => 566,
+'[C]App%5CEntity%5CDnd35Tresors' => 1,
 'App%5CEntity%5CDnd35Tresors%23getId' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getId' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getId' => 1,
 'App%5CEntity%5CDnd35Tresors%23getNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getNiveau' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getNiveau' => 1,
 'App%5CEntity%5CDnd35Tresors%23setNiveau' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23setNiveau' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23setNiveau' => 1,
 'App%5CEntity%5CDnd35Tresors%23getPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getPrcmin' => 1,
 'App%5CEntity%5CDnd35Tresors%23setPrcmin' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23setPrcmin' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23setPrcmin' => 1,
 'App%5CEntity%5CDnd35Tresors%23getPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getPrcmax' => 1,
 'App%5CEntity%5CDnd35Tresors%23setPrcmax' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23setPrcmax' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23setPrcmax' => 1,
 'App%5CEntity%5CDnd35Tresors%23getType' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getType' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getType' => 1,
 'App%5CEntity%5CDnd35Tresors%23setType' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23setType' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23setType' => 1,
 'App%5CEntity%5CDnd35Tresors%23getDetail' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23getDetail' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23getDetail' => 1,
 'App%5CEntity%5CDnd35Tresors%23setDetail' => 0,
-'[C]App%5CEntity%5CDnd35Tresors%23setDetail' => 191,
-'App%5CEntity%5CDnd35Tresors%24id' => 5,
-'[C]App%5CEntity%5CDnd35Tresors%24id' => 191,
-'App%5CEntity%5CDnd35Tresors%24niveau' => 56,
-'[C]App%5CEntity%5CDnd35Tresors%24niveau' => 191,
-'App%5CEntity%5CDnd35Tresors%24prcmin' => 185,
-'[C]App%5CEntity%5CDnd35Tresors%24prcmin' => 191,
-'App%5CEntity%5CDnd35Tresors%24prcmax' => 186,
-'[C]App%5CEntity%5CDnd35Tresors%24prcmax' => 191,
-'App%5CEntity%5CDnd35Tresors%24type' => 551,
-'[C]App%5CEntity%5CDnd35Tresors%24type' => 191,
-'App%5CEntity%5CDnd35Tresors%24detail' => 552,
-'[C]App%5CEntity%5CDnd35Tresors%24detail' => 191,
+'[C]App%5CEntity%5CDnd35Tresors%23setDetail' => 1,
+'App%5CEntity%5CDnd35Tresors%24id' => 22,
+'[C]App%5CEntity%5CDnd35Tresors%24id' => 1,
+'App%5CEntity%5CDnd35Tresors%24niveau' => 73,
+'[C]App%5CEntity%5CDnd35Tresors%24niveau' => 1,
+'App%5CEntity%5CDnd35Tresors%24prcmin' => 202,
+'[C]App%5CEntity%5CDnd35Tresors%24prcmin' => 1,
+'App%5CEntity%5CDnd35Tresors%24prcmax' => 203,
+'[C]App%5CEntity%5CDnd35Tresors%24prcmax' => 1,
+'App%5CEntity%5CDnd35Tresors%24type' => 567,
+'[C]App%5CEntity%5CDnd35Tresors%24type' => 1,
+'App%5CEntity%5CDnd35Tresors%24detail' => 568,
+'[C]App%5CEntity%5CDnd35Tresors%24detail' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23__construct' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainAction' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainAction' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainAction' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLitePlatform' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLitePlatform' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLitePlatform' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLServerPlatform' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLServerPlatform' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainSQLServerPlatform' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOtherPlatform' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOtherPlatform' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOtherPlatform' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOraclePlatform' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOraclePlatform' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%23explainOraclePlatform' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24twig' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24twig' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24twig' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24registry' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24registry' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24registry' => 1,
 'Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24profiler' => 0,
-'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24profiler' => 191,
+'[C]Doctrine%5CBundle%5CDoctrineBundle%5CController%5CProfilerController%24profiler' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23__construct' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23__construct' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23__construct' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23addInsert' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23addInsert' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23addInsert' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInserts' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInserts' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInserts' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectSQL' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectSQL' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectSQL' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCountSQL' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCountSQL' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCountSQL' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInsertSQL' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInsertSQL' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getInsertSQL' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getResultSetMapping' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getResultSetMapping' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getResultSetMapping' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectConditionStatementSQL' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectConditionStatementSQL' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getSelectConditionStatementSQL' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23exists' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23exists' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23exists' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCacheRegion' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCacheRegion' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getCacheRegion' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getEntityHydrator' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getEntityHydrator' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getEntityHydrator' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeEntityCache' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeEntityCache' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeEntityCache' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeJoinedAssociations' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeJoinedAssociations' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23storeJoinedAssociations' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getHash' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getHash' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getHash' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandParameters' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandParameters' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandParameters' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandCriteriaParameters' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandCriteriaParameters' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23expandCriteriaParameters' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getClassMetadata' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getClassMetadata' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getClassMetadata' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getManyToManyCollection' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOneToManyCollection' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOwningTable' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOwningTable' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23getOwningTable' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23executeInserts' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23executeInserts' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23executeInserts' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23load' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23load' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23load' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadAll' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadAll' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadAll' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadById' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadById' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadById' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23count' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23count' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23count' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadCriteria' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadCriteria' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadCriteria' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadManyToManyCollection' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToManyCollection' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToOneEntity' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToOneEntity' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23loadOneToOneEntity' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23lock' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23lock' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23lock' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23refresh' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23refresh' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23refresh' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23buildCollectionCacheKey' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23buildCollectionCacheKey' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%23buildCollectionCacheKey' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionComplete' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionComplete' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionComplete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionRolledBack' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionRolledBack' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23afterTransactionRolledBack' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23update' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23delete' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23delete' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23delete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24uow' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24uow' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24uow' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24metadataFactory' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24metadataFactory' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24metadataFactory' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24persister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24persister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24persister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24class' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24class' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24class' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24queuedCache' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24queuedCache' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24queuedCache' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24region' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24region' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24region' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampRegion' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampRegion' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampRegion' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampKey' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampKey' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24timestampKey' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24hydrator' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24hydrator' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24hydrator' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cache' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cache' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cache' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cacheLogger' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cacheLogger' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24cacheLogger' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24regionName' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24regionName' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24regionName' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24joinedAssociations' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24joinedAssociations' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CAbstractEntityPersister%24joinedAssociations' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23getEntityHydrator' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23getEntityHydrator' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23getEntityHydrator' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23storeEntityCache' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23storeEntityCache' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CCachedEntityPersister%23storeEntityCache' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23getCacheRegion' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23getCacheRegion' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CCachedPersister%23getCacheRegion' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getClassMetadata' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getClassMetadata' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getClassMetadata' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getResultSetMapping' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getResultSetMapping' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getResultSetMapping' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInsertSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInsertSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getInsertSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getCountSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getCountSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getCountSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandParameters' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandParameters' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandParameters' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandCriteriaParameters' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandCriteriaParameters' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23expandCriteriaParameters' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectConditionStatementSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectConditionStatementSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getSelectConditionStatementSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23addInsert' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23addInsert' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23addInsert' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23executeInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23executeInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23executeInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23count' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23count' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23count' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOwningTable' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOwningTable' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOwningTable' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23load' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23load' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23load' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadById' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadById' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadById' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToOneEntity' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToOneEntity' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToOneEntity' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23refresh' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23refresh' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23refresh' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadCriteria' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadCriteria' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadCriteria' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadAll' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadAll' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadAll' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getManyToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadManyToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23loadOneToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23lock' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23lock' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23lock' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23getOneToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23exists' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23exists' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister%23exists' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionComplete' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionComplete' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionComplete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23delete' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23delete' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23delete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23update' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23updateCache' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23updateCache' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CNonStrictReadWriteCachedEntityPersister%23updateCache' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadOnlyCachedEntityPersister%23update' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23__construct' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23__construct' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23__construct' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionComplete' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionComplete' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionComplete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23afterTransactionRolledBack' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23delete' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23delete' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23delete' => 1,
 'Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CCache%5CPersister%5CEntity%5CReadWriteCachedEntityPersister%23update' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23prepareInsertData' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23prepareInsertData' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23prepareInsertData' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getDiscriminatorColumnTableName' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getDiscriminatorColumnTableName' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getDiscriminatorColumnTableName' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectColumnSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectColumnSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectColumnSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectJoinColumnSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectJoinColumnSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CAbstractEntityInheritancePersister%23getSelectJoinColumnSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23__construct' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23__construct' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23__construct' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassMetadata' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassMetadata' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassMetadata' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getResultSetMapping' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getResultSetMapping' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getResultSetMapping' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23addInsert' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23addInsert' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23addInsert' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23executeInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23executeInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23executeInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23assignDefaultVersionAndUpsertableValues' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23assignDefaultVersionAndUpsertableValues' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23assignDefaultVersionAndUpsertableValues' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23fetchVersionAndNotUpsertableValues' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23fetchVersionAndNotUpsertableValues' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23fetchVersionAndNotUpsertableValues' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23extractIdentifierTypes' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23extractIdentifierTypes' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23extractIdentifierTypes' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23update' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23updateTable' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23updateTable' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23updateTable' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23deleteJoinTableRecords' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23deleteJoinTableRecords' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23deleteJoinTableRecords' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23delete' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23delete' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23delete' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareUpdateData' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareUpdateData' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareUpdateData' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOwningTable' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOwningTable' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOwningTable' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23load' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23load' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23load' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadById' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadById' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadById' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToOneEntity' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToOneEntity' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToOneEntity' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23refresh' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23refresh' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23refresh' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23count' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23count' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23count' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCriteria' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCriteria' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCriteria' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandCriteriaParameters' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandCriteriaParameters' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandCriteriaParameters' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadAll' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadAll' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadAll' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromResult' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromResult' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadArrayFromResult' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCollectionFromStatement' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCollectionFromStatement' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadCollectionFromStatement' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadManyToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadManyToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadManyToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyStatement' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyStatement' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getManyToManyStatement' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getCountSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getCountSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getCountSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOrderBySQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOrderBySQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOrderBySQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnsSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnsSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnsSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnAssociationSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnAssociationSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnAssociationSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectManyToManyJoinSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectManyToManyJoinSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectManyToManyJoinSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertColumnList' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertColumnList' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getInsertColumnList' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLTableAlias' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLTableAlias' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLTableAlias' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23lock' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23lock' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23lock' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getLockTablesSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getLockTablesSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getLockTablesSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionCriteriaSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionCriteriaSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionCriteriaSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementColumnSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementColumnSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionStatementColumnSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectConditionSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToManyCollection' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToManyCollection' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23loadOneToManyCollection' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyStatement' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyStatement' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getOneToManyStatement' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandParameters' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandParameters' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandParameters' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandToManyParameters' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandToManyParameters' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23expandToManyParameters' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getTypes' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getTypes' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getTypes' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getValues' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getValues' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getValues' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getIndividualValue' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getIndividualValue' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getIndividualValue' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23exists' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23exists' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23exists' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getJoinSQLForJoinColumns' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getJoinSQLForJoinColumns' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getJoinSQLForJoinColumns' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLColumnAlias' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLColumnAlias' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSQLColumnAlias' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23generateFilterConditionSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23generateFilterConditionSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23generateFilterConditionSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23switchPersisterContext' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23switchPersisterContext' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23switchPersisterContext' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassIdentifiersTypes' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassIdentifiersTypes' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getClassIdentifiersTypes' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24class' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24class' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24class' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24conn' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24conn' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24conn' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24platform' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24platform' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24platform' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24em' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24em' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24em' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24queuedInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24queuedInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24queuedInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24columnTypes' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24columnTypes' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24columnTypes' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quotedColumns' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quotedColumns' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quotedColumns' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quoteStrategy' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quoteStrategy' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24quoteStrategy' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24identifierFlattener' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24identifierFlattener' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24identifierFlattener' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24currentPersisterContext' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24currentPersisterContext' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24currentPersisterContext' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareInsertData' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareInsertData' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23prepareInsertData' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%23getSelectColumnSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24comparisonMap' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24comparisonMap' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24comparisonMap' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24insertSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24insertSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24insertSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24limitsHandlingContext' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24limitsHandlingContext' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24limitsHandlingContext' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24noLimitsContext' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24noLimitsContext' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CBasicEntityPersister%24noLimitsContext' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%23__construct' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%23__construct' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%23__construct' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24class' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24class' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24class' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24rsm' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24rsm' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24rsm' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectColumnListSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectColumnListSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectColumnListSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectJoinSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectJoinSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24selectJoinSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlAliasCounter' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlAliasCounter' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlAliasCounter' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlTableAliases' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlTableAliases' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24sqlTableAliases' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24handlesLimits' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24handlesLimits' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CCachedPersisterContext%24handlesLimits' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CEntityPersister' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getDiscriminatorColumnTableName' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getDiscriminatorColumnTableName' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getDiscriminatorColumnTableName' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getVersionedClassMetadata' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getVersionedClassMetadata' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getVersionedClassMetadata' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getOwningTable' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getOwningTable' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getOwningTable' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23executeInserts' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23executeInserts' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23executeInserts' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23update' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23update' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23update' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23delete' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23delete' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23delete' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getCountSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getCountSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getCountSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getLockTablesSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getLockTablesSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getLockTablesSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectColumnsSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectColumnsSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSelectColumnsSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getInsertColumnList' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getInsertColumnList' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getInsertColumnList' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23assignDefaultVersionAndUpsertableValues' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23assignDefaultVersionAndUpsertableValues' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23assignDefaultVersionAndUpsertableValues' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23fetchVersionAndNotUpsertableValues' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23fetchVersionAndNotUpsertableValues' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23fetchVersionAndNotUpsertableValues' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getJoinSql' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getJoinSql' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getJoinSql' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSQLResultCasing' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSQLResultCasing' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%23getSQLResultCasing' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24owningTableMap' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24owningTableMap' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24owningTableMap' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24quotedTableMap' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24quotedTableMap' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CJoinedSubclassPersister%24quotedTableMap' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getDiscriminatorColumnTableName' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getDiscriminatorColumnTableName' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getDiscriminatorColumnTableName' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectColumnsSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectColumnsSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectColumnsSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getInsertColumnList' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getInsertColumnList' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getInsertColumnList' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLTableAlias' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLTableAlias' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLTableAlias' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionCriteriaSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionCriteriaSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionCriteriaSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionDiscriminatorValueSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionDiscriminatorValueSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSelectConditionDiscriminatorValueSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23generateFilterConditionSQL' => 1,
 'Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLResultCasing' => 0,
-'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLResultCasing' => 191,
+'[C]Doctrine%5CORM%5CPersisters%5CEntity%5CSingleTablePersister%23getSQLResultCasing' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__construct' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__construct' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__construct' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23redirectAction' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23redirectAction' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23redirectAction' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23urlRedirectAction' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23urlRedirectAction' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23urlRedirectAction' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__invoke' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__invoke' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%23__invoke' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24router' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24router' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24router' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpPort' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpPort' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpPort' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpsPort' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpsPort' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CRedirectController%24httpsPort' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__construct' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__construct' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__construct' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23templateAction' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23templateAction' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23templateAction' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__invoke' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__invoke' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%23__invoke' => 1,
 'Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%24twig' => 0,
-'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%24twig' => 191,
+'[C]Symfony%5CBundle%5CFrameworkBundle%5CController%5CTemplateController%24twig' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23__construct' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23__construct' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23__construct' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23body' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23body' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23body' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23stylesheet' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23stylesheet' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%23stylesheet' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24errorRenderer' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24errorRenderer' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24errorRenderer' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24profiler' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24profiler' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CExceptionPanelController%24profiler' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23__construct' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23__construct' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23__construct' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23homeAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23homeAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23homeAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23panelAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23panelAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23panelAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23toolbarAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23toolbarAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23toolbarAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchBarAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchBarAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchBarAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchResultsAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchResultsAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchResultsAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23searchAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23phpinfoAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23phpinfoAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23phpinfoAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23openAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23openAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23openAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23getTemplateManager' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23getTemplateManager' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23getTemplateManager' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23denyAccessIfProfilerDisabled' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23denyAccessIfProfilerDisabled' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23denyAccessIfProfilerDisabled' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23renderWithCspNonces' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23renderWithCspNonces' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%23renderWithCspNonces' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templateManager' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templateManager' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templateManager' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24generator' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24generator' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24generator' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24profiler' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24profiler' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24profiler' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24twig' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24twig' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24twig' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templates' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templates' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24templates' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24cspHandler' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24cspHandler' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24cspHandler' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24baseDir' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24baseDir' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CProfilerController%24baseDir' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23__construct' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23__construct' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23__construct' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23panelAction' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23panelAction' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23panelAction' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23getTraces' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23getTraces' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%23getTraces' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24profiler' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24profiler' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24profiler' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24twig' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24twig' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24twig' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24matcher' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24matcher' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24matcher' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24routes' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24routes' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24routes' => 1,
 'Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24expressionLanguageProviders' => 0,
-'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24expressionLanguageProviders' => 191,
+'[C]Symfony%5CBundle%5CWebProfilerBundle%5CController%5CRouterController%24expressionLanguageProviders' => 1,
 'Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver' => 0,
-'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver' => 191,
+'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver' => 1,
 'Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23__construct' => 0,
-'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23__construct' => 191,
+'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23__construct' => 1,
 'Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23supports' => 0,
-'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23supports' => 191,
+'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23supports' => 1,
 'Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23resolve' => 0,
-'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23resolve' => 191,
+'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%23resolve' => 1,
 'Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%24tokenStorage' => 0,
-'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%24tokenStorage' => 191,
+'[C]Symfony%5CComponent%5CSecurity%5CHttp%5CController%5CUserValueResolver%24tokenStorage' => 1,
 
 ], [
 
 0 => [],
-1 => 1695648526,
+1 => 1697534678,
 2 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
@@ -5192,10 +5224,7 @@ return [[
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/home',
-                ],
-                'name' => [
-                    'app_home',
+                    '/classes',
                 ],
             ],
         ],
@@ -5214,10 +5243,15 @@ return [[
         [
             'Symfony\\Component\\Routing\\Annotation\\Route' => [
                 'path' => [
-                    '/liste',
+                    '/',
                 ],
                 'name' => [
-                    'app_list',
+                    'app_classes_index',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
                 ],
             ],
         ],
@@ -5228,6 +5262,451 @@ return [[
     );
 },
 4 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/new',
+                ],
+                'name' => [
+                    'app_classes_new',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+5 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_classes_show',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+6 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}/edit',
+                ],
+                'name' => [
+                    'app_classes_edit',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+7 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_classes_delete',
+                ],
+                'methods' => [
+                    [
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+8 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/',
+                ],
+                'name' => [
+                    'app_home',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+9 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/races',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+10 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/',
+                ],
+                'name' => [
+                    'app_races_index',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+11 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/new',
+                ],
+                'name' => [
+                    'app_races_new',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+12 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_races_show',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+13 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}/edit',
+                ],
+                'name' => [
+                    'app_races_edit',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+14 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_races_delete',
+                ],
+                'methods' => [
+                    [
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+15 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/sorts',
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+16 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/',
+                ],
+                'name' => [
+                    'app_sorts_index',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+17 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/new',
+                ],
+                'name' => [
+                    'app_sorts_new',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+18 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_sorts_show',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+19 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}/edit',
+                ],
+                'name' => [
+                    'app_sorts_edit',
+                ],
+                'methods' => [
+                    [
+                        'GET',
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+20 => static function () {
+    return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+        $o = [
+            clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Routing\\Annotation\\Route'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Routing\\Annotation\\Route')),
+        ],
+        null,
+        [
+            'Symfony\\Component\\Routing\\Annotation\\Route' => [
+                'path' => [
+                    '/{id}',
+                ],
+                'name' => [
+                    'app_sorts_delete',
+                ],
+                'methods' => [
+                    [
+                        'POST',
+                    ],
+                ],
+            ],
+        ],
+        [
+            $o[0],
+        ],
+        []
+    );
+},
+21 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -5251,7 +5730,7 @@ return [[
         []
     );
 },
-5 => static function () {
+22 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5286,7 +5765,7 @@ return [[
         []
     );
 },
-6 => static function () {
+23 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5317,7 +5796,7 @@ return [[
         []
     );
 },
-7 => static function () {
+24 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5348,7 +5827,7 @@ return [[
         []
     );
 },
-8 => static function () {
+25 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5379,7 +5858,7 @@ return [[
         []
     );
 },
-9 => static function () {
+26 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5410,7 +5889,7 @@ return [[
         []
     );
 },
-10 => static function () {
+27 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5441,7 +5920,7 @@ return [[
         []
     );
 },
-11 => static function () {
+28 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5472,7 +5951,7 @@ return [[
         []
     );
 },
-12 => static function () {
+29 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5503,7 +5982,7 @@ return [[
         []
     );
 },
-13 => static function () {
+30 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5531,7 +6010,7 @@ return [[
         []
     );
 },
-14 => static function () {
+31 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5562,7 +6041,7 @@ return [[
         []
     );
 },
-15 => static function () {
+32 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5590,7 +6069,7 @@ return [[
         []
     );
 },
-16 => static function () {
+33 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5621,7 +6100,7 @@ return [[
         []
     );
 },
-17 => static function () {
+34 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -5645,7 +6124,7 @@ return [[
         []
     );
 },
-18 => static function () {
+35 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5676,7 +6155,7 @@ return [[
         []
     );
 },
-19 => static function () {
+36 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5704,7 +6183,7 @@ return [[
         []
     );
 },
-20 => static function () {
+37 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5732,7 +6211,7 @@ return [[
         []
     );
 },
-21 => static function () {
+38 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5766,7 +6245,7 @@ return [[
         []
     );
 },
-22 => static function () {
+39 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5794,7 +6273,7 @@ return [[
         []
     );
 },
-23 => static function () {
+40 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5822,7 +6301,7 @@ return [[
         []
     );
 },
-24 => static function () {
+41 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5856,7 +6335,7 @@ return [[
         []
     );
 },
-25 => static function () {
+42 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5890,7 +6369,7 @@ return [[
         []
     );
 },
-26 => static function () {
+43 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToMany'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToMany')),
@@ -5912,7 +6391,7 @@ return [[
         []
     );
 },
-27 => static function () {
+44 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -5936,7 +6415,7 @@ return [[
         []
     );
 },
-28 => static function () {
+45 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5964,7 +6443,7 @@ return [[
         []
     );
 },
-29 => static function () {
+46 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -5992,7 +6471,7 @@ return [[
         []
     );
 },
-30 => static function () {
+47 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6020,7 +6499,7 @@ return [[
         []
     );
 },
-31 => static function () {
+48 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6048,7 +6527,7 @@ return [[
         []
     );
 },
-32 => static function () {
+49 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6076,7 +6555,7 @@ return [[
         []
     );
 },
-33 => static function () {
+50 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6104,7 +6583,7 @@ return [[
         []
     );
 },
-34 => static function () {
+51 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6128,7 +6607,7 @@ return [[
         []
     );
 },
-35 => static function () {
+52 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6159,7 +6638,7 @@ return [[
         []
     );
 },
-36 => static function () {
+53 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6190,7 +6669,7 @@ return [[
         []
     );
 },
-37 => static function () {
+54 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6214,7 +6693,7 @@ return [[
         []
     );
 },
-38 => static function () {
+55 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6242,7 +6721,7 @@ return [[
         []
     );
 },
-39 => static function () {
+56 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6270,7 +6749,7 @@ return [[
         []
     );
 },
-40 => static function () {
+57 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6298,7 +6777,7 @@ return [[
         []
     );
 },
-41 => static function () {
+58 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6326,7 +6805,7 @@ return [[
         []
     );
 },
-42 => static function () {
+59 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6354,7 +6833,7 @@ return [[
         []
     );
 },
-43 => static function () {
+60 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6382,7 +6861,7 @@ return [[
         []
     );
 },
-44 => static function () {
+61 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6410,7 +6889,7 @@ return [[
         []
     );
 },
-45 => static function () {
+62 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6435,7 +6914,7 @@ return [[
         []
     );
 },
-46 => static function () {
+63 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6459,7 +6938,7 @@ return [[
         []
     );
 },
-47 => static function () {
+64 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToOne')),
@@ -6487,7 +6966,7 @@ return [[
         []
     );
 },
-48 => static function () {
+65 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6511,7 +6990,7 @@ return [[
         []
     );
 },
-49 => static function () {
+66 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6542,7 +7021,7 @@ return [[
         []
     );
 },
-50 => static function () {
+67 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6566,7 +7045,7 @@ return [[
         []
     );
 },
-51 => static function () {
+68 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6594,7 +7073,7 @@ return [[
         []
     );
 },
-52 => static function () {
+69 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6619,7 +7098,7 @@ return [[
         []
     );
 },
-53 => static function () {
+70 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6644,7 +7123,7 @@ return [[
         []
     );
 },
-54 => static function () {
+71 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6669,7 +7148,7 @@ return [[
         []
     );
 },
-55 => static function () {
+72 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6693,7 +7172,7 @@ return [[
         []
     );
 },
-56 => static function () {
+73 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6721,7 +7200,7 @@ return [[
         []
     );
 },
-57 => static function () {
+74 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6752,7 +7231,7 @@ return [[
         []
     );
 },
-58 => static function () {
+75 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
@@ -6774,7 +7253,7 @@ return [[
         []
     );
 },
-59 => static function () {
+76 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\OneToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\OneToOne')),
@@ -6802,7 +7281,7 @@ return [[
         []
     );
 },
-60 => static function () {
+77 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6826,7 +7305,7 @@ return [[
         []
     );
 },
-61 => static function () {
+78 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6854,7 +7333,7 @@ return [[
         []
     );
 },
-62 => static function () {
+79 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6882,7 +7361,7 @@ return [[
         []
     );
 },
-63 => static function () {
+80 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6910,7 +7389,7 @@ return [[
         []
     );
 },
-64 => static function () {
+81 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6934,7 +7413,7 @@ return [[
         []
     );
 },
-65 => static function () {
+82 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -6962,7 +7441,7 @@ return [[
         []
     );
 },
-66 => static function () {
+83 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -6986,7 +7465,7 @@ return [[
         []
     );
 },
-67 => static function () {
+84 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7014,7 +7493,7 @@ return [[
         []
     );
 },
-68 => static function () {
+85 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7047,7 +7526,7 @@ return [[
         []
     );
 },
-69 => static function () {
+86 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -7071,7 +7550,7 @@ return [[
         []
     );
 },
-70 => static function () {
+87 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7102,7 +7581,7 @@ return [[
         []
     );
 },
-71 => static function () {
+88 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7130,7 +7609,7 @@ return [[
         []
     );
 },
-72 => static function () {
+89 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7158,7 +7637,7 @@ return [[
         []
     );
 },
-73 => static function () {
+90 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7186,7 +7665,7 @@ return [[
         []
     );
 },
-74 => static function () {
+91 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7214,7 +7693,7 @@ return [[
         []
     );
 },
-75 => static function () {
+92 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7242,7 +7721,7 @@ return [[
         []
     );
 },
-76 => static function () {
+93 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7270,7 +7749,7 @@ return [[
         []
     );
 },
-77 => static function () {
+94 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7304,7 +7783,7 @@ return [[
         []
     );
 },
-78 => static function () {
+95 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7338,7 +7817,7 @@ return [[
         []
     );
 },
-79 => static function () {
+96 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7372,7 +7851,7 @@ return [[
         []
     );
 },
-80 => static function () {
+97 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7403,7 +7882,7 @@ return [[
         []
     );
 },
-81 => static function () {
+98 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7434,7 +7913,7 @@ return [[
         []
     );
 },
-82 => static function () {
+99 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7465,7 +7944,7 @@ return [[
         []
     );
 },
-83 => static function () {
+100 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7496,7 +7975,7 @@ return [[
         []
     );
 },
-84 => static function () {
+101 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7527,7 +8006,7 @@ return [[
         []
     );
 },
-85 => static function () {
+102 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7558,7 +8037,7 @@ return [[
         []
     );
 },
-86 => static function () {
+103 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7589,7 +8068,7 @@ return [[
         []
     );
 },
-87 => static function () {
+104 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7620,7 +8099,7 @@ return [[
         []
     );
 },
-88 => static function () {
+105 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7651,7 +8130,7 @@ return [[
         []
     );
 },
-89 => static function () {
+106 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7682,7 +8161,7 @@ return [[
         []
     );
 },
-90 => static function () {
+107 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7713,7 +8192,7 @@ return [[
         []
     );
 },
-91 => static function () {
+108 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7744,7 +8223,7 @@ return [[
         []
     );
 },
-92 => static function () {
+109 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7775,7 +8254,7 @@ return [[
         []
     );
 },
-93 => static function () {
+110 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7806,7 +8285,7 @@ return [[
         []
     );
 },
-94 => static function () {
+111 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7837,7 +8316,7 @@ return [[
         []
     );
 },
-95 => static function () {
+112 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7868,7 +8347,7 @@ return [[
         []
     );
 },
-96 => static function () {
+113 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7899,7 +8378,7 @@ return [[
         []
     );
 },
-97 => static function () {
+114 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7930,7 +8409,7 @@ return [[
         []
     );
 },
-98 => static function () {
+115 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7961,7 +8440,7 @@ return [[
         []
     );
 },
-99 => static function () {
+116 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -7992,7 +8471,7 @@ return [[
         []
     );
 },
-100 => static function () {
+117 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8023,7 +8502,7 @@ return [[
         []
     );
 },
-101 => static function () {
+118 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8054,7 +8533,7 @@ return [[
         []
     );
 },
-102 => static function () {
+119 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8078,7 +8557,7 @@ return [[
         []
     );
 },
-103 => static function () {
+120 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8106,7 +8585,7 @@ return [[
         []
     );
 },
-104 => static function () {
+121 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8137,7 +8616,7 @@ return [[
         []
     );
 },
-105 => static function () {
+122 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8165,7 +8644,7 @@ return [[
         []
     );
 },
-106 => static function () {
+123 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8189,7 +8668,7 @@ return [[
         []
     );
 },
-107 => static function () {
+124 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8217,7 +8696,7 @@ return [[
         []
     );
 },
-108 => static function () {
+125 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8241,7 +8720,7 @@ return [[
         []
     );
 },
-109 => static function () {
+126 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8274,7 +8753,7 @@ return [[
         []
     );
 },
-110 => static function () {
+127 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8298,7 +8777,7 @@ return [[
         []
     );
 },
-111 => static function () {
+128 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8326,7 +8805,7 @@ return [[
         []
     );
 },
-112 => static function () {
+129 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8354,7 +8833,7 @@ return [[
         []
     );
 },
-113 => static function () {
+130 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8378,7 +8857,7 @@ return [[
         []
     );
 },
-114 => static function () {
+131 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8411,7 +8890,7 @@ return [[
         []
     );
 },
-115 => static function () {
+132 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8435,7 +8914,7 @@ return [[
         []
     );
 },
-116 => static function () {
+133 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8463,7 +8942,7 @@ return [[
         []
     );
 },
-117 => static function () {
+134 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8494,7 +8973,7 @@ return [[
         []
     );
 },
-118 => static function () {
+135 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8525,7 +9004,7 @@ return [[
         []
     );
 },
-119 => static function () {
+136 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8556,7 +9035,7 @@ return [[
         []
     );
 },
-120 => static function () {
+137 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8584,7 +9063,7 @@ return [[
         []
     );
 },
-121 => static function () {
+138 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8608,7 +9087,7 @@ return [[
         []
     );
 },
-122 => static function () {
+139 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8639,7 +9118,7 @@ return [[
         []
     );
 },
-123 => static function () {
+140 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8670,7 +9149,7 @@ return [[
         []
     );
 },
-124 => static function () {
+141 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8701,7 +9180,7 @@ return [[
         []
     );
 },
-125 => static function () {
+142 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8732,7 +9211,7 @@ return [[
         []
     );
 },
-126 => static function () {
+143 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8756,7 +9235,7 @@ return [[
         []
     );
 },
-127 => static function () {
+144 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8787,7 +9266,7 @@ return [[
         []
     );
 },
-128 => static function () {
+145 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8815,7 +9294,7 @@ return [[
         []
     );
 },
-129 => static function () {
+146 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8843,7 +9322,7 @@ return [[
         []
     );
 },
-130 => static function () {
+147 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8877,7 +9356,7 @@ return [[
         []
     );
 },
-131 => static function () {
+148 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8911,7 +9390,7 @@ return [[
         []
     );
 },
-132 => static function () {
+149 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8945,7 +9424,7 @@ return [[
         []
     );
 },
-133 => static function () {
+150 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -8969,7 +9448,7 @@ return [[
         []
     );
 },
-134 => static function () {
+151 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -8997,7 +9476,7 @@ return [[
         []
     );
 },
-135 => static function () {
+152 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9025,7 +9504,7 @@ return [[
         []
     );
 },
-136 => static function () {
+153 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -9049,7 +9528,7 @@ return [[
         []
     );
 },
-137 => static function () {
+154 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9080,7 +9559,7 @@ return [[
         []
     );
 },
-138 => static function () {
+155 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9111,7 +9590,7 @@ return [[
         []
     );
 },
-139 => static function () {
+156 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9142,7 +9621,7 @@ return [[
         []
     );
 },
-140 => static function () {
+157 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9173,7 +9652,7 @@ return [[
         []
     );
 },
-141 => static function () {
+158 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9204,7 +9683,7 @@ return [[
         []
     );
 },
-142 => static function () {
+159 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9235,7 +9714,7 @@ return [[
         []
     );
 },
-143 => static function () {
+160 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9266,7 +9745,7 @@ return [[
         []
     );
 },
-144 => static function () {
+161 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9297,7 +9776,7 @@ return [[
         []
     );
 },
-145 => static function () {
+162 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -9321,7 +9800,7 @@ return [[
         []
     );
 },
-146 => static function () {
+163 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9352,7 +9831,7 @@ return [[
         []
     );
 },
-147 => static function () {
+164 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9386,7 +9865,7 @@ return [[
         []
     );
 },
-148 => static function () {
+165 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9417,7 +9896,7 @@ return [[
         []
     );
 },
-149 => static function () {
+166 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9448,7 +9927,7 @@ return [[
         []
     );
 },
-150 => static function () {
+167 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9479,7 +9958,7 @@ return [[
         []
     );
 },
-151 => static function () {
+168 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9510,7 +9989,7 @@ return [[
         []
     );
 },
-152 => static function () {
+169 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9541,7 +10020,7 @@ return [[
         []
     );
 },
-153 => static function () {
+170 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9572,7 +10051,7 @@ return [[
         []
     );
 },
-154 => static function () {
+171 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9603,7 +10082,7 @@ return [[
         []
     );
 },
-155 => static function () {
+172 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9631,7 +10110,7 @@ return [[
         []
     );
 },
-156 => static function () {
+173 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9662,7 +10141,7 @@ return [[
         []
     );
 },
-157 => static function () {
+174 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -9686,7 +10165,7 @@ return [[
         []
     );
 },
-158 => static function () {
+175 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9714,7 +10193,7 @@ return [[
         []
     );
 },
-159 => static function () {
+176 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9742,7 +10221,7 @@ return [[
         []
     );
 },
-160 => static function () {
+177 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9770,7 +10249,7 @@ return [[
         []
     );
 },
-161 => static function () {
+178 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9798,7 +10277,7 @@ return [[
         []
     );
 },
-162 => static function () {
+179 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -9822,7 +10301,7 @@ return [[
         []
     );
 },
-163 => static function () {
+180 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9853,7 +10332,7 @@ return [[
         []
     );
 },
-164 => static function () {
+181 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9878,7 +10357,7 @@ return [[
         []
     );
 },
-165 => static function () {
+182 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9903,7 +10382,7 @@ return [[
         []
     );
 },
-166 => static function () {
+183 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9934,7 +10413,7 @@ return [[
         []
     );
 },
-167 => static function () {
+184 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -9958,7 +10437,7 @@ return [[
         []
     );
 },
-168 => static function () {
+185 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -9989,7 +10468,7 @@ return [[
         []
     );
 },
-169 => static function () {
+186 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10020,7 +10499,7 @@ return [[
         []
     );
 },
-170 => static function () {
+187 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10051,7 +10530,7 @@ return [[
         []
     );
 },
-171 => static function () {
+188 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10082,7 +10561,7 @@ return [[
         []
     );
 },
-172 => static function () {
+189 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10113,7 +10592,7 @@ return [[
         []
     );
 },
-173 => static function () {
+190 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10144,7 +10623,7 @@ return [[
         []
     );
 },
-174 => static function () {
+191 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10175,7 +10654,7 @@ return [[
         []
     );
 },
-175 => static function () {
+192 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10206,7 +10685,7 @@ return [[
         []
     );
 },
-176 => static function () {
+193 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10237,7 +10716,7 @@ return [[
         []
     );
 },
-177 => static function () {
+194 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10271,7 +10750,7 @@ return [[
         []
     );
 },
-178 => static function () {
+195 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10302,7 +10781,7 @@ return [[
         []
     );
 },
-179 => static function () {
+196 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -10326,7 +10805,7 @@ return [[
         []
     );
 },
-180 => static function () {
+197 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10361,7 +10840,7 @@ return [[
         []
     );
 },
-181 => static function () {
+198 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10389,7 +10868,7 @@ return [[
         []
     );
 },
-182 => static function () {
+199 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10417,7 +10896,7 @@ return [[
         []
     );
 },
-183 => static function () {
+200 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10445,7 +10924,7 @@ return [[
         []
     );
 },
-184 => static function () {
+201 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -10469,7 +10948,7 @@ return [[
         []
     );
 },
-185 => static function () {
+202 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10497,7 +10976,7 @@ return [[
         []
     );
 },
-186 => static function () {
+203 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10525,7 +11004,7 @@ return [[
         []
     );
 },
-187 => static function () {
+204 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10556,7 +11035,7 @@ return [[
         []
     );
 },
-188 => static function () {
+205 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10587,7 +11066,7 @@ return [[
         []
     );
 },
-189 => static function () {
+206 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -10611,7 +11090,7 @@ return [[
         []
     );
 },
-190 => static function () {
+207 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10639,8 +11118,7 @@ return [[
         []
     );
 },
-191 => 1695648527,
-192 => static function () {
+208 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10671,7 +11149,7 @@ return [[
         []
     );
 },
-193 => static function () {
+209 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10699,7 +11177,7 @@ return [[
         []
     );
 },
-194 => static function () {
+210 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -10723,7 +11201,7 @@ return [[
         []
     );
 },
-195 => static function () {
+211 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10754,7 +11232,7 @@ return [[
         []
     );
 },
-196 => static function () {
+212 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10785,7 +11263,7 @@ return [[
         []
     );
 },
-197 => static function () {
+213 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10816,7 +11294,7 @@ return [[
         []
     );
 },
-198 => static function () {
+214 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -10840,7 +11318,7 @@ return [[
         []
     );
 },
-199 => static function () {
+215 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10868,7 +11346,7 @@ return [[
         []
     );
 },
-200 => static function () {
+216 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10896,7 +11374,7 @@ return [[
         []
     );
 },
-201 => static function () {
+217 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10927,7 +11405,7 @@ return [[
         []
     );
 },
-202 => static function () {
+218 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10958,7 +11436,7 @@ return [[
         []
     );
 },
-203 => static function () {
+219 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -10989,7 +11467,7 @@ return [[
         []
     );
 },
-204 => static function () {
+220 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11020,7 +11498,7 @@ return [[
         []
     );
 },
-205 => static function () {
+221 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11051,7 +11529,7 @@ return [[
         []
     );
 },
-206 => static function () {
+222 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11082,7 +11560,7 @@ return [[
         []
     );
 },
-207 => static function () {
+223 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11113,7 +11591,7 @@ return [[
         []
     );
 },
-208 => static function () {
+224 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11144,7 +11622,7 @@ return [[
         []
     );
 },
-209 => static function () {
+225 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11175,7 +11653,7 @@ return [[
         []
     );
 },
-210 => static function () {
+226 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11206,7 +11684,7 @@ return [[
         []
     );
 },
-211 => static function () {
+227 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11239,7 +11717,7 @@ return [[
         []
     );
 },
-212 => static function () {
+228 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -11263,7 +11741,7 @@ return [[
         []
     );
 },
-213 => static function () {
+229 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11294,7 +11772,7 @@ return [[
         []
     );
 },
-214 => static function () {
+230 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11322,7 +11800,7 @@ return [[
         []
     );
 },
-215 => static function () {
+231 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11350,7 +11828,7 @@ return [[
         []
     );
 },
-216 => static function () {
+232 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11378,7 +11856,7 @@ return [[
         []
     );
 },
-217 => static function () {
+233 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11406,7 +11884,7 @@ return [[
         []
     );
 },
-218 => static function () {
+234 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -11430,7 +11908,7 @@ return [[
         []
     );
 },
-219 => static function () {
+235 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11464,7 +11942,7 @@ return [[
         []
     );
 },
-220 => static function () {
+236 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11495,7 +11973,7 @@ return [[
         []
     );
 },
-221 => static function () {
+237 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11526,7 +12004,7 @@ return [[
         []
     );
 },
-222 => static function () {
+238 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11554,7 +12032,7 @@ return [[
         []
     );
 },
-223 => static function () {
+239 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11582,7 +12060,7 @@ return [[
         []
     );
 },
-224 => static function () {
+240 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11607,7 +12085,7 @@ return [[
         []
     );
 },
-225 => static function () {
+241 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11632,7 +12110,7 @@ return [[
         []
     );
 },
-226 => static function () {
+242 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11657,7 +12135,7 @@ return [[
         []
     );
 },
-227 => static function () {
+243 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11685,7 +12163,7 @@ return [[
         []
     );
 },
-228 => static function () {
+244 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11710,7 +12188,7 @@ return [[
         []
     );
 },
-229 => static function () {
+245 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11738,7 +12216,7 @@ return [[
         []
     );
 },
-230 => static function () {
+246 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11766,7 +12244,7 @@ return [[
         []
     );
 },
-231 => static function () {
+247 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11794,7 +12272,7 @@ return [[
         []
     );
 },
-232 => static function () {
+248 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11822,7 +12300,7 @@ return [[
         []
     );
 },
-233 => static function () {
+249 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11850,7 +12328,7 @@ return [[
         []
     );
 },
-234 => static function () {
+250 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11878,7 +12356,7 @@ return [[
         []
     );
 },
-235 => static function () {
+251 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11909,7 +12387,7 @@ return [[
         []
     );
 },
-236 => static function () {
+252 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11940,7 +12418,7 @@ return [[
         []
     );
 },
-237 => static function () {
+253 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -11974,7 +12452,7 @@ return [[
         []
     );
 },
-238 => static function () {
+254 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12005,7 +12483,7 @@ return [[
         []
     );
 },
-239 => static function () {
+255 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12039,7 +12517,7 @@ return [[
         []
     );
 },
-240 => static function () {
+256 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12070,7 +12548,7 @@ return [[
         []
     );
 },
-241 => static function () {
+257 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12098,7 +12576,7 @@ return [[
         []
     );
 },
-242 => static function () {
+258 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12134,7 +12612,7 @@ return [[
         []
     );
 },
-243 => static function () {
+259 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12165,7 +12643,7 @@ return [[
         []
     );
 },
-244 => static function () {
+260 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12196,7 +12674,7 @@ return [[
         []
     );
 },
-245 => static function () {
+261 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12232,7 +12710,7 @@ return [[
         []
     );
 },
-246 => static function () {
+262 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12263,7 +12741,7 @@ return [[
         []
     );
 },
-247 => static function () {
+263 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12294,7 +12772,7 @@ return [[
         []
     );
 },
-248 => static function () {
+264 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12328,7 +12806,7 @@ return [[
         []
     );
 },
-249 => static function () {
+265 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12362,7 +12840,7 @@ return [[
         []
     );
 },
-250 => static function () {
+266 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12401,7 +12879,7 @@ return [[
         []
     );
 },
-251 => static function () {
+267 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12435,7 +12913,7 @@ return [[
         []
     );
 },
-252 => static function () {
+268 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12469,7 +12947,7 @@ return [[
         []
     );
 },
-253 => static function () {
+269 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12497,7 +12975,7 @@ return [[
         []
     );
 },
-254 => static function () {
+270 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12531,7 +13009,7 @@ return [[
         []
     );
 },
-255 => static function () {
+271 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12565,7 +13043,7 @@ return [[
         []
     );
 },
-256 => static function () {
+272 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12604,7 +13082,7 @@ return [[
         []
     );
 },
-257 => static function () {
+273 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12638,7 +13116,7 @@ return [[
         []
     );
 },
-258 => static function () {
+274 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12672,7 +13150,7 @@ return [[
         []
     );
 },
-259 => static function () {
+275 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12700,7 +13178,7 @@ return [[
         []
     );
 },
-260 => static function () {
+276 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12734,7 +13212,7 @@ return [[
         []
     );
 },
-261 => static function () {
+277 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12768,7 +13246,7 @@ return [[
         []
     );
 },
-262 => static function () {
+278 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12807,7 +13285,7 @@ return [[
         []
     );
 },
-263 => static function () {
+279 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12841,7 +13319,7 @@ return [[
         []
     );
 },
-264 => static function () {
+280 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12875,7 +13353,7 @@ return [[
         []
     );
 },
-265 => static function () {
+281 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12903,7 +13381,7 @@ return [[
         []
     );
 },
-266 => static function () {
+282 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12937,7 +13415,7 @@ return [[
         []
     );
 },
-267 => static function () {
+283 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -12971,7 +13449,7 @@ return [[
         []
     );
 },
-268 => static function () {
+284 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13010,7 +13488,7 @@ return [[
         []
     );
 },
-269 => static function () {
+285 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13044,7 +13522,7 @@ return [[
         []
     );
 },
-270 => static function () {
+286 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13078,7 +13556,7 @@ return [[
         []
     );
 },
-271 => static function () {
+287 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13106,7 +13584,7 @@ return [[
         []
     );
 },
-272 => static function () {
+288 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13140,7 +13618,7 @@ return [[
         []
     );
 },
-273 => static function () {
+289 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13174,7 +13652,7 @@ return [[
         []
     );
 },
-274 => static function () {
+290 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13213,7 +13691,7 @@ return [[
         []
     );
 },
-275 => static function () {
+291 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13247,7 +13725,7 @@ return [[
         []
     );
 },
-276 => static function () {
+292 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13281,7 +13759,7 @@ return [[
         []
     );
 },
-277 => static function () {
+293 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13309,7 +13787,7 @@ return [[
         []
     );
 },
-278 => static function () {
+294 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13343,7 +13821,7 @@ return [[
         []
     );
 },
-279 => static function () {
+295 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13377,7 +13855,7 @@ return [[
         []
     );
 },
-280 => static function () {
+296 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13413,7 +13891,7 @@ return [[
         []
     );
 },
-281 => static function () {
+297 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13447,7 +13925,7 @@ return [[
         []
     );
 },
-282 => static function () {
+298 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13481,7 +13959,7 @@ return [[
         []
     );
 },
-283 => static function () {
+299 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13515,7 +13993,7 @@ return [[
         []
     );
 },
-284 => static function () {
+300 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13549,7 +14027,7 @@ return [[
         []
     );
 },
-285 => static function () {
+301 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13588,7 +14066,7 @@ return [[
         []
     );
 },
-286 => static function () {
+302 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13622,7 +14100,7 @@ return [[
         []
     );
 },
-287 => static function () {
+303 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13656,7 +14134,7 @@ return [[
         []
     );
 },
-288 => static function () {
+304 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13684,7 +14162,7 @@ return [[
         []
     );
 },
-289 => static function () {
+305 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13718,7 +14196,7 @@ return [[
         []
     );
 },
-290 => static function () {
+306 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13752,7 +14230,7 @@ return [[
         []
     );
 },
-291 => static function () {
+307 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13791,7 +14269,7 @@ return [[
         []
     );
 },
-292 => static function () {
+308 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13825,7 +14303,7 @@ return [[
         []
     );
 },
-293 => static function () {
+309 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13859,7 +14337,7 @@ return [[
         []
     );
 },
-294 => static function () {
+310 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13887,7 +14365,7 @@ return [[
         []
     );
 },
-295 => static function () {
+311 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13921,7 +14399,7 @@ return [[
         []
     );
 },
-296 => static function () {
+312 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13955,7 +14433,7 @@ return [[
         []
     );
 },
-297 => static function () {
+313 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -13994,7 +14472,7 @@ return [[
         []
     );
 },
-298 => static function () {
+314 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14028,7 +14506,7 @@ return [[
         []
     );
 },
-299 => static function () {
+315 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14062,7 +14540,7 @@ return [[
         []
     );
 },
-300 => static function () {
+316 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14090,7 +14568,7 @@ return [[
         []
     );
 },
-301 => static function () {
+317 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14124,7 +14602,7 @@ return [[
         []
     );
 },
-302 => static function () {
+318 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14158,7 +14636,7 @@ return [[
         []
     );
 },
-303 => static function () {
+319 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14197,7 +14675,7 @@ return [[
         []
     );
 },
-304 => static function () {
+320 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14231,7 +14709,7 @@ return [[
         []
     );
 },
-305 => static function () {
+321 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14265,7 +14743,7 @@ return [[
         []
     );
 },
-306 => static function () {
+322 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14293,7 +14771,7 @@ return [[
         []
     );
 },
-307 => static function () {
+323 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14327,7 +14805,7 @@ return [[
         []
     );
 },
-308 => static function () {
+324 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14361,7 +14839,7 @@ return [[
         []
     );
 },
-309 => static function () {
+325 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14400,7 +14878,7 @@ return [[
         []
     );
 },
-310 => static function () {
+326 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14434,7 +14912,7 @@ return [[
         []
     );
 },
-311 => static function () {
+327 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14468,7 +14946,7 @@ return [[
         []
     );
 },
-312 => static function () {
+328 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14496,7 +14974,7 @@ return [[
         []
     );
 },
-313 => static function () {
+329 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14530,7 +15008,7 @@ return [[
         []
     );
 },
-314 => static function () {
+330 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14561,7 +15039,7 @@ return [[
         []
     );
 },
-315 => static function () {
+331 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14586,7 +15064,7 @@ return [[
         []
     );
 },
-316 => static function () {
+332 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14611,7 +15089,7 @@ return [[
         []
     );
 },
-317 => static function () {
+333 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14645,7 +15123,7 @@ return [[
         []
     );
 },
-318 => static function () {
+334 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14676,7 +15154,7 @@ return [[
         []
     );
 },
-319 => static function () {
+335 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14707,7 +15185,7 @@ return [[
         []
     );
 },
-320 => static function () {
+336 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14735,7 +15213,7 @@ return [[
         []
     );
 },
-321 => static function () {
+337 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14771,7 +15249,7 @@ return [[
         []
     );
 },
-322 => static function () {
+338 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14802,7 +15280,7 @@ return [[
         []
     );
 },
-323 => static function () {
+339 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14838,7 +15316,7 @@ return [[
         []
     );
 },
-324 => static function () {
+340 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14866,7 +15344,7 @@ return [[
         []
     );
 },
-325 => static function () {
+341 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14902,7 +15380,7 @@ return [[
         []
     );
 },
-326 => static function () {
+342 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14933,7 +15411,7 @@ return [[
         []
     );
 },
-327 => static function () {
+343 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14961,7 +15439,7 @@ return [[
         []
     );
 },
-328 => static function () {
+344 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -14989,7 +15467,7 @@ return [[
         []
     );
 },
-329 => static function () {
+345 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15020,7 +15498,7 @@ return [[
         []
     );
 },
-330 => static function () {
+346 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15051,7 +15529,7 @@ return [[
         []
     );
 },
-331 => static function () {
+347 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15082,7 +15560,7 @@ return [[
         []
     );
 },
-332 => static function () {
+348 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15113,7 +15591,7 @@ return [[
         []
     );
 },
-333 => static function () {
+349 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15144,7 +15622,7 @@ return [[
         []
     );
 },
-334 => static function () {
+350 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15169,7 +15647,7 @@ return [[
         []
     );
 },
-335 => static function () {
+351 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15200,7 +15678,7 @@ return [[
         []
     );
 },
-336 => static function () {
+352 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15231,7 +15709,7 @@ return [[
         []
     );
 },
-337 => static function () {
+353 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15262,7 +15740,7 @@ return [[
         []
     );
 },
-338 => static function () {
+354 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15298,7 +15776,7 @@ return [[
         []
     );
 },
-339 => static function () {
+355 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15329,7 +15807,7 @@ return [[
         []
     );
 },
-340 => static function () {
+356 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15357,7 +15835,7 @@ return [[
         []
     );
 },
-341 => static function () {
+357 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15390,7 +15868,7 @@ return [[
         []
     );
 },
-342 => static function () {
+358 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -15414,7 +15892,7 @@ return [[
         []
     );
 },
-343 => static function () {
+359 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15448,7 +15926,7 @@ return [[
         []
     );
 },
-344 => static function () {
+360 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15482,7 +15960,7 @@ return [[
         []
     );
 },
-345 => static function () {
+361 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15516,7 +15994,7 @@ return [[
         []
     );
 },
-346 => static function () {
+362 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15544,7 +16022,7 @@ return [[
         []
     );
 },
-347 => static function () {
+363 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15572,7 +16050,7 @@ return [[
         []
     );
 },
-348 => static function () {
+364 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15600,7 +16078,7 @@ return [[
         []
     );
 },
-349 => static function () {
+365 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15628,7 +16106,7 @@ return [[
         []
     );
 },
-350 => static function () {
+366 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15656,7 +16134,7 @@ return [[
         []
     );
 },
-351 => static function () {
+367 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15684,7 +16162,7 @@ return [[
         []
     );
 },
-352 => static function () {
+368 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15717,7 +16195,7 @@ return [[
         []
     );
 },
-353 => static function () {
+369 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15753,7 +16231,7 @@ return [[
         []
     );
 },
-354 => static function () {
+370 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15787,7 +16265,7 @@ return [[
         []
     );
 },
-355 => static function () {
+371 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15821,7 +16299,7 @@ return [[
         []
     );
 },
-356 => static function () {
+372 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15855,7 +16333,7 @@ return [[
         []
     );
 },
-357 => static function () {
+373 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15883,7 +16361,7 @@ return [[
         []
     );
 },
-358 => static function () {
+374 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15914,7 +16392,7 @@ return [[
         []
     );
 },
-359 => static function () {
+375 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15942,7 +16420,7 @@ return [[
         []
     );
 },
-360 => static function () {
+376 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15970,7 +16448,7 @@ return [[
         []
     );
 },
-361 => static function () {
+377 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -15998,7 +16476,7 @@ return [[
         []
     );
 },
-362 => static function () {
+378 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16032,7 +16510,7 @@ return [[
         []
     );
 },
-363 => static function () {
+379 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16066,7 +16544,7 @@ return [[
         []
     );
 },
-364 => static function () {
+380 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16097,7 +16575,7 @@ return [[
         []
     );
 },
-365 => static function () {
+381 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16131,7 +16609,7 @@ return [[
         []
     );
 },
-366 => static function () {
+382 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16159,7 +16637,7 @@ return [[
         []
     );
 },
-367 => static function () {
+383 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16187,7 +16665,7 @@ return [[
         []
     );
 },
-368 => static function () {
+384 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16215,7 +16693,7 @@ return [[
         []
     );
 },
-369 => static function () {
+385 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16249,7 +16727,7 @@ return [[
         []
     );
 },
-370 => static function () {
+386 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16283,7 +16761,7 @@ return [[
         []
     );
 },
-371 => static function () {
+387 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16317,7 +16795,7 @@ return [[
         []
     );
 },
-372 => static function () {
+388 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16351,7 +16829,7 @@ return [[
         []
     );
 },
-373 => static function () {
+389 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16385,7 +16863,7 @@ return [[
         []
     );
 },
-374 => static function () {
+390 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16419,7 +16897,7 @@ return [[
         []
     );
 },
-375 => static function () {
+391 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16453,7 +16931,7 @@ return [[
         []
     );
 },
-376 => static function () {
+392 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16487,7 +16965,7 @@ return [[
         []
     );
 },
-377 => static function () {
+393 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16521,7 +16999,7 @@ return [[
         []
     );
 },
-378 => static function () {
+394 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16555,7 +17033,7 @@ return [[
         []
     );
 },
-379 => static function () {
+395 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16589,7 +17067,7 @@ return [[
         []
     );
 },
-380 => static function () {
+396 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16617,7 +17095,7 @@ return [[
         []
     );
 },
-381 => static function () {
+397 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16651,7 +17129,7 @@ return [[
         []
     );
 },
-382 => static function () {
+398 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16685,7 +17163,7 @@ return [[
         []
     );
 },
-383 => static function () {
+399 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16719,7 +17197,7 @@ return [[
         []
     );
 },
-384 => static function () {
+400 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16753,7 +17231,7 @@ return [[
         []
     );
 },
-385 => static function () {
+401 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16787,7 +17265,7 @@ return [[
         []
     );
 },
-386 => static function () {
+402 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16815,7 +17293,7 @@ return [[
         []
     );
 },
-387 => static function () {
+403 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16843,7 +17321,7 @@ return [[
         []
     );
 },
-388 => static function () {
+404 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -16867,7 +17345,7 @@ return [[
         []
     );
 },
-389 => static function () {
+405 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16898,7 +17376,7 @@ return [[
         []
     );
 },
-390 => static function () {
+406 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16929,7 +17407,7 @@ return [[
         []
     );
 },
-391 => static function () {
+407 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -16953,7 +17431,7 @@ return [[
         []
     );
 },
-392 => static function () {
+408 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -16984,7 +17462,7 @@ return [[
         []
     );
 },
-393 => static function () {
+409 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17008,7 +17486,7 @@ return [[
         []
     );
 },
-394 => static function () {
+410 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17039,7 +17517,7 @@ return [[
         []
     );
 },
-395 => static function () {
+411 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17070,7 +17548,7 @@ return [[
         []
     );
 },
-396 => static function () {
+412 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17098,7 +17576,7 @@ return [[
         []
     );
 },
-397 => static function () {
+413 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17126,7 +17604,7 @@ return [[
         []
     );
 },
-398 => static function () {
+414 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17150,7 +17628,7 @@ return [[
         []
     );
 },
-399 => static function () {
+415 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17181,7 +17659,7 @@ return [[
         []
     );
 },
-400 => static function () {
+416 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17212,7 +17690,7 @@ return [[
         []
     );
 },
-401 => static function () {
+417 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17243,7 +17721,7 @@ return [[
         []
     );
 },
-402 => static function () {
+418 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17274,7 +17752,7 @@ return [[
         []
     );
 },
-403 => static function () {
+419 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17298,7 +17776,7 @@ return [[
         []
     );
 },
-404 => static function () {
+420 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17329,7 +17807,7 @@ return [[
         []
     );
 },
-405 => static function () {
+421 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17360,7 +17838,7 @@ return [[
         []
     );
 },
-406 => static function () {
+422 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17388,7 +17866,7 @@ return [[
         []
     );
 },
-407 => static function () {
+423 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17412,7 +17890,7 @@ return [[
         []
     );
 },
-408 => static function () {
+424 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17440,7 +17918,7 @@ return [[
         []
     );
 },
-409 => static function () {
+425 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17468,7 +17946,7 @@ return [[
         []
     );
 },
-410 => static function () {
+426 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17496,7 +17974,7 @@ return [[
         []
     );
 },
-411 => static function () {
+427 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17520,7 +17998,7 @@ return [[
         []
     );
 },
-412 => static function () {
+428 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17545,7 +18023,7 @@ return [[
         []
     );
 },
-413 => static function () {
+429 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17569,7 +18047,7 @@ return [[
         []
     );
 },
-414 => static function () {
+430 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17593,7 +18071,7 @@ return [[
         []
     );
 },
-415 => static function () {
+431 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17629,7 +18107,7 @@ return [[
         []
     );
 },
-416 => static function () {
+432 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17657,7 +18135,7 @@ return [[
         []
     );
 },
-417 => static function () {
+433 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17688,7 +18166,7 @@ return [[
         []
     );
 },
-418 => static function () {
+434 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17712,7 +18190,7 @@ return [[
         []
     );
 },
-419 => static function () {
+435 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17743,7 +18221,7 @@ return [[
         []
     );
 },
-420 => static function () {
+436 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17767,7 +18245,7 @@ return [[
         []
     );
 },
-421 => static function () {
+437 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17798,7 +18276,7 @@ return [[
         []
     );
 },
-422 => static function () {
+438 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17822,7 +18300,7 @@ return [[
         []
     );
 },
-423 => static function () {
+439 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17853,7 +18331,7 @@ return [[
         []
     );
 },
-424 => static function () {
+440 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17884,7 +18362,7 @@ return [[
         []
     );
 },
-425 => static function () {
+441 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17908,7 +18386,7 @@ return [[
         []
     );
 },
-426 => static function () {
+442 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17939,7 +18417,7 @@ return [[
         []
     );
 },
-427 => static function () {
+443 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -17970,7 +18448,7 @@ return [[
         []
     );
 },
-428 => static function () {
+444 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -17994,7 +18472,7 @@ return [[
         []
     );
 },
-429 => static function () {
+445 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18018,7 +18496,7 @@ return [[
         []
     );
 },
-430 => static function () {
+446 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18049,7 +18527,7 @@ return [[
         []
     );
 },
-431 => static function () {
+447 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18080,7 +18558,7 @@ return [[
         []
     );
 },
-432 => static function () {
+448 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18104,7 +18582,7 @@ return [[
         []
     );
 },
-433 => static function () {
+449 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18128,7 +18606,7 @@ return [[
         []
     );
 },
-434 => static function () {
+450 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18159,7 +18637,7 @@ return [[
         []
     );
 },
-435 => static function () {
+451 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18183,7 +18661,7 @@ return [[
         []
     );
 },
-436 => static function () {
+452 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18219,7 +18697,7 @@ return [[
         []
     );
 },
-437 => static function () {
+453 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18243,7 +18721,7 @@ return [[
         []
     );
 },
-438 => static function () {
+454 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18267,7 +18745,7 @@ return [[
         []
     );
 },
-439 => static function () {
+455 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18298,7 +18776,7 @@ return [[
         []
     );
 },
-440 => static function () {
+456 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18322,7 +18800,7 @@ return [[
         []
     );
 },
-441 => static function () {
+457 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18346,7 +18824,7 @@ return [[
         []
     );
 },
-442 => static function () {
+458 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18377,7 +18855,7 @@ return [[
         []
     );
 },
-443 => static function () {
+459 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18401,7 +18879,7 @@ return [[
         []
     );
 },
-444 => static function () {
+460 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18432,7 +18910,7 @@ return [[
         []
     );
 },
-445 => static function () {
+461 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18456,7 +18934,7 @@ return [[
         []
     );
 },
-446 => static function () {
+462 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18480,7 +18958,7 @@ return [[
         []
     );
 },
-447 => static function () {
+463 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18504,7 +18982,7 @@ return [[
         []
     );
 },
-448 => static function () {
+464 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18540,7 +19018,7 @@ return [[
         []
     );
 },
-449 => static function () {
+465 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18571,7 +19049,7 @@ return [[
         []
     );
 },
-450 => static function () {
+466 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18595,7 +19073,7 @@ return [[
         []
     );
 },
-451 => static function () {
+467 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18631,7 +19109,7 @@ return [[
         []
     );
 },
-452 => static function () {
+468 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18664,7 +19142,7 @@ return [[
         []
     );
 },
-453 => static function () {
+469 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18695,7 +19173,7 @@ return [[
         []
     );
 },
-454 => static function () {
+470 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18725,7 +19203,7 @@ return [[
         []
     );
 },
-455 => static function () {
+471 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18749,7 +19227,7 @@ return [[
         []
     );
 },
-456 => static function () {
+472 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18785,7 +19263,7 @@ return [[
         []
     );
 },
-457 => static function () {
+473 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18813,7 +19291,7 @@ return [[
         []
     );
 },
-458 => static function () {
+474 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18841,7 +19319,7 @@ return [[
         []
     );
 },
-459 => static function () {
+475 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18865,7 +19343,7 @@ return [[
         []
     );
 },
-460 => static function () {
+476 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18896,7 +19374,7 @@ return [[
         []
     );
 },
-461 => static function () {
+477 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18927,7 +19405,7 @@ return [[
         []
     );
 },
-462 => static function () {
+478 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -18951,7 +19429,7 @@ return [[
         []
     );
 },
-463 => static function () {
+479 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -18982,7 +19460,7 @@ return [[
         []
     );
 },
-464 => static function () {
+480 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19006,7 +19484,7 @@ return [[
         []
     );
 },
-465 => static function () {
+481 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19037,7 +19515,7 @@ return [[
         []
     );
 },
-466 => static function () {
+482 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19061,7 +19539,7 @@ return [[
         []
     );
 },
-467 => static function () {
+483 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19085,7 +19563,7 @@ return [[
         []
     );
 },
-468 => static function () {
+484 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19109,7 +19587,7 @@ return [[
         []
     );
 },
-469 => static function () {
+485 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19133,7 +19611,7 @@ return [[
         []
     );
 },
-470 => static function () {
+486 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19157,7 +19635,7 @@ return [[
         []
     );
 },
-471 => static function () {
+487 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19185,7 +19663,7 @@ return [[
         []
     );
 },
-472 => static function () {
+488 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19213,7 +19691,7 @@ return [[
         []
     );
 },
-473 => static function () {
+489 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19246,7 +19724,7 @@ return [[
         []
     );
 },
-474 => static function () {
+490 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19279,7 +19757,7 @@ return [[
         []
     );
 },
-475 => static function () {
+491 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19307,7 +19785,7 @@ return [[
         []
     );
 },
-476 => static function () {
+492 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19335,7 +19813,7 @@ return [[
         []
     );
 },
-477 => static function () {
+493 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19366,7 +19844,7 @@ return [[
         []
     );
 },
-478 => static function () {
+494 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19397,7 +19875,7 @@ return [[
         []
     );
 },
-479 => static function () {
+495 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19428,7 +19906,7 @@ return [[
         []
     );
 },
-480 => static function () {
+496 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19459,7 +19937,7 @@ return [[
         []
     );
 },
-481 => static function () {
+497 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19490,7 +19968,7 @@ return [[
         []
     );
 },
-482 => static function () {
+498 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19521,7 +19999,7 @@ return [[
         []
     );
 },
-483 => static function () {
+499 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19545,7 +20023,7 @@ return [[
         []
     );
 },
-484 => static function () {
+500 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19578,7 +20056,7 @@ return [[
         []
     );
 },
-485 => static function () {
+501 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19609,7 +20087,7 @@ return [[
         []
     );
 },
-486 => static function () {
+502 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19640,7 +20118,7 @@ return [[
         []
     );
 },
-487 => static function () {
+503 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19671,7 +20149,7 @@ return [[
         []
     );
 },
-488 => static function () {
+504 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19704,7 +20182,7 @@ return [[
         []
     );
 },
-489 => static function () {
+505 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19737,7 +20215,7 @@ return [[
         []
     );
 },
-490 => static function () {
+506 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19770,7 +20248,7 @@ return [[
         []
     );
 },
-491 => static function () {
+507 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19801,7 +20279,7 @@ return [[
         []
     );
 },
-492 => static function () {
+508 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19829,7 +20307,7 @@ return [[
         []
     );
 },
-493 => static function () {
+509 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19853,7 +20331,7 @@ return [[
         []
     );
 },
-494 => static function () {
+510 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -19881,7 +20359,7 @@ return [[
         []
     );
 },
-495 => static function () {
+511 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19905,7 +20383,7 @@ return [[
         []
     );
 },
-496 => static function () {
+512 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19929,7 +20407,7 @@ return [[
         []
     );
 },
-497 => static function () {
+513 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19953,7 +20431,7 @@ return [[
         []
     );
 },
-498 => static function () {
+514 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -19977,7 +20455,7 @@ return [[
         []
     );
 },
-499 => static function () {
+515 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20005,7 +20483,7 @@ return [[
         []
     );
 },
-500 => static function () {
+516 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20033,7 +20511,7 @@ return [[
         []
     );
 },
-501 => static function () {
+517 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20061,7 +20539,7 @@ return [[
         []
     );
 },
-502 => static function () {
+518 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20089,7 +20567,7 @@ return [[
         []
     );
 },
-503 => static function () {
+519 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20117,7 +20595,7 @@ return [[
         []
     );
 },
-504 => static function () {
+520 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20145,7 +20623,7 @@ return [[
         []
     );
 },
-505 => static function () {
+521 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20173,7 +20651,7 @@ return [[
         []
     );
 },
-506 => static function () {
+522 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20201,7 +20679,7 @@ return [[
         []
     );
 },
-507 => static function () {
+523 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20229,7 +20707,7 @@ return [[
         []
     );
 },
-508 => static function () {
+524 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20257,7 +20735,7 @@ return [[
         []
     );
 },
-509 => static function () {
+525 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20285,7 +20763,7 @@ return [[
         []
     );
 },
-510 => static function () {
+526 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20313,7 +20791,7 @@ return [[
         []
     );
 },
-511 => static function () {
+527 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20341,7 +20819,7 @@ return [[
         []
     );
 },
-512 => static function () {
+528 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20369,7 +20847,7 @@ return [[
         []
     );
 },
-513 => static function () {
+529 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\ManyToOne'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ManyToOne')),
@@ -20391,7 +20869,7 @@ return [[
         []
     );
 },
-514 => static function () {
+530 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20415,7 +20893,7 @@ return [[
         []
     );
 },
-515 => static function () {
+531 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20446,7 +20924,7 @@ return [[
         []
     );
 },
-516 => static function () {
+532 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20470,7 +20948,7 @@ return [[
         []
     );
 },
-517 => static function () {
+533 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20501,7 +20979,7 @@ return [[
         []
     );
 },
-518 => static function () {
+534 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20532,7 +21010,7 @@ return [[
         []
     );
 },
-519 => static function () {
+535 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20563,7 +21041,7 @@ return [[
         []
     );
 },
-520 => static function () {
+536 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20587,7 +21065,7 @@ return [[
         []
     );
 },
-521 => static function () {
+537 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20615,7 +21093,7 @@ return [[
         []
     );
 },
-522 => static function () {
+538 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20639,7 +21117,7 @@ return [[
         []
     );
 },
-523 => static function () {
+539 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20663,7 +21141,7 @@ return [[
         []
     );
 },
-524 => static function () {
+540 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20694,7 +21172,7 @@ return [[
         []
     );
 },
-525 => static function () {
+541 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20727,7 +21205,7 @@ return [[
         []
     );
 },
-526 => static function () {
+542 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -20751,7 +21229,7 @@ return [[
         []
     );
 },
-527 => static function () {
+543 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20785,7 +21263,7 @@ return [[
         []
     );
 },
-528 => static function () {
+544 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20819,7 +21297,7 @@ return [[
         []
     );
 },
-529 => static function () {
+545 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20853,7 +21331,7 @@ return [[
         []
     );
 },
-530 => static function () {
+546 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20887,7 +21365,7 @@ return [[
         []
     );
 },
-531 => static function () {
+547 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20921,7 +21399,7 @@ return [[
         []
     );
 },
-532 => static function () {
+548 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20955,7 +21433,7 @@ return [[
         []
     );
 },
-533 => static function () {
+549 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -20989,7 +21467,7 @@ return [[
         []
     );
 },
-534 => static function () {
+550 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21023,7 +21501,7 @@ return [[
         []
     );
 },
-535 => static function () {
+551 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21057,7 +21535,7 @@ return [[
         []
     );
 },
-536 => static function () {
+552 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21091,7 +21569,7 @@ return [[
         []
     );
 },
-537 => static function () {
+553 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -21115,7 +21593,7 @@ return [[
         []
     );
 },
-538 => static function () {
+554 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21146,7 +21624,7 @@ return [[
         []
     );
 },
-539 => static function () {
+555 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21180,7 +21658,7 @@ return [[
         []
     );
 },
-540 => static function () {
+556 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -21204,7 +21682,7 @@ return [[
         []
     );
 },
-541 => static function () {
+557 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21235,7 +21713,7 @@ return [[
         []
     );
 },
-542 => static function () {
+558 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21266,7 +21744,7 @@ return [[
         []
     );
 },
-543 => static function () {
+559 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21299,7 +21777,7 @@ return [[
         []
     );
 },
-544 => static function () {
+560 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21332,7 +21810,7 @@ return [[
         []
     );
 },
-545 => static function () {
+561 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -21356,7 +21834,7 @@ return [[
         []
     );
 },
-546 => static function () {
+562 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21387,7 +21865,7 @@ return [[
         []
     );
 },
-547 => static function () {
+563 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21415,7 +21893,7 @@ return [[
         []
     );
 },
-548 => static function () {
+564 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21443,7 +21921,7 @@ return [[
         []
     );
 },
-549 => static function () {
+565 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21471,7 +21949,7 @@ return [[
         []
     );
 },
-550 => static function () {
+566 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
@@ -21495,7 +21973,7 @@ return [[
         []
     );
 },
-551 => static function () {
+567 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),
@@ -21526,7 +22004,7 @@ return [[
         []
     );
 },
-552 => static function () {
+568 => static function () {
     return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
         $o = [
             clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\Column'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Column')),

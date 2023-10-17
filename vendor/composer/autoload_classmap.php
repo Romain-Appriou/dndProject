@@ -6,9 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\ClassesController' => $baseDir . '/src/Controller/ClassesController.php',
     'App\\Controller\\HomeController' => $baseDir . '/src/Controller/HomeController.php',
-    'App\\Controller\\ListController' => $baseDir . '/src/Controller/ListController.php',
     'App\\Controller\\RacesController' => $baseDir . '/src/Controller/RacesController.php',
+    'App\\Controller\\SortsController' => $baseDir . '/src/Controller/SortsController.php',
     'App\\Entity\\Armes' => $baseDir . '/src/Entity/Armes.php',
     'App\\Entity\\Classes' => $baseDir . '/src/Entity/Classes.php',
     'App\\Entity\\Dnd35Age' => $baseDir . '/src/Entity/Dnd35Age.php',
@@ -96,7 +97,10 @@ return array(
     'App\\Entity\\Dnd35Sortsecoles' => $baseDir . '/src/Entity/Dnd35Sortsecoles.php',
     'App\\Entity\\Dnd35Taillepoids' => $baseDir . '/src/Entity/Dnd35Taillepoids.php',
     'App\\Entity\\Dnd35Tresors' => $baseDir . '/src/Entity/Dnd35Tresors.php',
+    'App\\Form\\ClassesType' => $baseDir . '/src/Form/ClassesType.php',
     'App\\Form\\Dnd35RacesType' => $baseDir . '/src/Form/Dnd35RacesType.php',
+    'App\\Form\\Dnd35SortsType' => $baseDir . '/src/Form/Dnd35SortsType.php',
+    'App\\Form\\SortPickerType' => $baseDir . '/src/Form/SortPickerType.php',
     'App\\Kernel' => $baseDir . '/src/Kernel.php',
     'App\\Repository\\AgeRepository' => $baseDir . '/src/Repository/AgeRepository.php',
     'App\\Repository\\AlignementsRepository' => $baseDir . '/src/Repository/AlignementsRepository.php',

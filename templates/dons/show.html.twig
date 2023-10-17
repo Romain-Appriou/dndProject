@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ dnd35_don.nom }}{% endblock %}
+
+{% block body %}
+    <h1>{{ dnd35_don.nom }}</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Nom</th>
+                <td>{{ dnd35_don.nom }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td><pre style="text-wrap:wrap">{{ dnd35_don.description }}</pre></td>
+            </tr>
+            <tr>
+                <th>Spécial</th>
+                <td><pre style="text-wrap:wrap">{{ dnd35_don.special }}</pre></td>
+            </tr>
+            <tr>
+                <th>BBA requis</th>
+                <td>{{ dnd35_don.bbaprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Force Min</th>
+                <td>{{ dnd35_don.forprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Dextérité Min</th>
+                <td>{{ dnd35_don.dexprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Constitution Min</th>
+                <td>{{ dnd35_don.conprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Intelligence Min</th>
+                <td>{{ dnd35_don.intprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Sagesse Min</th>
+                <td>{{ dnd35_don.sagprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Charisme Min</th>
+                <td>{{ dnd35_don.chaprerequis }}</td>
+            </tr>
+            <tr>
+                <th>Don supplémentaire guerrier</th>
+                <td>{{ dnd35_don.donsuppguerrier ? 'Oui' : 'Non' }}</td>
+            </tr>
+            <tr>
+                <th>Niveau lanceur sort</th>
+                <td>{{ dnd35_don.niveaulanceursort }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_dons_index') }}">Retour à la liste</a>
+
+    <a href="{{ path('app_dons_edit', {'id': dnd35_don.id}) }}">Modifier</a>
+
+{% endblock %}
